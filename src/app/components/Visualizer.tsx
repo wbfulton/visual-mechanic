@@ -22,7 +22,7 @@ export default function App() {
         </Bvh>
       </Suspense>
       <ContactShadows frames={1} rotation-x={[Math.PI / 2]} position={[0, -0.4, 0]} far={1} width={1.5} height={1.5} blur={0.2} />
-      <Environment preset="apartment" />
+      <Environment background preset='warehouse' />
       <BakeShadows />
       <CameraControls />
     </Canvas>
