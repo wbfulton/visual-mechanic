@@ -11,7 +11,7 @@ Title: Toyota Land Cruiser 100 series
 import { useGLTF } from "@react-three/drei";
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF("/toyota_land_cruiser_100_series-transformed.glb");
+  const { nodes, materials } = useGLTF("/toyota_land_cruiser_100_series.glb");
   return (
     <group {...props} dispose={null}>
       <mesh

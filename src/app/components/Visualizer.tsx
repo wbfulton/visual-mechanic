@@ -1,85 +1,68 @@
 "use client";
 
-import { BakeShadows, Bvh, CameraControls, ContactShadows, Environment } from "@react-three/drei";
-import { Canvas, useThree } from "@react-three/fiber";
 import {
-  EffectComposer,
-  N8AO,
-  Outline,
-  Selection,
-  TiltShift2,
-  ToneMapping,
-} from "@react-three/postprocessing";
+  Bvh,
+  ContactShadows,
+  GizmoHelper,
+  GizmoViewport,
+  Grid,
+  Loader,
+  OrbitControls,
+  Stage,
+} from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import { useControls } from "leva";
+import { Perf } from "r3f-perf";
 import { Suspense } from "react";
-import { Camera } from "three";
-// import { InstancedModel } from "./Model";
-import { Model } from "./Toyota_land_cruiser_100_series.jsx";
+import { LandCruiser } from "./100-lc";
 
 export default function App() {
-  new Camera();
+  const scale = window?.devicePixelRatio ?? 1; // Change to 1 on retina screens to see blurry canvas.
+  const { gridSize, ...gridConfig } = useControls({
+    gridSize: [600, 600],
+    cellSize: { value: 0.6, min: 0, max: 10, step: 0.1 },
+    cellThickness: { value: 0, min: 0, max: 5, step: 0.1 },
+    cellColor: "#f4f0e8",
+    sectionSize: { value: 10, min: 1, max: 100, step: 10 },
+    sectionThickness: { value: 1.5, min: 0, max: 5, step: 0.1 },
+    sectionColor: "#9d4b4b",
+    fadeDistance: { value: 80, min: 0, max: 2000, step: 1 },
+    fadeStrength: { value: 1, min: 0, max: 1, step: 0.1 },
+    followCamera: false,
+    infiniteGrid: false,
+  });
   return (
-    <Canvas
-      shadows
-      dpr={[1, 2]}
-      camera={{ position: [300, 0.5, 1], fov: 10, near: 0.001, zoom: 0.1 }}
-      onCreated={(state) => (state.gl.shadowMap.autoUpdate = false)}>
-      {/* <ambientLight intensity={5} /> */}
-      {/* <spotLight
-        position={[0, 5, 0]}
-        angle={10}
-        penumbra={1}
-        intensity={2}
-        castShadow
-        shadow-mapSize={2048}
-      />
-      <spotLight
-        position={[0, 10, -10]}
-        intensity={2}
-        angle={0.04}
-        penumbra={2}
-        castShadow
-        shadow-mapSize={1024}
-      /> */}
-      <Suspense fallback={null}>
-        <Bvh firstHitOnly>
-          <Selection>
-            <Effects />
-            {/* <InstancedModel limit={50} position={[0, -0.0005, 0]} castShadow receiveShadow /> */}
-            <Model position={[-100, -100, 200]} />
-          </Selection>
-        </Bvh>
-      </Suspense>
-      <ContactShadows
-        frames={1}
-        rotation-x={[Math.PI / 2]}
-        position={[0, -0.4, 0]}
-        far={1}
-        width={1.5}
-        height={1.5}
-        blur={0.2}
-      />
-      <Environment preset="city"></Environment>
-      <BakeShadows />
-      <CameraControls />
-    </Canvas>
-  );
-}
+    <>
+      <Loader />
+      <Canvas
+        shadows
+        gl={{ antialias: true, pixelRatio: scale }}
+        camera={{ position: [40, 40, 70], fov: 100, near: 0.3, far: 2000, zoom: 3 }}>
+        <Perf />
+        <axesHelper args={[30]} />
+        <Grid position={[0, -0.01, 0]} args={gridSize} {...gridConfig} />
+        <Stage intensity={0.5} shadows="contact" environment="city">
+          <Suspense fallback={null}>
+            <Bvh firstHitOnly>
+              <LandCruiser position={[-0.055, 0, 0.15]} />
+            </Bvh>
+            <GizmoHelper alignment="bottom-right" margin={[80, 80]}>
+              <GizmoViewport axisColors={["#9d4b4b", "#2f7f4f", "#3b5b9d"]} labelColor="white" />
+            </GizmoHelper>
+          </Suspense>
+        </Stage>
 
-function Effects() {
-  const { size } = useThree();
-
-  return (
-    <EffectComposer stencilBuffer autoClear={false} multisampling={4}>
-      <N8AO halfRes aoSamples={5} aoRadius={0.4} distanceFalloff={0.75} intensity={1} />
-      <Outline
-        visibleEdgeColor={0xffffff}
-        hiddenEdgeColor={0xffffff}
-        blur
-        width={size.width * 1.25}
-        edgeStrength={10}
-      />
-      <TiltShift2 samples={5} blur={0.1} />
-      <ToneMapping />
-    </EffectComposer>
+        <ContactShadows
+          frames={1}
+          rotation-x={[Math.PI / 2]}
+          position={[0, -0.4, 0]}
+          far={1}
+          width={1.5}
+          height={1.5}
+          blur={0.2}
+        />
+        <OrbitControls makeDefault />
+      </Canvas>
+    </>
   );
 }
