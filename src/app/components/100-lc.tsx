@@ -6,13 +6,22 @@ Files: 100-lc.gltf [233.55KB] > /Users/williamfulton/Desktop/100-lc-transformed.
 
 import { Billboard, Merged, Text, useGLTF } from "@react-three/drei";
 
+import { PartNumberData } from "@/data";
 import { debounce } from "lodash";
-import { useCallback, useMemo, useState } from "react";
+import { Dispatch, SetStateAction, useCallback, useMemo, useState } from "react";
 import { Object3D, Object3DEventMap } from "three";
 import { HoverMesh } from "./HoverMesh";
 import { MergedMeshes } from "./types";
 
-export function LandCruiser(props: any) {
+export function LandCruiser({
+  selectedPartNumber,
+  setSelectedPartNumber,
+  ...props
+}: {
+  selectedPartNumber?: string;
+  setSelectedPartNumber: Dispatch<SetStateAction<string | undefined>>;
+  [key: string]: any;
+}) {
   const { nodes } = useGLTF("/100-lc-transformed.glb");
   const instances: { [key: string]: Object3D<Object3DEventMap> } = useMemo(
     () => ({
@@ -213,12 +222,28 @@ export function LandCruiser(props: any) {
   );
   return (
     <Merged meshes={instances} {...props}>
-      {(instances: MergedMeshes) => <Model instances={instances} />}
+      {(instances: MergedMeshes) => (
+        <Model
+          instances={instances}
+          selectedPartNumber={selectedPartNumber}
+          setSelectedPartNumber={setSelectedPartNumber}
+        />
+      )}
     </Merged>
   );
 }
 
-export function Model({ instances, ...props }: { instances: MergedMeshes; [key: string]: any }) {
+export function Model({
+  instances,
+  selectedPartNumber,
+  setSelectedPartNumber,
+  ...props
+}: {
+  instances: MergedMeshes;
+  selectedPartNumber: string | undefined;
+  setSelectedPartNumber: Dispatch<SetStateAction<string | undefined>>;
+  [key: string]: any;
+}) {
   const [hovered, setHover] = useState<string>();
   // Debounce hover a bit to stop the ticker from being erratic
   const debouncedHover = useCallback((name?: string) => {
@@ -234,10 +259,17 @@ export function Model({ instances, ...props }: { instances: MergedMeshes; [key: 
   const hoverProps = useCallback(
     (name: string) => ({
       instances,
-      onPointerOver: (e: any) => over(name)(e),
+      selectedPartNumber,
+      onPointerOver: (e: any) => {
+        over(name)(e);
+      },
       onPointerOut: () => debouncedHover(undefined),
+      onClick: (e: any, key: string) => {
+        e.stopPropagation();
+        setSelectedPartNumber(key);
+      },
     }),
-    [],
+    [selectedPartNumber],
   );
 
   return (
@@ -249,7 +281,7 @@ export function Model({ instances, ...props }: { instances: MergedMeshes; [key: 
         lockZ={false} // Lock the rotation on the z axis (default=false)
       >
         <Text
-          position={[0, 15, 0]}
+          position={[0, 15, 0]} // base position on mesh
           color="#384147"
           fontSize={1}
           font="Inter-Regular.woff"
@@ -259,15 +291,17 @@ export function Model({ instances, ...props }: { instances: MergedMeshes; [key: 
       </Billboard>
 
       <group {...props} dispose={null}>
+        {PartNumberData.map((data) => (
+          <HoverMesh
+            key={data.partNumber}
+            partNumber={data.partNumber}
+            keys={data.keys}
+            {...hoverProps(data.label)}
+          />
+        ))}
         <instances.Object name="Object_6" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object1 name="Object_10" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object2 name="Object_13" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh
-          groupName="front-bumper"
-          keys={["Object3", "Object4", "Object5", "Object6"]}
-          {...hoverProps("Front Bumper")}
-        />
-
         <instances.Object7 name="Object_17" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object8 name="Object_19" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object9 name="Object_23" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
@@ -275,32 +309,17 @@ export function Model({ instances, ...props }: { instances: MergedMeshes; [key: 
         <instances.Object11 name="Object_28" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object12 name="Object_29" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object13 name="Object_35" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Passengerrearrim"]} {...hoverProps(" Passenger Rear Rim")} />
-        <HoverMesh keys={["Passengerreartire"]} {...hoverProps(" Passenger Rear Tire")} />
-        <HoverMesh keys={["Frontlefttire"]} {...hoverProps("Driver Front Tire")} />
-        <HoverMesh keys={["Driverfrontrim"]} {...hoverProps("Driver Front Rim")} />
         <instances.Object14 name="Object_41" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Driverreartire"]} {...hoverProps("Driver Rear Tire")} />
-        <HoverMesh keys={["Driverrearrim"]} {...hoverProps("Driver Rear Rim")} />
-
         <instances.Object15 name="Object_47" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object16 name="Object_53" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Passengerfrontrim"]} {...hoverProps("Passenger Front Rim")} />
-        <HoverMesh keys={["Passengerronttire"]} {...hoverProps("Passenger Front Tire")} />
-        <HoverMesh keys={["Body"]} {...hoverProps("Body")} />
         <instances.Object17 name="Object_59" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object18 name="Object_60" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Bottomtrim"]} {...hoverProps("Bottom Trim")} />
         <instances.Object19 name="Object_64" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Rearvents"]} {...hoverProps("Rear Vents")} />
-        <HoverMesh keys={["Roofrack"]} {...hoverProps("Roof rack")} />
         <instances.Object20 name="Object_70" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object21 name="Object_72" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Miscreartrim"]} {...hoverProps("Misc Rear Trim")} />
         <instances.Object22 name="Object_75" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object23 name="Object_79" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object24 name="Object_77" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Windshield"]} {...hoverProps("Windshield")} />
         <instances.Object25 name="Object_83" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object26 name="Object_85" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object27 name="Object_88" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
@@ -334,10 +353,8 @@ export function Model({ instances, ...props }: { instances: MergedMeshes; [key: 
         <instances.Object55 name="Object_138" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object56 name="Object_139" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object57 name="Object_141" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Windowtrim"]} {...hoverProps("Window Trim")} />
         <instances.Object58 name="Object_148" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object59 name="Object_149" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Passengermirror"]} {...hoverProps("Passenger Mirror")} />
         <instances.Object60 name="Object_154" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object61 name="Object_155" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object62 name="Object_156" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
@@ -347,86 +364,36 @@ export function Model({ instances, ...props }: { instances: MergedMeshes; [key: 
         <instances.Object66 name="Object_163" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object67 name="Object_167" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object68 name="Object_168" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Passengerhandle"]} {...hoverProps("Passenger Door Handle")} />
-        <HoverMesh keys={["Passengerupperpanel"]} {...hoverProps("Passenger Upper Panel")} />
-
         <instances.Object69 name="Object_172" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object70 name="Object_173" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Passengerbottompanel"]} {...hoverProps("Passenger Bottom Panel")} />
-        <HoverMesh keys={["Passengertrim"]} {...hoverProps("Passenger Trim")} />
-        <HoverMesh keys={["Passengerwindow"]} {...hoverProps("Passenger Window")} />
-        <HoverMesh keys={["Driverbottompanel"]} {...hoverProps("Driver Bottom Panel")} />
-
-        <HoverMesh keys={["Driverglass"]} {...hoverProps("Driver Window")} />
-
-        <HoverMesh keys={["Leftmirror"]} {...hoverProps("Driver Mirror")} />
-
         <instances.Object71 name="Object_177" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object72 name="Object_179" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Frontlefthandle"]} {...hoverProps("Driver Door Handle")} />
-
         <instances.Object73 name="Object_183" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object74 name="Object_184" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object75 name="Object_185" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Driverdoor"]} {...hoverProps("Driver Door")} />
-
         <instances.Object76 name="Object_187" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object77 name="Object_191" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object78 name="Object_192" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Driverpanel"]} {...hoverProps("Driver Panel")} />
-
         <instances.Object79 name="Object_196" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object80 name="Object_197" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Leftmidtrim"]} {...hoverProps("Driver Mid Trim")} />
-
         <instances.Object81 name="Object_201" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object82 name="Object_202" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object83 name="Object_206" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object84 name="Object_209" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object85 name="Object_210" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object86 name="Object_212" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Passengerreardoor"]} {...hoverProps("Passenger Rear Door")} />
         <instances.Object87 name="Object_217" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Passengerrearhandle"]} {...hoverProps("Passenger Rear Door Handle")} />
-        <HoverMesh keys={["Passengerrearpanel"]} {...hoverProps("Passenger Rear Door Panel")} />
-
         <instances.Object88 name="Object_221" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object89 name="Object_222" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh
-          keys={["Passengerbottompanel1"]}
-          {...hoverProps("Passenger Bottom Door Panel")}
-        />
-        <HoverMesh keys={["Passengerreartrim"]} {...hoverProps("Passenger Rear Trim")} />
-        <HoverMesh keys={["Passengerrearwindow"]} {...hoverProps("Passenger Rear Window")} />
-
-        <HoverMesh
-          keys={["Driverrearbottompanel"]}
-          {...hoverProps("Driver Rear Bottom Door Panel")}
-        />
-
-        <HoverMesh keys={["Driverreartrim"]} {...hoverProps("Driver Rear Trim")} />
-
-        <HoverMesh keys={["Driverrearwindow"]} {...hoverProps("Driver Rear Window")} />
-
         <instances.Object90 name="Object_226" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object91 name="Object_229" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object92 name="Object_230" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Driverreardoor"]} {...hoverProps("Driver Rear Door")} />
-
         <instances.Object93 name="Object_232" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Driverrearhandle"]} {...hoverProps("Driver Rear Door Handle")} />
-
-        <HoverMesh keys={["Driverreartoppanel"]} {...hoverProps("Driver Rear Top Door Panel")} />
-
         <instances.Object94 name="Object_237" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object95 name="Object_241" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object96 name="Object_242" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object97 name="Object_262" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Hood"]} {...hoverProps("Hood")} />
-
         <instances.Object98 name="Object_263" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh groupName="Grill" keys={["Object99", "Object100"]} {...hoverProps("Grill")} />
-
         <instances.Object101 name="Object_249" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object102 name="Object_250" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object103 name="Object_252" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
@@ -434,78 +401,25 @@ export function Model({ instances, ...props }: { instances: MergedMeshes; [key: 
         <instances.Object105 name="Object_256" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object106 name="Object_257" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object107 name="Object_258" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Frontlefttrim"]} {...hoverProps("Driver Front Trim")} />
-
-        <HoverMesh keys={["Frontleftbottompanel"]} {...hoverProps("Driver Bottom Door Panel")} />
-
         <instances.Object108 name="Object_267" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Frontleftpanel"]} {...hoverProps("Driver Door Panel")} />
-
         <instances.Object109 name="Object_271" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object110 name="Object_273" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Leftblinker"]} {...hoverProps("Driver Blinker")} />
-        <HoverMesh keys={["Leftheadlight"]} {...hoverProps("Driver Headlight")} />
-
         <instances.Object111 name="Object_279" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh
-          keys={["Passengerfrontbottompanel"]}
-          {...hoverProps("Passenger Bottom Door Panel")}
-        />
-
         <instances.Object112 name="Object_283" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh
-          keys={["Passengerfrontupperpanel"]}
-          {...hoverProps("Passenger Upper Door Panel")}
-        />
-
         <instances.Object113 name="Object_285" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Passengerfronttrim"]} {...hoverProps("Passenger Door Trim")} />
-        <HoverMesh keys={["Rightblinker"]} {...hoverProps("Passenger Blinker")} />
-        <HoverMesh keys={["Rightheadlight"]} {...hoverProps("Passenger Headlight")} />
-
         <instances.Object114 name="Object_291" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object115 name="Object_292" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Exhaust"]} {...hoverProps("Exhaust")} />
-        <HoverMesh keys={["Enginedrivetrain"]} {...hoverProps("Engine and Drivetrain")} />
-
-        <HoverMesh keys={["Reardiffaxle"]} {...hoverProps("Rear Diff and Axle")} />
-
         <instances.Object116 name="Object_302" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object117 name="Object_304" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object118 name="Object_306" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object119 name="Object_309" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh
-          groupName="rear-tailight"
-          keys={["Object120", "Object121", "Object122"]}
-          {...hoverProps("Rear Tailights")}
-        />
-
         <instances.Object123 name="Object_312" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Backupperlight"]} {...hoverProps("Rear Upper Light")} />
-
         <instances.Object124 name="Object_316" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Tailgatetrim"]} {...hoverProps("Tailgate trim")} />
-
         <instances.Object125 name="Object_321" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh
-          groupName="rear-wiper"
-          keys={["Object126", "Object127"]}
-          {...hoverProps("Rear Wiper")}
-        />
-
         <instances.Object128 name="Object_326" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
         <instances.Object129 name="Object_328" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Rearwindow"]} {...hoverProps("Rear Window")} />
-        <HoverMesh keys={["Tailgate"]} {...hoverProps("Tailgate")} />
-        <HoverMesh keys={["Bumpertrim"]} {...hoverProps("Rear Bumper Trim")} />
-
         <instances.Object130 name="Object_332" rotation={[-Math.PI / 2, 0, 0]} scale={0.1} />
-        <HoverMesh keys={["Rearbumper"]} {...hoverProps("Rear Bumper ")} />
-
-        <HoverMesh keys={["Bumperlight"]} {...hoverProps("Rear Bumper Light")} />
       </group>
     </>
   );
 }
-
-useGLTF.preload("/100-lc-transformed.glb");

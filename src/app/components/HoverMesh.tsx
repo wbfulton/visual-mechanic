@@ -1,4 +1,3 @@
-import { useSpring } from "@react-spring/three";
 import { Edges } from "@react-three/drei";
 import { GroupProps, MeshProps } from "@react-three/fiber";
 import { debounce } from "lodash";
@@ -6,14 +5,24 @@ import { useCallback, useMemo, useState } from "react";
 import { MergedMeshes } from "./types";
 
 interface Props {
-  groupName?: string;
   keys: Array<string>;
   instances: MergedMeshes;
+  partNumber: string;
+  selectedPartNumber?: string;
+  onClick: (e: any, key: string) => void;
   onPointerOver: (e: any) => void;
   onPointerOut: () => void;
 }
 
-export const HoverMesh = ({ keys, instances, onPointerOver, onPointerOut, groupName }: Props) => {
+export const HoverMesh = ({
+  keys,
+  instances,
+  partNumber,
+  onPointerOver,
+  onPointerOut,
+  onClick,
+  selectedPartNumber,
+}: Props) => {
   const [hovered, setHovered] = useState<boolean>(false);
 
   const debouncedHover = useCallback((val: boolean) => {
@@ -31,6 +40,10 @@ export const HoverMesh = ({ keys, instances, onPointerOver, onPointerOut, groupN
     onPointerOut();
   }, []);
 
+  const onClickHandler = useCallback((e: any) => {
+    onClick(e, partNumber);
+  }, []);
+
   const basicProps: GroupProps = useMemo(
     () => ({
       rotation: [-Math.PI / 2, 0, 0],
@@ -41,17 +54,17 @@ export const HoverMesh = ({ keys, instances, onPointerOver, onPointerOut, groupN
     [],
   );
 
-  const compProps: MeshProps | {} = useMemo(() => (groupName ? {} : (basicProps as MeshProps)), []);
-
-  const { scale } = useSpring({ scale: hovered ? 1.005 : 1 });
-  const { edgeWidth } = useSpring({ edgeWidth: hovered ? 3 : 0 });
+  const compProps: MeshProps | {} = useMemo(
+    () => (keys.length > 1 ? {} : (basicProps as MeshProps)),
+    [],
+  );
 
   const components = keys.map((key, i) => {
     const Component = instances[key];
 
     return (
-      <Component name="key" key={key + i} {...compProps}>
-        {hovered && (
+      <Component name={key} key={key + i} {...compProps} onClick={(e: any) => onClickHandler(e)}>
+        {(hovered || selectedPartNumber === partNumber) && (
           <>
             <Edges
               linewidth={2}
@@ -65,8 +78,8 @@ export const HoverMesh = ({ keys, instances, onPointerOver, onPointerOut, groupN
     );
   });
 
-  return groupName ? (
-    <group name={groupName} {...basicProps}>
+  return keys.length > 1 ? (
+    <group name={partNumber} {...basicProps}>
       {...components}
     </group>
   ) : (

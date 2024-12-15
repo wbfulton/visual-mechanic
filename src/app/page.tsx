@@ -9,7 +9,7 @@ import {
 } from "@/ui/navigation-menu";
 import Image from "next/image";
 import { forwardRef } from "react";
-import Visualizer from "./components/Visualizer";
+import { Visualizer3D } from "./components/Visualizer3D";
 
 const ListItem = forwardRef<React.ElementRef<"a">, React.ComponentPropsWithoutRef<"a">>(
   ({ className, title, children, ...props }, ref) => {
@@ -118,7 +118,7 @@ export default function Home() {
 
       <main className="w-full h-full flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <div className="w-full h-full">
-          <Visualizer />
+          <Visualizer3D />
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
