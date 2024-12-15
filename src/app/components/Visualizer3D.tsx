@@ -1,16 +1,8 @@
 "use client";
 
-import {
-  Bvh,
-  ContactShadows,
-  GizmoHelper,
-  GizmoViewport,
-  Loader,
-  OrbitControls,
-  Stage,
-} from "@react-three/drei";
+import { Bvh, ContactShadows, Loader, OrbitControls, Stage } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import { Perf } from "r3f-perf";
+import { EffectComposer, Outline, Selection } from "@react-three/postprocessing";
 import { Suspense, useState } from "react";
 import { LandCruiser } from "./100-lc";
 import { PartNumberSidePanel } from "./PartNumberSidePanel";
@@ -26,7 +18,9 @@ import { PartNumberSidePanel } from "./PartNumberSidePanel";
 //    c. Front Lights
 //    d. Door step up bar
 
-// Need to fix tooltip
+// 5. Need to fix tooltip
+
+// 6. Redesign Navbar
 
 export const Visualizer3D = () => {
   const scale = window?.devicePixelRatio ?? 1; // Change to 1 on retina screens to see blurry canvas.
@@ -43,20 +37,46 @@ export const Visualizer3D = () => {
         shadows
         gl={{ antialias: true, pixelRatio: scale }}
         camera={{ position: [40, 40, 70], fov: 100, near: 0.5, far: 2000, zoom: 3 }}>
-        <Perf />
+        {/* <Perf /> */}
         <axesHelper args={[200]} />
         <Stage intensity={0.5} shadows="contact" environment="city">
           <Suspense fallback={null}>
             <Bvh firstHitOnly>
-              <LandCruiser
-                position={[-0.055, 0, 0.15]}
-                selectedPartNumber={selectedPartNumber}
-                setSelectedPartNumber={setSelectedPartNumber}
-              />
+              <Selection>
+                <EffectComposer multisampling={8} autoClear={false}>
+                  {/* <SelectiveBloom
+                    kernelSize={KernelSize.HUGE}
+                    luminanceThreshold={0}
+                    luminanceSmoothing={0}
+                    intensity={0.5}
+                  />
+                  <SelectiveBloom
+                    kernelSize={3}
+                    luminanceThreshold={0}
+                    luminanceSmoothing={0.4}
+                    intensity={0.6}
+                  /> */}
+
+                  <Outline
+                    pulseSpeed={0.5}
+                    blur
+                    xRay
+                    visibleEdgeColor={0xff0000}
+                    hiddenEdgeColor={0xff0000}
+                    edgeStrength={200}
+                    // width={500}
+                  />
+                  <LandCruiser
+                    position={[-11.15, 0, 25]}
+                    selectedPartNumber={selectedPartNumber}
+                    setSelectedPartNumber={setSelectedPartNumber}
+                  />
+                </EffectComposer>
+              </Selection>
             </Bvh>
-            <GizmoHelper alignment="bottom-right" margin={[80, 80]}>
+            {/* <GizmoHelper alignment="bottom-right" margin={[80, 80]}>
               <GizmoViewport axisColors={["#9d4b4b", "#2f7f4f", "#3b5b9d"]} labelColor="white" />
-            </GizmoHelper>
+            </GizmoHelper> */}
           </Suspense>
         </Stage>
 
