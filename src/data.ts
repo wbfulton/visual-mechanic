@@ -167,6 +167,30 @@ export const PartNumberData: PartNumberDatum[] = [
     label: "Driver Mirror",
   },
   {
+    partNumber: "Leftmirror001",
+    instancedKeys: ["Leftmirror"],
+    keys: ["left-mirror001"],
+    label: "Driver Mirror",
+  },
+  {
+    partNumber: "Leftmirror002",
+    instancedKeys: ["Leftmirror"],
+    keys: ["left-mirror002"],
+    label: "Driver Mirror",
+  },
+  {
+    partNumber: "Leftmirror003",
+    instancedKeys: ["Leftmirror"],
+    keys: ["left-mirror003"],
+    label: "Driver Mirror",
+  },
+  {
+    partNumber: "cab-interior",
+    instancedKeys: ["cab-interior"],
+    keys: ["cab-interior"],
+    label: "Cab Interior",
+  },
+  {
     partNumber: "Frontlefthandle",
     instancedKeys: ["Frontlefthandle"],
     keys: ["front-left-handle"],

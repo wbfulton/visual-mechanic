@@ -63,6 +63,7 @@ canvas {
 
 @layer base {
   :root {
+    /* #eee8dd */
     --background: 40 35% 93%;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;

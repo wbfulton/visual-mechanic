@@ -5,10 +5,10 @@ Files: 100-lc.gltf [233.55KB] > /Users/williamfulton/Desktop/100-lc-transformed.
 */
 
 import { PartNumberData } from "@/data";
-import { Billboard, Text, useGLTF } from "@react-three/drei";
+import { useGLTF } from "@react-three/drei";
 
 import { debounce } from "lodash";
-import { Dispatch, SetStateAction, useCallback, useEffect, useState } from "react";
+import { Dispatch, SetStateAction, useCallback, useMemo } from "react";
 import { InteractibleMesh, Nodes } from "./InteractibleMesh";
 
 const randos = [
@@ -23,42 +23,113 @@ const randos = [
 export function LandCruiser({
   selectedPartNumber,
   setSelectedPartNumber,
+  hoveredPartNumber,
+  setHoveredPartNumber,
   ...props
 }: {
   selectedPartNumber?: string;
   setSelectedPartNumber: Dispatch<SetStateAction<string | undefined>>;
   [key: string]: any;
 }) {
-  const gltf = useGLTF("/100-lc-transformed.glb");
+  const gltf = useGLTF("/100-lc.glb");
   const nodes: Nodes = gltf.nodes as Nodes;
 
-  useEffect(() => {
-    console.log("wbfulton", gltf);
-  }, [gltf]);
+  // return <primitive object={gltf.scene} {...props} />
 
-  const [hovered, setHover] = useState<string>();
+  console.log(nodes);
+
+  // paint
+  // if (key === "hood") {
+  //   applyProps(nodes[key].material, {
+  //     envMapIntensity: 4,
+  //     roughness: 0.5,
+  //     metalness: 1,
+  //     color: "#43423A",
+  //   });
+  // }
+
+  // // glass
+  // useEffect(() => {
+  //   Object.values(nodes).forEach(
+  //     (node) => node.isMesh && (node.receiveShadow = node.castShadow = true),
+  //   );
+
+  //   // Misc Parts
+  //   applyProps(gltf.materials["PaletteMaterial001"], {
+  //     envMapIntensity: 4,
+  //     roughness: 0.8,
+  //     metalness: 1,
+  //     color: "black",
+  //   });
+
+  //   // Trim & Rubber
+  //   applyProps(gltf.materials["PaletteMaterial002"], {
+  //     color: "#64635B",
+  //     roughness: 0,
+  //     clearcoat: 0.1,
+  //   });
+
+  //   // Paint
+  //   applyProps(gltf.materials["PaletteMaterial003"], {
+  //     envMapIntensity: 4,
+  //     envMaps: true,
+  //     roughness: 0.1,
+  //     metalness: 0.1,
+  //     color: "#3f3f3c",
+  //     vertexColors: true,
+
+  //     sheenColor: "#3f3f3c",
+  //     sheenRoughness: 0,
+  //     sheen: 0.5,
+
+  //     specularColor: "#3f3f3c",
+  //     // attenuationColor: "#3f3f3c",
+  //     clearcoat: 1,
+  //     clearcoatRoughness: 0.15,
+  //     // visible: false,
+  //   });
+
+  //   // Windows
+  //   applyProps(gltf.materials["PaletteMaterial004"], {
+  //     color: "#dbe1e3",
+  //     roughness: 0,
+  //     clearcoat: 0.1,
+  //   });
+
+  //   console.log(gltf.materials);
+  // }, [gltf, nodes]);
+
+  // // trim && rubber
+  // if (key === "driver-front-rim" || key == "passenger-front-tire")
+  //   applyProps(nodes[key].material, {
+  //     color: "#5F646A",
+  //     roughness: 0.6,
+  //     roughnessMap: null,
+  //     normalScale: [4, 4],
+  //   });
+
   // Debounce hover a bit to stop the ticker from being erratic
-  const debouncedHover = useCallback((name?: string) => {
-    const debounced = debounce(setHover, 100);
-    debounced(name);
+  const debouncedHover = useCallback((partNumber?: string) => {
+    const debounced = debounce(setHoveredPartNumber, 100);
+    debounced(partNumber);
   }, []);
 
-  const over = useCallback(
-    (name: string) => (e: any) => (e.stopPropagation(), debouncedHover(name)),
-    [],
-  );
-
-  const hoverProps = useCallback(
-    (name: string) => ({
+  const hoverProps = useMemo(
+    () => ({
       nodes,
       selectedPartNumber,
-      onPointerOver: (e: any) => {
-        over(name)(e);
-      },
-      onPointerOut: () => debouncedHover(undefined),
-      onClick: (e: any, key: string) => {
+      onPointerOver: (e: any, partNumber: string) => {
         e.stopPropagation();
-        setSelectedPartNumber(key);
+        debouncedHover(partNumber);
+        document.body.style.cursor = "pointer";
+      },
+      onPointerOut: () => {
+        debouncedHover(undefined);
+        document.body.style.cursor = "default";
+      },
+      onClick: (e: any, partNumber: string) => {
+        e.stopPropagation();
+        setSelectedPartNumber(partNumber);
       },
     }),
     [selectedPartNumber],
@@ -66,44 +137,26 @@ export function LandCruiser({
 
   return (
     <>
-      <Billboard
-        follow={true}
-        lockX={false}
-        lockY={false}
-        lockZ={false} // Lock the rotation on the z axis (default=false)
-        renderOrder={100}>
-        <Text
-          position={[20, 10, 20]} // base position on mesh
-          color="#384147"
-          // outlineColor="#f4f0e8"
-          // outlineBlur={1}
-          // outlineWidth={0.5}
-          fontSize={1}
-          font="Inter-Regular.woff"
-          letterSpacing={-0.05}>
-          {hovered ? hovered : ""}
-        </Text>
-      </Billboard>
-
       <group {...props} dispose={null}>
         {PartNumberData.map((data) => (
           <InteractibleMesh
             key={data.partNumber}
             partNumber={data.partNumber}
             keys={data.keys}
-            {...hoverProps(data.label)}
+            {...hoverProps}
           />
         ))}
 
-        {randos.map((rando) => (
+        {/* {randos.map((rando) => (
           <mesh
+            key={rando}
             geometry={nodes[`Object_${rando}`].geometry}
             material={nodes[`Object_${rando}`].material}
             name={`Object_${rando}`}
             rotation={[-Math.PI / 2, 0, 0]}
             scale={0.1}
           />
-        ))}
+        ))} */}
       </group>
     </>
   );

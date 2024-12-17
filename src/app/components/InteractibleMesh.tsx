@@ -7,6 +7,7 @@ import { Mesh } from "three";
 import { MergedMeshes } from "./types";
 
 export interface Nodes {
+  // [name: string]: Mesh | Mesh[];
   [name: string]: Mesh;
 }
 
@@ -15,8 +16,8 @@ interface Props {
   nodes: Nodes;
   partNumber: string;
   selectedPartNumber?: string;
-  onClick: (e: any, key: string) => void;
-  onPointerOver: (e: any) => void;
+  onClick: (e: any, partNumber: string) => void;
+  onPointerOver: (e: any, partNumber: string) => void;
   onPointerOut: () => void;
 }
 
@@ -38,7 +39,7 @@ export const InteractibleMesh = ({
 
   const onPointerOverHandler = useCallback((e: any) => {
     debouncedHover(true);
-    onPointerOver(e);
+    onPointerOver(e, partNumber);
   }, []);
 
   const onPointerOutHandler = useCallback(() => {
@@ -66,11 +67,15 @@ export const InteractibleMesh = ({
   );
 
   const components = keys.map((key, i) => {
+    const mesh = nodes[key];
+    if (!mesh) {
+      console.log(key);
+      return <></>;
+    }
     return (
-      <Select enabled={hovered || selectedPartNumber === partNumber}>
+      <Select key={key + i} enabled={hovered || selectedPartNumber === partNumber}>
         <mesh
           name={key}
-          key={key + i}
           {...compProps}
           geometry={nodes[key].geometry}
           material={nodes[key].material}
@@ -81,7 +86,7 @@ export const InteractibleMesh = ({
   });
 
   return keys.length > 1 ? (
-    <group name={partNumber} {...basicProps}>
+    <group key={partNumber} name={partNumber} {...basicProps}>
       {...components}
     </group>
   ) : (

@@ -7,9 +7,7 @@ export default function Home() {
     <div className="w-full h-screen flex flex-col items-center justify-between font-[family-name:var(--font-geist-sans)]">
       <Navbar />
       <main className="w-full h-full flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <div className="w-full h-full">
-          <Visualizer3D />
-        </div>
+        <Visualizer3D />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a

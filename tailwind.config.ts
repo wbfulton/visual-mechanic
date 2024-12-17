@@ -5,6 +5,14 @@ export default {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
+      fontSize: {
+        none: "0.0rem",
+      },
+      transitionProperty: {
+        height: "height",
+        spacing: "margin, padding",
+        tooltip: "width, height, opacity, margin, padding, max-width, max-height, font-size",
+      },
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
