@@ -1,4 +1,4 @@
-import { PartNumberData } from "@/data";
+import { Lc100OverviewPartsModel } from "@/data";
 import { Button } from "@/ui/button";
 import {
   Sheet,
@@ -65,14 +65,14 @@ export function PartNumberSidePanel({
   selectedPartNumber: string | undefined;
   setSelectedPartNumber: Dispatch<SetStateAction<string | undefined>>;
 }) {
-  const part = PartNumberData.find((part) => part.partNumber === selectedPartNumber);
+  const part = Lc100OverviewPartsModel.parts.find((part) => part.partNumber === selectedPartNumber);
 
   return (
     <Sheet open={!!selectedPartNumber} onOpenChange={() => setSelectedPartNumber(undefined)}>
       <SheetContent side={"left"}>
         <SheetHeader>
           <SheetTitle>
-            <span>{part?.label}</span>
+            <span>{part?.name}</span>
           </SheetTitle>
           <SheetDescription>
             Part Number: <b>{part?.partNumber}</b>
@@ -83,13 +83,13 @@ export function PartNumberSidePanel({
               Previous Numbers: <b>{part?.oldPartNumbers.toString()}</b>
             </SheetDescription>
           )}
-          {part?.imageUrls && part?.imageUrls?.length > 0 && (
+          {/* {part?.imageUrls && part?.imageUrls?.length > 0 && (
             <Carousel
               urls={[
                 "https://partsouq.com/assets/tesseract/assets/global/TOYOTA00/source/53/536403B.gif",
               ]}
             />
-          )}
+          )} */}
         </SheetHeader>
         <SheetFooter>
           <SheetClose asChild>

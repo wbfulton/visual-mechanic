@@ -1,4 +1,4 @@
-import { PartNumberData } from "@/data";
+import { Lc100OverviewPartsModel } from "@/data";
 import { debounce } from "lodash";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
@@ -17,7 +17,7 @@ export const LCTooltip: React.FC<LCTooltipProps> = ({
   hoveredPartNumber,
 }: LCTooltipProps) => {
   const part = useMemo(
-    () => PartNumberData.find((part) => part.partNumber === hoveredPartNumber),
+    () => Lc100OverviewPartsModel.parts.find((part) => part.partNumber === hoveredPartNumber),
     [hoveredPartNumber],
   );
 
@@ -34,8 +34,13 @@ export const LCTooltip: React.FC<LCTooltipProps> = ({
   }, [part]);
 
   // check if document exists
-  const tooltipRef = useRef<HTMLDivElement>(document.createElement("div"));
-  const tooltipContentRef = useRef<HTMLDivElement>(document.createElement("div"));
+  const tooltipRef = useRef<HTMLDivElement | undefined>();
+  const tooltipContentRef = useRef<HTMLDivElement | undefined>();
+
+  useEffect(() => {
+    tooltipRef.current = document.createElement("div");
+    tooltipContentRef.current = document.createElement("div");
+  }, []);
 
   const handleMouseMove = useCallback(
     (event: React.MouseEvent) => {
@@ -114,7 +119,7 @@ export const LCTooltip: React.FC<LCTooltipProps> = ({
             zIndex: "2147483647",
           }}>
           <div ref={tooltipContentRef} className={`bg-white`}>
-            {part?.label ?? "Bottom Trim"}
+            {part?.name ?? "Bottom Trim"}
           </div>
         </div>
       )}

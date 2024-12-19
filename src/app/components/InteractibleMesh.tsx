@@ -1,10 +1,12 @@
-import { Edges } from "@react-three/drei";
-import { GroupProps, MeshProps } from "@react-three/fiber";
+import { MeshProps } from "@react-three/fiber";
 import { Select } from "@react-three/postprocessing";
 import { debounce } from "lodash";
-import { useCallback, useMemo, useState } from "react";
+import { memo, useCallback, useMemo, useState } from "react";
 import { Mesh } from "three";
-import { MergedMeshes } from "./types";
+
+const enum THREE_TYPES {
+  MESH = "Mesh",
+}
 
 export interface Nodes {
   // [name: string]: Mesh | Mesh[];
@@ -12,167 +14,78 @@ export interface Nodes {
 }
 
 interface Props {
-  keys: Array<string>;
-  nodes: Nodes;
-  partNumber: string;
+  node: Mesh;
   selectedPartNumber?: string;
   onClick: (e: any, partNumber: string) => void;
   onPointerOver: (e: any, partNumber: string) => void;
   onPointerOut: () => void;
 }
 
-export const InteractibleMesh = ({
-  keys,
-  nodes,
-  partNumber,
-  onPointerOver,
-  onPointerOut,
-  onClick,
-  selectedPartNumber,
-}: Props) => {
-  const [hovered, setHovered] = useState<boolean>(false);
+export const InteractibleMesh = memo(
+  ({ node, onPointerOver, onPointerOut, onClick, selectedPartNumber }: Props) => {
+    const [hovered, setHovered] = useState<boolean>(false);
+    const partNumber = node.name;
 
-  const debouncedHover = useCallback((val: boolean) => {
-    const debounced = debounce(setHovered, 100);
-    debounced(val);
-  }, []);
+    const debouncedHover = useCallback((val: boolean) => {
+      const debounced = debounce(setHovered, 100);
+      debounced(val);
+    }, []);
 
-  const onPointerOverHandler = useCallback((e: any) => {
-    debouncedHover(true);
-    onPointerOver(e, partNumber);
-  }, []);
+    const meshEventHandlers: MeshProps = useMemo(
+      () => ({
+        onPointerOver: (e: any) => {
+          debouncedHover(true);
+          onPointerOver(e, partNumber);
+        },
+        onPointerOut: () => {
+          debouncedHover(false);
+          onPointerOut();
+        },
+        onClick: (e: any) => {
+          onClick(e, partNumber);
+        },
+      }),
+      [],
+    );
 
-  const onPointerOutHandler = useCallback(() => {
-    debouncedHover(false);
-    onPointerOut();
-  }, []);
-
-  const onClickHandler = useCallback((e: any) => {
-    onClick(e, partNumber);
-  }, []);
-
-  const basicProps: GroupProps = useMemo(
-    () => ({
-      rotation: [-Math.PI / 2, 0, 0],
-      scale: 0.1,
-      onPointerOver: onPointerOverHandler,
-      onPointerOut: onPointerOutHandler,
-    }),
-    [],
-  );
-
-  const compProps: MeshProps | {} = useMemo(
-    () => (keys.length > 1 ? {} : (basicProps as MeshProps)),
-    [],
-  );
-
-  const components = keys.map((key, i) => {
-    const mesh = nodes[key];
-    if (!mesh) {
-      console.log(key);
-      return <></>;
+    if (node?.children.length > 0) {
+      return (
+        <>
+          {node?.children.map((child, i) => (
+            <InteractibleMesh
+              key={child.name + i}
+              node={child as Mesh}
+              onPointerOver={onPointerOver}
+              onPointerOut={onPointerOut}
+              onClick={onClick}
+              selectedPartNumber={selectedPartNumber}
+            />
+          ))}
+        </>
+      );
     }
+
+    if (node?.type !== THREE_TYPES.MESH) {
+      return null;
+    }
+
     return (
-      <Select key={key + i} enabled={hovered || selectedPartNumber === partNumber}>
+      <Select key={partNumber + "-mesh"} enabled={hovered || selectedPartNumber === partNumber}>
         <mesh
-          name={key}
-          {...compProps}
-          geometry={nodes[key].geometry}
-          material={nodes[key].material}
-          onClick={(e: any) => onClickHandler(e)}
+          name={partNumber}
+          {...meshEventHandlers}
+          rotation={node.rotation}
+          scale={node.scale}
+          geometry={node.geometry}
+          material={node.material}
         />
       </Select>
     );
-  });
-
-  return keys.length > 1 ? (
-    <group key={partNumber} name={partNumber} {...basicProps}>
-      {...components}
-    </group>
-  ) : (
-    <>{...components}</>
-  );
-};
-
-interface InstancedProps {
-  keys: Array<string>;
-  instances: MergedMeshes;
-  partNumber: string;
-  selectedPartNumber?: string;
-  onClick: (e: any, key: string) => void;
-  onPointerOver: (e: any) => void;
-  onPointerOut: () => void;
-}
-
-export const InteractibleInstancedMesh = ({
-  keys,
-  instances,
-  partNumber,
-  onPointerOver,
-  onPointerOut,
-  onClick,
-  selectedPartNumber,
-}: InstancedProps) => {
-  const [hovered, setHovered] = useState<boolean>(false);
-
-  const debouncedHover = useCallback((val: boolean) => {
-    const debounced = debounce(setHovered, 100);
-    debounced(val);
-  }, []);
-
-  const onPointerOverHandler = useCallback((e: any) => {
-    debouncedHover(true);
-    onPointerOver(e);
-  }, []);
-
-  const onPointerOutHandler = useCallback(() => {
-    debouncedHover(false);
-    onPointerOut();
-  }, []);
-
-  const onClickHandler = useCallback((e: any) => {
-    onClick(e, partNumber);
-  }, []);
-
-  const basicProps: GroupProps = useMemo(
-    () => ({
-      rotation: [-Math.PI / 2, 0, 0],
-      scale: 0.1,
-      onPointerOver: onPointerOverHandler,
-      onPointerOut: onPointerOutHandler,
-    }),
-    [],
-  );
-
-  const compProps: MeshProps | {} = useMemo(
-    () => (keys.length > 1 ? {} : (basicProps as MeshProps)),
-    [],
-  );
-
-  const components = keys.map((key, i) => {
-    const Component = instances[key];
-
-    return (
-      <Component name={key} key={key + i} {...compProps} onClick={(e: any) => onClickHandler(e)}>
-        {(hovered || selectedPartNumber === partNumber) && (
-          <>
-            <Edges
-              linewidth={1}
-              scale={1}
-              threshold={0} // Display edges only when the angle between two faces exceeds this value (default=15 degrees)
-              color="#eb0a1e"
-            />
-          </>
-        )}
-      </Component>
-    );
-  });
-
-  return keys.length > 1 ? (
-    <group name={partNumber} {...basicProps}>
-      {...components}
-    </group>
-  ) : (
-    <>{...components}</>
-  );
-};
+  },
+  // only re-render when mesh becomes selected or unselected
+  (oldProps, newProps) => {
+    const wasSelected = oldProps.selectedPartNumber === oldProps.node.name;
+    const nowSelected = newProps.selectedPartNumber === newProps.node.name;
+    return wasSelected === nowSelected;
+  },
+);
