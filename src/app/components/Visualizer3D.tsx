@@ -51,20 +51,26 @@ export const Visualizer3D = () => {
           camera={{
             position: [2.5, 0.5, 3.5],
             fov: 60,
-            near: 0.01,
+            near: 0.1,
             far: 400,
           }}>
           {/** PerfMon will detect performance issues */}
           {/* <PerformanceMonitor onIncline={() => setDpr(2)} onDecline={() => setDpr(1)} /> */}
-          <Stats showPanel={0} />
-          <Stats className="!left-20" showPanel={2} />
-          <axesHelper args={[30]} />
+          <Stats className="!top-20" showPanel={0} />
+          <Stats className="!left-20 !top-20" showPanel={2} />
+          {/* <axesHelper args={[30]} /> */}
           <color attach="background" args={["#C4BEB4"]} />
           <ambientLight intensity={0.5} />
-          <Bvh firstHitOnly>
+          <Bvh>
             <Selection>
               <EffectComposer multisampling={8} autoClear={false}>
-                <Outline visibleEdgeColor={0xff0000} hiddenEdgeColor={0xff0000} edgeStrength={2} />
+                <Outline
+                  blur
+                  xRay={false}
+                  visibleEdgeColor={0xffffff} // 0xeb0a1e}
+                  hiddenEdgeColor={0x22090a}
+                  edgeStrength={2}
+                />
                 <Vignette eskil={false} offset={0.1} darkness={0.5} />
 
                 <Stage shadows={false} preset="rembrandt">
@@ -80,7 +86,7 @@ export const Visualizer3D = () => {
               </EffectComposer>
             </Selection>
           </Bvh>
-          <OrbitControls makeDefault />
+          <OrbitControls />
         </Canvas>
       </Suspense>
     </LCTooltip>

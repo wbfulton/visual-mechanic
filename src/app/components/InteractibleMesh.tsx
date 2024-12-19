@@ -82,10 +82,8 @@ export const InteractibleMesh = memo(
       </Select>
     );
   },
-  // only re-render when mesh becomes selected or unselected
+  // only re-render when a mesh becomes selected or unselected
   (oldProps, newProps) => {
-    const wasSelected = oldProps.selectedPartNumber === oldProps.node.name;
-    const nowSelected = newProps.selectedPartNumber === newProps.node.name;
-    return wasSelected === nowSelected;
+    return oldProps.selectedPartNumber === newProps.selectedPartNumber;
   },
 );
