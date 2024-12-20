@@ -47,7 +47,7 @@ const NavigationMenuTrigger = React.forwardRef<
 >(({ className, children, ...props }, ref) => (
   <NavigationMenuPrimitive.Trigger
     ref={ref}
-    className={cn(navigationMenuTriggerStyle(), "group/navTrig", className)}
+    className={cn(navigationMenuTriggerStyle(), "group/navTrig bg-transparent", className)}
     {...props}>
     {children}
     <ChevronDown

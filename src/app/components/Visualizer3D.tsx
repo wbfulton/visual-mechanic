@@ -56,8 +56,8 @@ export const Visualizer3D = () => {
           }}>
           {/** PerfMon will detect performance issues */}
           {/* <PerformanceMonitor onIncline={() => setDpr(2)} onDecline={() => setDpr(1)} /> */}
-          <Stats className="!top-20" showPanel={0} />
-          <Stats className="!left-20 !top-20" showPanel={2} />
+          <Stats className="!left-6 !top-1/2" showPanel={0} />
+          <Stats className="!left-6 !top-3/4" showPanel={2} />
           {/* <axesHelper args={[30]} /> */}
           <color attach="background" args={["#C4BEB4"]} />
           <ambientLight intensity={0.5} />

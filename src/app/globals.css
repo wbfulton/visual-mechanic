@@ -25,10 +25,11 @@ canvas {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 900;
   text-align: center;
+  font-size: 0.8em;
 }
 
 .headerText {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   position: relative;
 }
 

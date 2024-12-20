@@ -8,32 +8,20 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/ui/navigation-menu";
-import Image from "next/image";
 import { forwardRef } from "react";
 
 export const Navbar = () => {
   return (
-    <NavigationMenu className="header text-white w-full justify-start max-w-full bg-secondary border-b p-2">
-      <NavigationMenuList className="text-sm flex justify-start items-center gap-4">
-        {/* Image */}
-        <NavigationMenuItem>
-          <Image
-            className="invert"
-            src="/toyota.svg"
-            alt="Toyota logo"
-            width={50}
-            height={38}
-            priority
-          />
-        </NavigationMenuItem>
-        {/* Title */}
-        <NavigationMenuItem>
-          <Button variant={"ghost"} className={cn("headerText", "active")}>
-            100 SERIES
-          </Button>
-        </NavigationMenuItem>
+    <NavigationMenu className="header pointer-events-none absolute text-black w-full justify-between max-w-full bg-transparent p-2">
+      {/* Title */}
+      <NavigationMenuLink className="pointer-events-auto">
+        <Button variant={"ghost"} className={cn("headerText", "active")}>
+          LC 100: UZJ100W-GNPEK
+        </Button>
+      </NavigationMenuLink>
+      <NavigationMenuList className="text-sm w-full flex justify-around items-center gap-4">
         {/* Engine */}
-        <NavigationMenuItem>
+        <NavigationMenuItem className="pointer-events-auto">
           <NavigationMenuTrigger className="headerText">ENGINE / FUEL / TOOL</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
@@ -47,7 +35,7 @@ export const Navbar = () => {
           </NavigationMenuContent>
         </NavigationMenuItem>
         {/* Power Train */}
-        <NavigationMenuItem>
+        <NavigationMenuItem className="pointer-events-auto">
           <NavigationMenuTrigger className="headerText">
             POWER TRAIN / CHASSIS
           </NavigationMenuTrigger>
@@ -64,7 +52,7 @@ export const Navbar = () => {
             </NavigationMenuContent>
           </div>
         </NavigationMenuItem>
-        <NavigationMenuItem>
+        <NavigationMenuItem className="pointer-events-auto">
           <NavigationMenuTrigger className="headerText">BODY / INTERIOR</NavigationMenuTrigger>
 
           <NavigationMenuContent>
@@ -79,7 +67,7 @@ export const Navbar = () => {
           </NavigationMenuContent>
         </NavigationMenuItem>
         {/* Electrical */}
-        <NavigationMenuItem>
+        <NavigationMenuItem className="pointer-events-auto">
           <div className="relative z-10 flex max-w-max flex-1 items-center justify-center">
             <NavigationMenuTrigger className="headerText">ELECTRICAL</NavigationMenuTrigger>
             <NavigationMenuContent>
@@ -111,7 +99,7 @@ const ListItem = forwardRef<React.ElementRef<"a">, React.ComponentPropsWithoutRe
               className,
             )}
             {...props}>
-            <div className="text-sm font-medium leading-none">{title}</div>
+            <div className="text-sm leading-none">{title}</div>
             <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">{children}</p>
           </a>
         </NavigationMenuLink>
