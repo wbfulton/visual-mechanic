@@ -41,8 +41,8 @@ export function AppSidebar() {
   return (
     <Sidebar collapsible="icon">
       <SidebarHeader className="overflow-hidden">
-        <span className="headerText">Land Cruiser 100 Series</span>
-        <span className="headerText text-sm">UZJ100L-GNPEKA, 1998-2002</span>
+        <span className="font-semi-bold text-lg">Land Cruiser 100 Series</span>
+        <span className="text-sm">UZJ100L-GNPEKA, 1998-2002</span>
       </SidebarHeader>
       <SidebarContent>
         <SidebarGroup>

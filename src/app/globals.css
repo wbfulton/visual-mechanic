@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: "Amiri", Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), var(--font-geist-mono), "Amiri", Arial, Helvetica, sans-serif;
 }
 
 @keyframes fade-in {
@@ -21,29 +21,6 @@ canvas {
   animation: fade-in 2s ease 0s forwards;
 }
 
-.header {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 900;
-  text-align: center;
-  font-size: 0.8em;
-}
-
-.headerText {
-  letter-spacing: 0.1em;
-  position: relative;
-}
-
-.activeHeaderText::after {
-  content: "";
-  position: absolute;
-  bottom: -10px;
-  left: calc(50% - 4px);
-  transform: translate3d(-50%, 0, 0);
-  width: 20px;
-  height: 2px;
-  background: indianred;
-}
-
 .zoomed-image-container {
   position: fixed;
   top: 0;
@@ -56,10 +33,6 @@ canvas {
   align-items: center;
   z-index: 1000;
   cursor: pointer;
-}
-.zoomed-image {
-  max-width: 90vw;
-  max-height: 90vh;
 }
 
 @layer base {

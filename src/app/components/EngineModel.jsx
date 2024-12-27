@@ -4306,12 +4306,7 @@ export function Model({ instances, ...props }) {
           </group>
         </group>
       </Select>
-      <Text
-        position={[0, 0.75, 0]}
-        color="#384147"
-        fontSize={0.15}
-        font="Inter-Regular.woff"
-        letterSpacing={-0.05}>
+      <Text position={[0, 0.75, 0]} color="#384147" fontSize={0.15} letterSpacing={-0.05}>
         {hovered ? hovered : ""}
       </Text>
     </>
