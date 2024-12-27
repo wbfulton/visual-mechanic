@@ -1,6 +1,7 @@
-import { SouqPartGroups } from "@/data";
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/ui/collapsible";
 import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
   Sidebar,
   SidebarContent,
   SidebarGroup,
@@ -13,7 +14,8 @@ import {
   SidebarMenuSub,
   SidebarMenuSubButton,
   SidebarMenuSubItem,
-} from "@/ui/sidebar";
+} from "@/core-ui";
+import { SouqPartGroups } from "@/data";
 import { ChevronDown } from "lucide-react";
 
 // const catToIcon: {

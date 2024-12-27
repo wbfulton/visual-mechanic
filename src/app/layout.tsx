@@ -1,4 +1,4 @@
-import { SidebarProvider, SidebarTrigger } from "@/ui/sidebar";
+import { SidebarProvider, SidebarTrigger } from "@/core-ui";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { ActionsMenuBar } from "./components/ActionsMenuBar";

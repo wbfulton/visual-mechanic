@@ -1,6 +1,5 @@
-import { Lc100OverviewPartsModel } from "@/data";
-import { Button } from "@/ui/button";
 import {
+  Button,
   Sheet,
   SheetClose,
   SheetContent,
@@ -8,7 +7,8 @@ import {
   SheetFooter,
   SheetHeader,
   SheetTitle,
-} from "@/ui/sheet";
+} from "@/core-ui";
+import { Lc100OverviewPartsModel } from "@/data";
 import { Dispatch, SetStateAction } from "react";
 
 // const Carousel = ({ urls }: { urls: string[] }) => {

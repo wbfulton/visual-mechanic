@@ -1,25 +1,25 @@
-import { cn } from "@/lib/utils";
-import { Button } from "@/ui/button";
 import {
+  Button,
   NavigationMenu,
   NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "@/ui/navigation-menu";
+} from "@/core-ui";
+import { cn } from "@/lib";
 import { forwardRef } from "react";
 
 export const Navbar = () => {
   return (
-    <NavigationMenu className="header pointer-events-none absolute text-black w-full justify-between max-w-full bg-transparent p-2">
+    <NavigationMenu className="header pointer-events-none absolute w-full max-w-full justify-between bg-transparent p-2 text-black">
       {/* Title */}
       <NavigationMenuLink className="pointer-events-auto">
         <Button variant={"ghost"} className={cn("headerText", "active")}>
           LC 100: UZJ100L-GNPEKA
         </Button>
       </NavigationMenuLink>
-      <NavigationMenuList className="text-sm w-full flex justify-around items-center gap-4">
+      <NavigationMenuList className="flex w-full items-center justify-around gap-4 text-sm">
         {/* Engine */}
         <NavigationMenuItem className="pointer-events-auto">
           <NavigationMenuTrigger className="headerText">ENGINE / FUEL / TOOL</NavigationMenuTrigger>

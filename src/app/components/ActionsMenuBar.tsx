@@ -6,7 +6,7 @@ import {
   MenubarSeparator,
   MenubarShortcut,
   MenubarTrigger,
-} from "@/ui/menu-bar";
+} from "@/core-ui";
 
 export const ActionsMenuBar = () => {
   return (
