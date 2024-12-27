@@ -2,11 +2,6 @@ import { Lc100OverviewPartsModel } from "@/data";
 import { debounce } from "lodash";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-interface Props {
-  mouseCoord?: { x: number; y: number };
-  hoveredPartNumber?: string;
-}
-
 interface LCTooltipProps {
   hoveredPartNumber?: string;
   children: React.ReactNode;
@@ -17,7 +12,19 @@ export const LCTooltip: React.FC<LCTooltipProps> = ({
   hoveredPartNumber,
 }: LCTooltipProps) => {
   const part = useMemo(
-    () => Lc100OverviewPartsModel.parts.find((part) => part.partNumber === hoveredPartNumber),
+    () =>
+      Lc100OverviewPartsModel[0].parts.find(
+        (part) => part.number.toLowerCase() === hoveredPartNumber?.split("_")[0]?.toLowerCase(),
+      ) ??
+      Lc100OverviewPartsModel[1].parts.find(
+        (part) => part.number.toLowerCase() === hoveredPartNumber?.split("_")[0]?.toLowerCase(),
+      ) ??
+      Lc100OverviewPartsModel[2].parts.find(
+        (part) => part.number.toLowerCase() === hoveredPartNumber?.split("_")[0]?.toLowerCase(),
+      ) ??
+      Lc100OverviewPartsModel[3].parts.find(
+        (part) => part.number.toLowerCase() === hoveredPartNumber?.split("_")[0]?.toLowerCase(),
+      ),
     [hoveredPartNumber],
   );
 
@@ -26,16 +33,16 @@ export const LCTooltip: React.FC<LCTooltipProps> = ({
   const [showTooltipContent, setShowTooltipContent] = useState(false);
 
   useEffect(() => {
-    if (part === undefined) {
+    if (hoveredPartNumber === undefined) {
       setShowTooltipContent(false);
     } else {
       setShowTooltipContent(true);
     }
-  }, [part]);
+  }, [hoveredPartNumber]);
 
   // check if document exists
-  const tooltipRef = useRef<HTMLDivElement | undefined>();
-  const tooltipContentRef = useRef<HTMLDivElement | undefined>();
+  const tooltipRef = useRef<HTMLDivElement | null>(null);
+  const tooltipContentRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     tooltipRef.current = document.createElement("div");
@@ -65,11 +72,11 @@ export const LCTooltip: React.FC<LCTooltipProps> = ({
         tooltipY = viewportHeight - tooltipHeight - 10;
       }
 
-      if (part !== undefined) {
+      if (hoveredPartNumber !== undefined) {
         setTooltipPosition({ x: tooltipX, y: tooltipY });
       }
     },
-    [part],
+    [hoveredPartNumber],
   );
 
   // Debounce hover a bit to stop the ticker from being erratic
@@ -90,36 +97,28 @@ export const LCTooltip: React.FC<LCTooltipProps> = ({
     setTooltipVisible(false);
   }, []);
 
-  const transitionStyle = "transition-tooltip ease-in duration-1000";
-  const containerStyle = "p-3.5 bg-secondary rounded-lg shadow";
-  const textStyle = "text-white font-semibold";
+  // const transitionStyle = "transition-tooltip ease-in duration-1000";
+  const containerStyle = "p-2 rounded-sm shadow bg-secondary shadow";
+  const textStyle = "text-white";
   const transitionLogic =
     showTooltipContent && tooltipContentRef.current
       ? `opacity-100 text-sm max-w-[${Math.round(tooltipContentRef.current.clientWidth)}px] max-h-[${Math.round(tooltipContentRef.current.clientHeight)}px]`
       : "opacity-0 text-none max-w-0 max-h-0 p-0 ";
-
-  // useEffect(() => {
-  //   console.log(
-  //     tooltipRef.current?.clientWidth,
-  //     tooltipRef.current?.clientWidth,
-  //     Math.round(tooltipContentRef.current?.clientWidth),
-  //     Math.round(tooltipContentRef.current?.clientHeight),
-  //   );
-  // }, [transitionLogic]);
 
   const content = (
     <>
       {isTooltipVisible && (
         <div
           ref={tooltipRef}
-          className={`fixed ${transitionStyle} ${containerStyle} ${textStyle} ${transitionLogic}`}
+          className={`fixed ${containerStyle} ${textStyle} ${transitionLogic}`}
           style={{
             top: tooltipPosition.y,
             left: tooltipPosition.x,
             zIndex: "2147483647",
           }}>
-          <div ref={tooltipContentRef} className={`bg-white`}>
-            {part?.name ?? "Bottom Trim"}
+          <div ref={tooltipContentRef}>
+            <p>{part?.name === "" ? hoveredPartNumber : part?.name}</p>
+            <p>{part?.number ?? ""}</p>
           </div>
         </div>
       )}
@@ -131,15 +130,14 @@ export const LCTooltip: React.FC<LCTooltipProps> = ({
 
   return (
     <div
-      className="w-full h-full"
-      // onMouseMove={debouncedHandleMouseMove}
-      // onMouseEnter={handleMouseEnter}
-      // onMouseLeave={handleMouseLeave}
-    >
-      {/* {isTooltipVisible && (
+      className="absolute left-0 top-0 h-full w-full"
+      onMouseMove={debouncedHandleMouseMove}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}>
+      {isTooltipVisible && (
         <div
           ref={tooltipRef}
-          className={`fixed ${transitionStyle} ${containerStyle} ${textStyle} ${transitionLogic}`}
+          className={`fixed ${containerStyle} ${textStyle} ${transitionLogic}`}
           style={{
             top: tooltipPosition.y,
             left: tooltipPosition.x,
@@ -147,7 +145,7 @@ export const LCTooltip: React.FC<LCTooltipProps> = ({
           }}>
           {content}
         </div>
-      )} */}
+      )}
       {children}
     </div>
   );

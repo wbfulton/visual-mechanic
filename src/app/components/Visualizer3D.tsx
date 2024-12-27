@@ -1,6 +1,6 @@
 "use client";
 
-import { Bvh, Loader, OrbitControls, Stage, Stats } from "@react-three/drei";
+import { Bvh, Loader, OrbitControls, Stage } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { EffectComposer, Outline, Selection, Vignette } from "@react-three/postprocessing";
 import { Suspense, useState } from "react";
@@ -8,28 +8,11 @@ import { LandCruiser } from "./100-lc";
 import { LCTooltip } from "./LCTooltip";
 import { PartNumberSidePanel } from "./PartNumberSidePanel";
 
-// 1. Need to have part numbers
-
-// 2. Need to have map lookup of data
-// 3. Start with local cache, but use fast.api after
-
-// 4. Model needs to be fixed to be accurate.
-//    a. Bumper
-//    b. Body
-//    c. Front Lights
-//    d. Door step up bar
-
-// 5. Need to fix tooltip
-
-// 6. Redesign Navbar
-
-// 7. Move model to mesh model for post-processing selection
-
 export const Visualizer3D = () => {
   const [selectedPartNumber, setSelectedPartNumber] = useState<string | undefined>();
   const [hoveredPartNumber, setHoveredPartNumber] = useState<string | undefined>();
 
-  if (typeof document === undefined || typeof window === undefined) return;
+  // if (typeof document === undefined || typeof window === undefined) return;
 
   // const scale = window.devicePixelRatio ?? 1; // Change to 1 on retina screens to see blurry canvas.
   // const [dpr, setDpr] = useState(1.5);
@@ -56,8 +39,8 @@ export const Visualizer3D = () => {
           }}>
           {/** PerfMon will detect performance issues */}
           {/* <PerformanceMonitor onIncline={() => setDpr(2)} onDecline={() => setDpr(1)} /> */}
-          <Stats className="!left-6 !top-1/2" showPanel={0} />
-          <Stats className="!left-6 !top-3/4" showPanel={2} />
+          {/* <Stats className="!left-0 !top-0" showPanel={0} />
+          <Stats className="!left-20 !top-0" showPanel={2} /> */}
           {/* <axesHelper args={[30]} /> */}
           <color attach="background" args={["#C4BEB4"]} />
           <ambientLight intensity={0.5} />

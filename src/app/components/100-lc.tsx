@@ -7,6 +7,7 @@ Files: 100-lc.gltf [233.55KB] > /Users/williamfulton/Desktop/100-lc-transformed.
 import { useGLTF } from "@react-three/drei";
 import { debounce } from "lodash";
 
+import { GroupProps, ThreeEvent } from "@react-three/fiber";
 import { Dispatch, SetStateAction, useCallback, useEffect, useMemo, useState } from "react";
 import { Mesh } from "three";
 import { InteractibleMesh } from "./InteractibleMesh";
@@ -14,15 +15,15 @@ import { InteractibleMesh } from "./InteractibleMesh";
 export function LandCruiser({
   selectedPartNumber,
   setSelectedPartNumber,
-  hoveredPartNumber,
   setHoveredPartNumber,
   ...props
 }: {
   selectedPartNumber?: string;
   setSelectedPartNumber: Dispatch<SetStateAction<string | undefined>>;
-  [key: string]: any;
-}) {
-  const { nodes } = useGLTF("/100-lc.glb");
+  hoveredPartNumber?: string;
+  setHoveredPartNumber?: Dispatch<SetStateAction<string | undefined>>;
+} & GroupProps) {
+  const { nodes } = useGLTF("/100-packed-lc.glb");
 
   const [isMounted, setIsMounted] = useState(false);
 
@@ -31,14 +32,19 @@ export function LandCruiser({
   }, []);
 
   // Debounce hover a bit to stop the ticker from being erratic
-  const debouncedHover = useCallback((partNumber?: string) => {
-    const debounced = debounce(setHoveredPartNumber, 100);
-    debounced(partNumber);
-  }, []);
+  const debouncedHover = useCallback(
+    (partNumber?: string) => {
+      if (setHoveredPartNumber) {
+        const debounced = debounce(setHoveredPartNumber, 100);
+        debounced(partNumber);
+      }
+    },
+    [setHoveredPartNumber],
+  );
 
   const hoverProps = useMemo(
     () => ({
-      onPointerOver: (e: any, partNumber: string) => {
+      onPointerOver: (e: ThreeEvent<MouseEvent>, partNumber: string) => {
         e.stopPropagation();
         debouncedHover(partNumber);
         if (isMounted) {
@@ -51,12 +57,12 @@ export function LandCruiser({
           document.body.style.cursor = "default";
         }
       },
-      onClick: (e: any, partNumber: string) => {
+      onClick: (e: ThreeEvent<MouseEvent>, partNumber: string) => {
         e.stopPropagation();
         setSelectedPartNumber(partNumber);
       },
     }),
-    [isMounted],
+    [debouncedHover, isMounted, setSelectedPartNumber],
   );
 
   const scene = "Scene";

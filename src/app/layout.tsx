@@ -1,5 +1,8 @@
+import { SidebarProvider, SidebarTrigger } from "@/ui/sidebar";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { ActionsMenuBar } from "./components/ActionsMenuBar";
+import { AppSidebar } from "./components/Sidebar";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -25,7 +28,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <SidebarProvider defaultOpen={true}>
+          <AppSidebar />
+          <main className="relative w-full max-w-full">
+            <nav className="header absolute right-0 top-0 z-50 flex w-full items-center justify-between gap-2 bg-transparent p-2">
+              <div className="flex items-center justify-start gap-2">
+                <SidebarTrigger className="" />
+                {/* <Separator orientation="vertical" className="h-[15px] bg-secondary" />
+                <span className="headerText">Toyota Land Cruiser 100 Series</span>
+                <Separator orientation="vertical" className="h-[15px] bg-secondary" />
+                <span className="headerText">UZJ100L-GNPEKA</span> */}
+                <ActionsMenuBar />
+              </div>
+            </nav>
+            {children}
+          </main>
+        </SidebarProvider>
+      </body>
     </html>
   );
 }

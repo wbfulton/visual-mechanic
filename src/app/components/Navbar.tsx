@@ -16,7 +16,7 @@ export const Navbar = () => {
       {/* Title */}
       <NavigationMenuLink className="pointer-events-auto">
         <Button variant={"ghost"} className={cn("headerText", "active")}>
-          LC 100: UZJ100W-GNPEK
+          LC 100: UZJ100L-GNPEKA
         </Button>
       </NavigationMenuLink>
       <NavigationMenuList className="text-sm w-full flex justify-around items-center gap-4">

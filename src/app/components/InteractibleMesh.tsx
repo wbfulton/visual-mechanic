@@ -1,4 +1,4 @@
-import { MeshProps } from "@react-three/fiber";
+import { MeshProps, ThreeEvent } from "@react-three/fiber";
 import { Select } from "@react-three/postprocessing";
 import { debounce } from "lodash";
 import { memo, useCallback, useMemo, useState } from "react";
@@ -16,13 +16,19 @@ export interface Nodes {
 interface Props {
   node: Mesh;
   selectedPartNumber?: string;
-  onClick: (e: any, partNumber: string) => void;
-  onPointerOver: (e: any, partNumber: string) => void;
+  onClick: (e: ThreeEvent<MouseEvent>, partNumber: string) => void;
+  onPointerOver: (e: ThreeEvent<MouseEvent>, partNumber: string) => void;
   onPointerOut: () => void;
 }
 
 export const InteractibleMesh = memo(
-  ({ node, onPointerOver, onPointerOut, onClick, selectedPartNumber }: Props) => {
+  function InteractibleMesh({
+    node,
+    onPointerOver,
+    onPointerOut,
+    onClick,
+    selectedPartNumber,
+  }: Props) {
     const [hovered, setHovered] = useState<boolean>(false);
     const partNumber = node.name;
 
@@ -33,7 +39,7 @@ export const InteractibleMesh = memo(
 
     const meshEventHandlers: MeshProps = useMemo(
       () => ({
-        onPointerOver: (e: any) => {
+        onPointerOver: (e: ThreeEvent<MouseEvent>) => {
           debouncedHover(true);
           onPointerOver(e, partNumber);
         },
@@ -41,11 +47,11 @@ export const InteractibleMesh = memo(
           debouncedHover(false);
           onPointerOut();
         },
-        onClick: (e: any) => {
+        onClick: (e: ThreeEvent<MouseEvent>) => {
           onClick(e, partNumber);
         },
       }),
-      [],
+      [debouncedHover, onClick, onPointerOut, onPointerOver, partNumber],
     );
 
     if (node?.children.length > 0) {
