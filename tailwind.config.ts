@@ -12,7 +12,8 @@ export default {
       transitionProperty: {
         height: "height",
         spacing: "margin, padding",
-        tooltip: "width, height, opacity, margin, padding, max-width, max-height, font-size",
+        tooltip:
+          "width, height, opacity, margin, padding, max-width, max-height, font-size",
       },
       colors: {
         background: "hsl(var(--background))",
@@ -55,21 +56,21 @@ export default {
           "4": "hsl(var(--chart-4))",
           "5": "hsl(var(--chart-5))",
         },
+        sidebar: {
+          DEFAULT: "hsl(var(--sidebar-background))",
+          foreground: "hsl(var(--sidebar-foreground))",
+          primary: "hsl(var(--sidebar-primary))",
+          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
+          accent: "hsl(var(--sidebar-accent))",
+          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
+          border: "hsl(var(--sidebar-border))",
+          ring: "hsl(var(--sidebar-ring))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
-      },
-      sidebar: {
-        DEFAULT: "hsl(var(--sidebar-background))",
-        foreground: "hsl(var(--sidebar-foreground))",
-        primary: "hsl(var(--sidebar-primary))",
-        "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-        accent: "hsl(var(--sidebar-accent))",
-        "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-        border: "hsl(var(--sidebar-border))",
-        ring: "hsl(var(--sidebar-ring))",
       },
     },
   },

@@ -1,1 +1,1 @@
-export { cn } from "./cssUtils";
+export { cn } from "./css-utils";

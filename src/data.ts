@@ -4763,12 +4763,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/81/813177C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/81/813177C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416349,
         car: "TOYOTA00",
         ssd: "$*KwEEMCEpX2NXa1QCaVUdDlxIaG9xAA8CAxE-DUVDcGR4fH59OC8DaUdDR3ZgeWguMzkEDXxweHMQcT00NGVyYhEHBwBMASEGFEMSCxRtEh5NAl8MA01PQ15UchRDHl9TEgsCGxJUBgVfDBUIAAYGEh5NCBMUDRIJBwQBBVgiX0tJRlhSd0sQDAJfDBcSBg8GBAdfQ1EWFVlFFA0QED8gL3d6Eh0WFV1RTVtdFGJqewcHAH5CJjNmcntwFBsQEBkCXwwXXkRaWxwSTQcUUhUKEQdKAAAAAG0Ji3Q=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FOG LAMP",
@@ -4776,12 +4776,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/81/813236B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/81/813236B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416351,
         car: "TOYOTA00",
         ssd: "$*KwGkkIGJ_8P3y_SiyfW9rvzoyM_RoK-io7GereXj0MTY3N7dmI-jyefj59bA2ciOk5mkrdzQ2NOw0Z2UlMXSwrGnp6DsoYGmtOOyq7TNsr7tov-so-3v4_700rTjvv_zsquiu7L0pqX_rLWooKalsr7tqLO0rbKpp6SiofmD_-vp5vjy1-uwrKL_rLeypq-mpKf_4_G2tfnltK2wsJ-Aj9fasr22tf3x7fv9tMLK26enoN7ihpPG0tvQtLuwsLmi_6y3_uT6-7yy7ae08rWqsafqAAAAAC77EC8=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT TURN SIGNAL LAMP",
@@ -4789,12 +4789,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/81/810832A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/81/810832A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416352,
         car: "TOYOTA00",
         ssd: "$*KwHp3czEso66hrnvhLjw47GlhYKc7eLv7vzT4KiunYmVkZOQ1cLuhKquqpuNlIXD3tTp4JGdlZ79nNDZ2Yifj_zq6u2h7Mzr-a7_5vmA__Og77Lh7qCirrO5n_mu87K-_-bv9v-56-iy4fjl7evp__Og5f754P_k6url7LDNsqakq7W_mqb94e-y4fr_6-Lr6eqyrrz7-LSo-eD9_dLNwpqX__D7-LC8oLaw-Y-Hlurq7ZOvy96Ln5ad-fb9_fTvsuH6s6m3tvH_oOr5v_jn_OqnAAAAAN6cbj0=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR COMBINATION LAMP",
@@ -4802,12 +4802,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/81/812249.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/81/812249.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416353,
         car: "TOYOTA00",
         ssd: "$*KwGDt6au2OTQ7NOF7tKaidvP7-j2h4iFhJa5isLE9-P_-_n6v6iE7sDEwPHn_u-ptL6Divv3__SX9rqzs-L15ZaAgIfLhqaBk8SVjJPqlZnKhdiLhMrIxNnT9ZPEmdjUlYyFnJXTgYLYi5KPh4CBlZnKj5STipWOgIKFgdHEh8_G3tLxy5XWi8TAkZKAj4CEgoXKytqT2cOUi5CV5am0u_ySm5aT3dSX0sbY5Or9h4GA-5ivqKr0-_aUnZCVw4vEwJHewtrdnJeXjo-ek4qXh8wAAAAAxNG2BA==$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR LICENSE PLATE LAMP",
@@ -4815,12 +4815,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/81/810812B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/81/810812B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416355,
         car: "TOYOTA00",
         ssd: "$*KwElEQAIfkJ2SnUjSHQ8L31pSU5QIS4jIjAfLGRiUUVZXV9cGQ4iSGZiZldBWEkPEhglLF1RWVIxUBwVFURTQzAmJiFtIAAnNWIzKjVMMz9sI34tImxuYn91UzViP35yMyojOjN1JyR-LTQpISYlMz9sKTI1LDMoJiYpInwCfmpoZ3lzVmoxLSN-LTYzJy4nJSZ-YnA3NHhkNSwxMR4BDlZbMzw3NHxwbHp8NUNLWiYmIV9jBxJHU1pRNToxMTgjfi02f2V7ej0zbCY1czQrMCZrAAAAAFW6EZY=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REFLEX REFLECTOR",
@@ -4828,12 +4828,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/81/810815.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/81/810815.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416356,
         car: "TOYOTA00",
         ssd: "$*KwETJzY-SHRAfEMVfkIKGUtff3hmFxgVFAYpGlJUZ3Nva2lqLzgUflBUUGF3bn85JC4TGmtnb2QHZiojI3JldQYQEBdbFjYRA1QFHAN6BQlaFUgbFFpYVElDZQNUCUhEBRwVDAVDERJIGwIfFxAVBQlaHwQDGgUeEBAfFE1UF19WTkJhWwVGG1RQAQIQHxAUEhVaWkoDSVMEGwAFdTkkK2wCCwYDTUQHQlZIdHptFxEQawg_ODpka2YEDQAFUxtUUAFOUkpNDAcHHh8OAxoHF1wAAAAAz0Esng==$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CENTER STOP LAMP",
@@ -4841,12 +4841,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/81/810817A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/81/810817A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416357,
         car: "TOYOTA00",
         ssd: "$*KwHv28rCtIi8gL_pgr725bejg4Sa6-Tp6PrV5q6om4-Tl5WW08TogqyorJ2LkoPF2NLv5pebk5j7mtbf346Zifrs7Oun6srt_6j54P-G-fWm6bTn6KakqLW_mf-o9bS4-eDp8Pm_7e605_7j6-zr-fWm4_j_5vni7Ozj6LPLtKCirbO5nKD75-m05_z57eTt7-y0qLr9_rKu_-b7-9TLxJyR-fb9_ra6prC2_4mBkOzs65WpzdiNmZCb__D7-_LptOf8ta-xsPf5puz_uf7h-uyhAAAAAJ_CcRo=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "INTERIOR LAMP",
@@ -4854,12 +4854,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/81/810842H.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/81/810842H.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416359,
         car: "TOYOTA00",
         ssd: "$*KwEpHQwEck56RnkvRHgwI3FlRUJcLSIvLjwTIGhuXUlVUVNQFQIuRGpualtNVEUDHhQpIFFdVV49XBAZGUhfTzwqKi1hLAwrOW4_JjlAPzNgL3IhLmBibnN5XzluM3J-PyYvNj95KyhyITglLSkrPzNgJT45ID8kKiolK3AEcmZka3V_WmY9IS9yITo_KyIrKSpybnw7OHRoOSA9PRINAlpXPzA7OHB8YHZwOU9HVioqLVNvCx5LX1ZdOTY9PTQvciE6c2l3djE_YCo5fzgnPCpnAAAAAK6Ab4o=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BATTERY & BATTERY CABLE",
@@ -4867,12 +4867,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/82/821281C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/82/821281C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416361,
         car: "TOYOTA00",
         ssd: "$*KwHX4_L6jLCEuIfRuobO3Y-bu7yi09zR0MLt3paQo7err62u6_zQupSQlKWzqrv94OrX3q-jq6DDou7n57ahscLU1NOf0vLVx5DB2Me-wc2e0Yzf0J6ckI2HoceQzYyAwdjRyMGH1daM38bb0NXVwc2e28DH3sHa19XR2Y3xjJialYuBpJjD39GM38TB1dzV19SMkILFxoqWx97Dw-zz_KSpwc7Fxo6CnoiOx7G5qNTU062R9eC1oaijx8jDw8rRjN_EjZeJiM_BntTHgcbZwtSZAAAAAJVs0wI=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WIRING & CLAMP",
@@ -4880,12 +4880,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/82/821302I.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/82/821302I.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416363,
         car: "TOYOTA00",
         ssd: "$*KwEoHA0Fc097R3guRXkxInBkRENdLCMuLz0SIWlvXEhUUFJRFAMvRWtva1pMVUQCHxUoIVBcVF88XREYGEleTj0rKyxgLQ0qOG8-JzhBPjJhLnMgL2Fjb3J4XjhvMnN_PicuNz54KilzIDkkLyopPjJhJD84IT4lKCovLnEEc2dlanR-W2c8IC5zIDs-KiMqKCtzb306OXVpOCE8PBMMA1tWPjE6OXF9YXdxOE5GVysrLFJuCh9KXldcODc8PDUucyA7cmh2dzA-YSs4fjkmPStmAAAAAF4yv58=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WIRING & CLAMP",
@@ -4893,12 +4893,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/82/821303C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/82/821303C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416365,
         car: "TOYOTA00",
         ssd: "$*KwHf6_ryhLiMsI_Zso7G1YeTs7Sq29TZ2Mrl1p6Yq7-jp6Wm4_TYspyYnK27orP16OLf1qero6jLqubv776pucrc3NuX2vrdz5jJ0M-2ycWW2YTX2JaUmIWPqc-YxYSIydDZwMmP3d6E187T2N3eycWW08jP1snS393Y2Yf5hJCSnYOJrJDL19mE18zJ3dTd39yEmIrNzoKez9bLy-T79KyhycbNzoaKloCGz7mxoNzc26WZ_ei9qaCrz8DLy8LZhNfMhZ-BgMfJltzPic7RytyRAAAAACxV6gM=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WIRING & CLAMP",
@@ -4906,12 +4906,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/82/821304D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/82/821304D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416368,
         car: "TOYOTA00",
         ssd: "$*KwHA9OXtm6eTr5DGrZHZypiMrKu1xMvGx9X6yYGHtKC8uLq5_OvHrYOHg7Kkvazq9_3Aybi0vLfUtfnw8KG2ptXDw8SIxeXC0IfWz9Cp1tqJxpvIx4mLh5qQttCH2puX1s_G39aQwsGbyNHMx8LB1tqJzNfQydbNwMLHxp_hm4-NgpyWs4_UyMabyNPWwsvCwMObh5XS0Z2B0MnU1Pvk67O-1tnS0ZmViZ-Z0Kauv8PDxLqG4veitr-00N_U1N3Gm8jTmoCen9jWicPQltHO1cOOAAAAALNNuuI=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WIRING & CLAMP",
@@ -4919,12 +4919,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/82/821305A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/82/821305A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416370,
         car: "TOYOTA00",
         ssd: "$*KwFiVkdPOQUxDTJkDzN7aDouDgkXZmlkZXdYayMlFgIeGhgbXkllDyElIRAGHw5IVV9iaxoWHhV2F1tSUgMUBHdhYWYqZ0dgciV0bXILdHgrZDlqZSspJTgyFHIleDk1dG1kfXQyYGM5anNuZWBjdHgrbnVya3RvYmBlZDxGOS0vID40ES12amQ5anF0YGlgYmE5JTdwcz8jcmt2dllGSREcdHtwczs3Kz07cgQMHWFhZhgkQFUAFB0Wcn12dn9kOWpxOCI8PXp0K2FyNHNsd2EsAAAAACiSkKE=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WIRING & CLAMP",
@@ -4932,12 +4932,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/82/821618A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/82/821618A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416372,
         car: "TOYOTA00",
         ssd: "$*KwFabn93AT0JNQpcNwtDUAIWNjEvXlFcXU9gUxsdLjomIiAjZnFdNxkdGSg-JzZwbWdaUyIuJi1OL2NqajssPE9ZWV4SX39YSh1MVUozTEATXAFSXRMRHQAKLEodQAENTFVcRUwKWFsBUktWXVhbTEATVk1KU0xXWlhYXQl-ARUXGAYMKRVOUlwBUklMWFFYWlkBHQ9ISwcbSlNOTmF-cSkkTENISwMPEwUDSjw0JVlZXiAceG04LCUuSkVOTkdcAVJJABoEBUJME1lKDEtUT1kUAAAAAH3P5h4=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WIRING & CLAMP",
@@ -4945,12 +4945,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/82/821307.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/82/821307.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416374,
         car: "TOYOTA00",
         ssd: "$*KwFdaXhwBjoOMg1bMAxEVwURMTYoWVZbWkhnVBwaKT0hJSckYXZaMB4aHi85IDF3amBdVCUpISpJKGRtbTwrO0heXlkVWHhfTRpLUk00S0cUWwZVWhQWGgcNK00aRwYKS1JbQksNX1wGVUxRWl9cS0cUUUpNVEtQXV9aWwEaWREYAAwvFUsIVRoeT0xeUV5aXFsUFARNBx1KVU5LO3dqZSJMRUhNAwpJDBgGOjQjWV9eJUZxdnQqJShKQ05LHVUaHk8AHAQDQklJUFFATVRJWRIAAAAAaNyFJw==$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WIRING & CLAMP",
@@ -4958,12 +4958,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/82/821311E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/82/821311E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416376,
         car: "TOYOTA00",
         ssd: "$*KwElEQAIfkJ2SnUjSHQ8L31pSU5QIS4jIjAfLGRiUUVZXV9cGQ4iSGZiZldBWEkPEhglLF1RWVIxUBwVFURTQzAmJiFtIAAnNWIzKjVMMz9sI34tImxuYn91UzViP35yMyojOjN1JyR-LTQpIickMz9sKTI1LDMoJSciIn8FfmpoZ3lzVmoxLSN-LTYzJy4nJSZ-YnA3NHhkNSwxMR4BDlZbMzw3NHxwbHp8NUNLWiYmIV9jBxJHU1pRNToxMTgjfi02f2V7ej0zbCY1czQrMCZrAAAAAFk8bLI=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WIRING & CLAMP",
@@ -4971,12 +4971,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/82/821309J.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/82/821309J.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416379,
         car: "TOYOTA00",
         ssd: "$*KwHd6fjwhrqOso3bsIzE14WRsbao2dbb2sjn1Jyaqb2hpaek4fbasJ6anq-5oLH36uDd1KWpoarJqOTt7byru8je3tmV2PjfzZrL0s20y8eU24bV2pSWmoeNq82ax4aKy9LbwsuN39yG1czR2t_cy8eU0crN1MvQ3d_a24_yhpKQn4GLrpLJ1duG1c7L39bf3d6GmojPzICczdTJyeb59q6jy8TPzISIlIKEzbuzot7e2aeb_-q_q6KpzcLJycDbhtXOh52DgsXLlN7Ni8zTyN6TAAAAANHmnUo=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WIRING & CLAMP",
@@ -4984,12 +4984,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/82/823119A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/82/823119A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416380,
         car: "TOYOTA00",
         ssd: "$*KwHc6Pnxh7uPs4zasY3F1oSQsLep2Nfa28nm1Z2bqLygpKal4PfbsZ-bn664obD26-Hc1aSooKvIqeXs7L2qusnf39iU2fnezJvK08y1ysaV2ofU25WXm4aMqsybxoeLytPaw8qM3t2H1M3Q297dysaV0MvM1crR3NzZ2474h5ORnoCKr5PI1NqH1M_K3tfe3N-Hm4nOzYGdzNXIyOf496-iysXOzYWJlYOFzLqyo9_f2Kaa_uu-qqOozMPIyMHah9TPhpyCg8TKld_Mis3Syd-SAAAAAJOMvXY=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WIRING & CLAMP",
@@ -4997,12 +4997,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/82/824374.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/82/824374.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416381,
         car: "TOYOTA00",
         ssd: "$*KwGRpbS8yvbC_sGX_MCIm8nd_frklZqXloSrmNDW5fHt6evorbqW_NLW0uP17P27pqyRmOnl7eaF5KihofDn94SSkpXZlLSTgdaHnoH4h4vYl8qZltja1svB54HWi8rGh56XjofBk5DKmYCdlpOQh4vYnYaBmIeckZaWkM7Wld3UzMDj2YfEmdbSg4CSnZKWkJfY2MiBy9GGmYKH97umqe6AiYSBz8aFwNTK9vjvlZOS6Yq9urjm6eSGj4KH0ZnW0oPM0MjPjoWFnJ2MgZiFld4AAAAAOVQZww==$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WIRING & CLAMP",
@@ -5010,12 +5010,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/82/823055B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/82/823055B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416382,
         car: "TOYOTA00",
         ssd: "$*KwG9iZiQ5tru0u270Oykt-Xx0dbIuba7uqiHtPz6yd3BxcfEgZa60P76_s_ZwNGXioC9tMXJwcqpyISNjdzL26i-vrn1uJi_rfqrsq3Uq6f0u-a1uvT2-ufty636p-bqq7K7oqvtv7zmtayxur-8q6f0saqttKuwvb25vuOa5vLw_-HrzvKptbvmta6rv7a_vb7m-uivrOD8rbSpqYaZls7Dq6SvrOTo9OLkrdvTwr6-ucf7n4rfy8LJraKpqaC75rWu5_3j4qWr9L6t66yzqL7zAAAAAFCUDnk=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "METER",
@@ -5023,12 +5023,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/83/830355G.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/83/830355G.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416383,
         car: "TOYOTA00",
         ssd: "$*KwHi1sfPuYWxjbLkj7P76LqujomX5unk5ffY66OlloKempib3snlj6GloZCGn47I1d_i65qWnpX2l9vS0oOUhPfh4eaq58fg8qX07fKL9Pir5Lnq5auppbiylPKl-Lm19O3k_fSy4OO56vPu5ODg9Pir7vXy6_Tv4-Hl4bzAua2voL60ka326uS56vH04Ong4uG5pbfw87-j8uv29tnGyZGc9Pvw87u3q7278oSMneHh5pikwNWAlJ2W8v329v_kuerxuKK8vfr0q-HytPPs9-GsAAAAANY820Q=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "METER",
@@ -5036,12 +5036,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/83/830836.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/83/830836.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416385,
         car: "TOYOTA00",
         ssd: "$*KwFGcmNrHSEVKRZAKxdfTB4KKi0zQk1AQVN8TwcBMiY6Pjw_em1BKwUBBTQiOypscXtGTz4yOjFSM392dicwIFNFRUIOQ2NEVgFQSVYvUFwPQB1OQQ8NARwWMFYBXB0RUElAWVAWREcdTldKQEREUFwPSlFWT1BLR0VKQxsBQgoDGxc0DlATTgEFVFdFSkVBR0APDx9WHAZRTlVQIGxxfjlXXlNWGBFSFwMdIS84QkRFPl1qbW8xPjNRWFVQBk4BBVQbBx8YWVJSS0pbVk9SQgkAAAAAHoNZdA==$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SWITCH & RELAY & COMPUTER",
@@ -5049,12 +5049,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/841836D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/841836D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416387,
         car: "TOYOTA00",
         ssd: "$*KwH2wtPbrZGlmabwm6fv_K66mp2D8v3w8ePM_7exgpaKjoyPyt3xm7WxtYSSi5rcwcv2_46CioHig8_GxpeAkOP19fK-89P05rHg-eaf4Oy_8K3-8b-9saymgOax7K2h4Pnw6eCm9Pet_uf69_T04Oy_-uHm_-D78PT686vXrbm7tKqghbni_vCt_uXg9P309vWtsaPk56u35v_i4s3S3YWI4O_k56-jv6mv5pCYifX18oyw1MGUgImC5uni4uvwrf7lrLaoqe7gv_XmoOf44_W4AAAAAHQIpCg=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SWITCH & RELAY & COMPUTER",
@@ -5062,12 +5062,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/841847H.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/841847H.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416390,
         car: "TOYOTA00",
         ssd: "$*KwG5jZyU4t7q1um_1Oigs-H11dLMvbK_vqyDsPj-zdnFwcPAhZK-1Pr--svdxNWTjoS5sMHNxc6tzICJidjP36y6ur3xvJy7qf6vtqnQr6Pwv-KxvvDy_uPpz6n-o-Lur7a_pq_pu7jisai1uLu7r6Pwta6psK-0v7u1u-WU4vb0--Xvyvatsb_isaqvu7K7ubri_uyrqOT4qbCtrYKdksrHr6CrqODs8Obgqd_Xxrq6vcP_m47bz8bNqaatraS_4rGq4_nn5qGv8Lqp76i3rLr3AAAAAG9IYMU=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SWITCH & RELAY & COMPUTER",
@@ -5075,12 +5075,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/842015I.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/842015I.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416392,
         car: "TOYOTA00",
         ssd: "$*KwGFsaCo3uLW6tWD6NScj93J6e7wgY6DgpC_jMTC8eX5_f_8ua6C6MbCxvfh-OmvsriFjP3x-fKR8Ly1teTz45CGhoHNgKCHlcKTipXsk5_Mg96NgszOwt_V85XCn97Sk4qDmpPVh4TejZSJhIeHk5_MiZKVjJOIg4SBgtup3srIx9nT9sqRjYPejZaTh46HhYbewtCXlNjElYyRkb6hrvb7k5yXlNzQzNrclePr-oaGgf_Dp7Ln8_rxlZqRkZiD3o2W38Xb2p2TzIaV05SLkIbLAAAAAK-D4QM=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SWITCH & RELAY & COMPUTER",
@@ -5088,12 +5088,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/841845H.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/841845H.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416394,
         car: "TOYOTA00",
         ssd: "$*KwF0QFFZLxMnGyRyGSVtfiw4GB8BcH9yc2FOfTUzABQIDA4NSF9zGTczNwYQCRheQ0l0fQwACANgAU1ERBUCEmF3d3A8cVF2ZDNie2QdYm49ci98cz0_My4kAmQzbi8jYntya2IkdnUvfGV4dXZ2Ym49eGNkfWJ5cnZ4dipZLzs5NigiBztgfHIvfGdidn92dHcvMyFmZSk1ZH1gYE9QXwcKYm1mZS0hPSstZBIaC3d3cA4yVkMWAgsAZGtgYGlyL3xnLjQqK2xiPXdkImV6YXc6AAAAANBcwA8=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SWITCH & RELAY & COMPUTER",
@@ -5101,12 +5101,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/845621A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/845621A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416396,
         car: "TOYOTA00",
         ssd: "$*KwFxRVRcKhYiHiF3HCBoeyk9HRoEdXp3dmRLeDA2BRENCQsITVp2HDI2MgMVDB1bRkxxeAkFDQZlBEhBQRAHF2RycnU5dFRzYTZnfmEYZ2s4dyp5djg6NishB2E2ayomZ353bmchc3AqeWB9cHNzZ2s4fWZheGd8d3dzdStVKj48My0nAj5leXcqeWJnc3pzcXIqNiRjYCwwYXhlZUpVWgIPZ2hjYCgkOC4oYRcfDnJydQs3U0YTBw4FYW5lZWx3KnliKzEvLmlnOHJhJ2B_ZHI_AAAAADQHc80=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SWITCH & RELAY & COMPUTER",
@@ -5114,12 +5114,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/841846C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/841846C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416398,
         car: "TOYOTA00",
         ssd: "$*KwGbr762wPzI9Mud9sqCkcPX9_Dun5CdnI6hktrc7_vn4-Hip7Cc9tjc2On_5vexrKabkuPv5-yP7qKrq_rt_Y6YmJ_Tnr6Zi9yNlIvyjYHSncCTnNLQ3MHL7YvcgcDMjZSdhI3LmZrAk4qXmpmZjYHSl4yLko2WnZmXmca9wNTW2cfN6NSPk53Ak4iNmZCZm5jA3M6Jisbai5KPj6C_sOjljYKJisLO0sTCi_315JiYn-Hduaz57eTvi4SPj4adwJOIwdvFxION0piLzYqVjpjVAAAAAI7e1RE=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SWITCH & RELAY & COMPUTER",
@@ -5127,12 +5127,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/841848F.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/841848F.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416400,
         car: "TOYOTA00",
         ssd: "$*KwGBtaSs2ubS7tGH7NCYi9nN7er0hYqHhpS7iMDG9eH9-fv4vaqG7MLGwvPl_O2rtryBiPn1_faV9LixseD355SCgoXJhKSDkcaXjpHol5vIh9qJhsjKxtvR95HGm9rWl46HnpfRg4DaiZCNgIODl5vIjZaRiJeMh4ONg9Ki2s7Mw93X8s6ViYfaiZKXg4qDgYLaxtSTkNzAkYiVlbqlqvL_l5iTkNjUyN7Ykefv_oKChfvHo7bj9_71kZ6VlZyH2omS28Hf3pmXyIKR15CPlILPAAAAAM9aCak=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SWITCH & RELAY & COMPUTER",
@@ -5140,12 +5140,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/842374C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/842374C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416402,
         car: "TOYOTA00",
         ssd: "$*KwGumouD9cn9wf6ow_-3pPbiwsXbqqWoqbuUp-_p2s7S1tTXkoWpw-3p7dzK08KEmZOup9ba0tm625eens_YyLutrarmq4usvum4ob7HuLTnqPWmqefl6fT-2L7ptPX5uKGosbj-rK_1pr-ir6ysuLTnorm-p7ijqK-pr_GI9eHj7PL43eG6pqj1pr24rKWsrq316fu8v_Pvvqe6upWKhd3QuLe8v_f75_H3vsjA0a2tqtTojJnM2NHavrG6urOo9aa99O7w8ba4562--L-gu63gAAAAAN4lq2s=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SWITCH & RELAY & COMPUTER",
@@ -5153,12 +5153,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/841843D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/841843D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416404,
         car: "TOYOTA00",
         ssd: "$*KwGlkYCI_sL2yvWjyPS8r_3pyc7Qoa6jorCfrOTi0cXZ3d_cmY6iyObi5tfB2MmPkpilrN3R2dKx0JyVlcTTw7CmpqHtoICnteKzqrXMs7_so_6touzu4v_107Xiv_7ys6qjurP1p6T-rbSppKens7_sqbK1rLOoo6epp_2E_uro5_nz1uqxraP-rbazp66npab-4vC3tPjktayxsZ6Bjtbbs7y3tPzw7Pr8tcPL2qamod_jh5LH09rRtbqxsbij_q22_-X7-r2z7Ka187SrsKbrAAAAAEY6nDI=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ELECTRONIC FUEL INJECTION SYSTEM",
@@ -5166,12 +5166,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/841953E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/841953E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416405,
         car: "TOYOTA00",
         ssd: "$*KwH5zdzUop6qlqn_lKjg86G1lZKM_fL__uzD8Li-jZmFgYOAxdL-lLq-uoudhJXTzsT58IGNhY7tjMDJyZiPn-z6-v2x_Nz76b7v9umQ7-Ow_6Lx_rCyvqOpj-m-46Ku7_b_5u-p-_ii8ej1-Pv-7-Ow9e7p8O_0__v0-qHZora0u6Wvirbt8f-i8erv-_L7-fqivqzr6KS46fDt7cLd0oqH7-Dr6KCssKag6Z-Xhvr6_YO_286bj4aN6ebt7eT_ovHqo7mnpuHvsPrpr-j37Pq3AAAAAHEzHIo=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CRUISE CONTROL (AUTO DRIVE)",
@@ -5179,12 +5179,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/841787A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/841787A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416408,
         car: "TOYOTA00",
         ssd: "$*KwG0gJGZ79Pn2-Sy2eWtvuz42N_BsL-ys6GOvfXzwNTIzM7NiJ-z2ffz98bQydieg4m0vczAyMOgwY2EhNXC0qG3t7D8sZG2pPOiu6Tdoq79su-8s_3_8-7kwqTzru_joruyq6LktrXvvKW4tba_oq79uKOkvaK5sra3uuiQ7_v59ujix_ugvLLvvKeitr-2tLfv8-Gmpen1pL2goI-Qn8fKoq2mpe3h_evtpNLay7e3sM7yloPWwsvApKugoKmy77yn7vTq66yi_bek4qW6obf6AAAAAOFYMGA=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "OVERDRIVE & ELECTRONIC CONTROLLED TRANSMISSION",
@@ -5192,12 +5192,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/841792D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/841792D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416409,
         car: "TOYOTA00",
         ssd: "$*KwEJPSwkUm5aZlkPZFgQA1FFZWJ8DQIPDhwzAEhOfWl1cXNwNSIOZEpOSnttdGUjPjQJAHF9dX4dfDA5OWh_bxwKCg1BDCwLGU4fBhlgHxNAD1IBDkBCTlNZfxlOE1JeHwYPFh9ZCwhSARgFCAoKHxNABR4ZAB8EDwsKBlAoUkZES1VfekYdAQ9SARofCwILCQpSTlwbGFRIGQAdHTItInp3HxAbGFBcQFZQGW9ndgoKDXNPKz5rf3Z9GRYdHRQPUgEaU0lXVhEfQAoZXxgHHApHAAAAAJqdeZs=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ABS & VSC",
@@ -5205,12 +5205,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/841795F.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/841795F.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416411,
         car: "TOYOTA00",
         ssd: "$*KwGFsaCo3uLW6tWD6NScj93J6e7wgY6DgpC_jMTC8eX5_f_8ua6C6MbCxvfh-OmvsriFjP3x-fKR8Ly1teTz45CGhoHNgKCHlcKTipXsk5_Mg96NgszOwt_V85XCn97Sk4qDmpPVh4TejZSJhIaCk5_MiZKVjJOIg4eGitum3srIx9nT9sqRjYPejZaTh46HhYbewtCXlNjElYyRkb6hrvb7k5yXlNzQzNrclePr-oaGgf_Dp7Ln8_rxlZqRkZiD3o2W38Xb2p2TzIaV05SLkIbLAAAAAIiDAOo=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "AUTOMATIC LIGHT CONTROL SYSTEM (CONLIGHT)",
@@ -5218,12 +5218,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/841797.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/841797.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416413,
         car: "TOYOTA00",
         ssd: "$*KwGBtaSs2ubS7tGH7NCYi9nN7er0hYqHhpS7iMDG9eH9-fv4vaqG7MLGwvPl_O2rtryBiPn1_faV9LixseD355SCgoXJhKSDkcaXjpHol5vIh9qJhsjKxtvR95HGm9rWl46HnpfRg4DaiZCNgIKEl5vIjZaRiJeMh4OCjt3Ghc3E3NDzyZfUicbCk5CCjYKGgIfIyNiR28GWiZKX56u2uf6QmZSR39aV0MTa5uj_hYOC-Zqtqqj2-fSWn5KXwYnGwpPcwNjfnpWVjI2ckYiVhc4AAAAAkBFbkw==$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WIRELESS DOOR LOCK",
@@ -5231,12 +5231,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/842380C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/842380C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416416,
         car: "TOYOTA00",
         ssd: "$*KwHN-ejglqqeop3LoJzUx5WBoaa4ycbLytj3xIyKua2xtbe08ebKoI6Kjr-psKHn-vDNxLW5sbrZuPT9_ay7q9jOzsmFyOjP3Yrbwt2k29eEy5bFyoSGipedu92K15aa28LL0tudz8yWxdzBzM3O29eEwdrdxNvAy8zKw5brloKAj5GbvoLZxcuWxd7bz8bPzc6Wipjf3JCM3cTZ2fbp5r6z29Tf3JSYhJKU3aujss7OybeL7_qvu7K53dLZ2dDLlsXel42TktXbhM7dm9zD2M6DAAAAAOPvirM=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "AIR BAG",
@@ -5244,12 +5244,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/841799A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/841799A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416418,
         car: "TOYOTA00",
         ssd: "$*KwEMOCkhV2tfY1wKYV0VBlRAYGd5CAcKCxk2BU1LeGxwdHZ1MCcLYU9LT35ocWAmOzEMBXR4cHsYeTU8PG16ahkPDwhECSkOHEsaAxxlGhZFClcEC0VHS1ZcehxLFldbGgMKExpcDg1XBB0ADQwOGhZFABscBRoBCg4PA14oV0NBTlBaf0MYBApXBB8aDgcODA9XS1keHVFNHAUYGDcoJ39yGhUeHVVZRVNVHGpicw8PCHZKLjtuenN4HBMYGBEKVwQfVkxSUxQaRQ8cWh0CGQ9CAAAAAKUu0E0=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ANTI-THEFT DEVICE",
@@ -5257,12 +5257,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/84/841934E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/84/841934E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416421,
         car: "TOYOTA00",
         ssd: "$*KwEqHg8HcU15RXosR3szIHJmRkFfLiEsLT8QI2ttXkpWUlBTFgEtR2ltaVhOV0YAHRcqI1JeVl0-XxMaGktcTD8pKS5iLw8oOm08JTpDPDBjLHEiLWNhbXB6XDptMHF9PCUsNTx6KCtxIjsmKyotPDBjJj06IzwnLCgnL3UKcWVnaHZ8WWU-IixxIjk8KCEoKilxbX84O3drOiM-PhEOAVlUPDM4O3N_Y3VzOkxEVSkpLlBsCB1IXFVeOjU-PjcscSI5cGp0dTI8Yyk6fDskPylkAAAAANlBLNc=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WINDSHIELD WIPER",
@@ -5270,12 +5270,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/85/851078A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/85/851078A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416424,
         car: "TOYOTA00",
         ssd: "$*KwE8CBkRZ1tvU2w6UW0lNmRwUFdJODc6OykGNX17SFxAREZFABc7UX97f05YQVAWCwE8NURIQEsoSQUMDF1KWik_Pzh0ORk-LHsqMyxVKiZ1Omc0O3V3e2ZsSix7JmdrKjM6IypsPj1nNC0wPD4-KiZ1MCssNSoxOz44PW8YZ3NxfmBqT3MoNDpnNC8qPjc-PD9ne2kuLWF9LDUoKAcYF09CKiUuLWVpdWNlLFpSQz8_OEZ6HgteSkNILCMoKCE6ZzQvZnxiYyQqdT8sai0yKT9yAAAAAKxhpZQ=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR WIPER",
@@ -5283,12 +5283,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/85/850605B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/85/850605B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416425,
         car: "TOYOTA00",
         ssd: "$*KwFDd2ZuGCQQLBNFLhJaSRsPLyg2R0hFRFZ5SgIENyM_Ozk6f2hELgAEADEnPi9pdH5DSjs3PzRXNnpzcyI1JVZAQEcLRmZBUwRVTFMqVVkKRRhLRAoIBBkTNVMEWRgUVUxFXFUTQUIYS1JPQ0FCVVkKT1RTSlVOREBBRR1kGAwOAR8VMAxXS0UYS1BVQUhBQ0AYBBZRUh4CU0pXV3hnaDA9VVpRUhoWChwaUyUtPEBARzkFYXQhNTw3U1xXV15FGEtQGQMdHFtVCkBTFVJNVkANAAAAAEiWvB4=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WINDSHIELD WASHER",
@@ -5296,12 +5296,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/85/850440F.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/85/850440F.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416426,
         car: "TOYOTA00",
         ssd: "$*KwGVobC4zvLG-sWT-MSMn83Z-f7gkZ6TkoCvnNTS4fXp7e_sqb6S-NbS1ufx6Pm_oqiVnO3h6eKB4KylpfTj84CWlpHdkLCXhdKDmoX8g4_ck86dktze0s_F44XSj87Cg5qTioPFl5TOnYSZlZeVg4_cmYKFnIOYkpaVl862ztrY18nD5tqBnZPOnYaDl56XlZbO0sCHhMjUhZyBga6xvubrg4yHhMzA3MrMhfP76paWke_Tt6L34-rhhYqBgYiTzp2Gz9XLyo2D3JaFw4SbgJbbAAAAAOEv0ww=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR WASHER",
@@ -5309,12 +5309,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/85/850545.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/85/850545.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416427,
         car: "TOYOTA00",
         ssd: "$*KwHm0sPLvYG1ibbgi7f_7L6qio2T4u3g4fPc76ehkoaanpyf2s3hi6WhpZSCm4rM0dvm756SmpHyk9_W1oeQgPPl5eKu48Pk9qHw6faP8Pyv4L3u4a-toby2kPah_L2x8Ong-fC25Oe97vfq5uTh8Pyv6vH27_Dr4eXn5Lih4qqju7eUrvCz7qGl9Pfl6uXh5-Cvr7_2vKbx7vXwgMzR3pn3_vP2uLHyt6O9gY-Y4uTlnv3Kzc-RnpPx-PXwpu6hpfS7p7-4-fLy6-r79u_y4qkAAAAAyGIdbQ==$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "DOOR MOTOR & DOOR SOLENOID",
@@ -5322,12 +5322,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/85/850425C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/85/850425C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416429,
         car: "TOYOTA00",
         ssd: "$*KwEWIjM7TXFFeUYQe0cPHE5aen1jEh0QEQMsH1dRYnZqbmxvKj0Re1VRVWRya3o8ISsWH25iamECYy8mJndgcAMVFRJeEzMUBlEAGQZ_AAxfEE0eEV9dUUxGYAZRDE1BABkQCQBGFBdNHgcaFhUUAAxfGgEGHwAbERUWEkgwTVlbVEpAZVkCHhBNHgUAFB0UFhVNUUMEB0tXBh8CAi0yPWVoAA8EB09DX0lPBnB4aRUVEmxQNCF0YGliBgkCAgsQTR4FTFZISQ4AXxUGQAcYAxVYAAAAAPtOOcw=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT MOTOR & SEAT HEATER",
@@ -5335,12 +5335,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/85/851029C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/85/851029C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416430,
         car: "TOYOTA00",
         ssd: "$*KwGIvK2l0-_b59iO5dmRgtDE5OP9jIOOj52ygcnP_Oj08PLxtKOP5cvPy_rs9eSiv7WIgfD89P-c_bG4uOn-7p2Li4zAja2KmM-eh5jhnpLBjtOAj8HDz9LY_pjPktPfnoeOl57YionTgJmEiIuInpLBhJ-YgZ6Fj4qMjNqu08fFytTe-8ecgI7TgJueioOKiIvTz92amdXJmIGcnLOso_v2npGamdHdwdfRmO7m94uLjPLOqr_q_vf8mJecnJWO04Cb0sjW15CewYuY3pmGnYvGAAAAAPA0CGw=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "RADIO RECEIVER & AMPLIFIER & CONDENSER",
@@ -5348,12 +5348,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/86/860653E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/86/860653E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416431,
         car: "TOYOTA00",
         ssd: "$*KwH9ydjQppqukq37kKzk96WxkZaI-fb7-ujH9Ly6iZ2BhYeEwdb6kL66vo-ZgJHXysD99IWJgYrpiMTNzZyLm-j-_vm1-Nj_7brr8u2U6-e0-6b1-rS2uqeti-2656aq6_L74uut__ym9ezx_v__6-e08ert9Ovw-f7__qXdprKwv6GrjrLp9fum9e7r__b__f6muqjv7KC87fTp6cbZ1o6D6-Tv7KSotKKk7ZuTgv7--Ye738qfi4KJ7eLp6eD7pvXup72jouXrtP7tq-zz6P6zAAAAAPyW6s0=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "RADIO RECEIVER & AMPLIFIER & CONDENSER",
@@ -5361,12 +5361,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/86/860626F.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/86/860626F.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416433,
         car: "TOYOTA00",
         ssd: "$*KwGYrL21w__L98ie9cmBksDU9PPtnJOen42ikdnf7Pjk4OLhpLOf9dvf2-r85fSyr6WYkeDs5O-M7aGoqPnu_o2bm5zQnb2aiN-Ol4jxjoLRnsOQn9HT38LI7ojfgsPPjpeeh47ImpnDkImUm5qajoLRlI-IkY6VnJuanMW7w9fV2sTO69eMkJ7DkIuOmpOamJvD382KicXZiJGMjKO8s-vmjoGKicHN0cfBiP7255ubnOLeuq_67ufsiIeMjIWew5CLwtjGx4CO0ZuIzomWjZvWAAAAAERLsLw=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "RADIO RECEIVER & AMPLIFIER & CONDENSER",
@@ -5374,12 +5374,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/86/861209A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/86/861209A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416435,
         car: "TOYOTA00",
         ssd: "$*KwGeqruzxfnN8c6Y88-HlMbS8vXrmpWYmYukl9_Z6v7i5uTnorWZ893Z3ez64_K0qaOel-bq4umK66eurv_o-IudnZrWm7ucjtmIkY73iITXmMWWmdfV2cTO6I7ZhMXJiJGYgYjOnJ_Flo-SnZyciITXkomOl4iTmpyYmMy6xdHT3MLI7dGKlpjFlo2InJWcnp3F2cuMj8PfjpeKiqW6te3giIeMj8fL18HHjvjw4Z2dmuTYvKn86OHqjoGKioOYxZaNxN7AwYaI152OyI-Qi53QAAAAALSTe_g=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SPEAKER",
@@ -5387,12 +5387,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/86/860634B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/86/860634B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416436,
         car: "TOYOTA00",
         ssd: "$*KwF-SltTJRktES54Ey9ndCYyEhULenV4eWtEdz85Ch4CBgQHQlV5Ez05PQwaAxJUSUN-dwYKAglqC0dOTh8IGGt9fXo2e1t8bjlocW4XaGQ3eCV2eTc1OSQuCG45ZCUpaHF4YWgufH8ldm9yfXx_aGQ3cmlud2hzen18eyFZJTEzPCIoDTFqdngldm1ofHV8fn0lOStsbyM_bndqakVaVQ0AaGdsbycrNyEnbhgQAX19egQ4XEkcCAEKbmFqamN4JXZtJD4gIWZoN31uKG9wa30wAAAAAOS5bTg=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "NAVIGATION & FRONT MONITOR DISPLAY",
@@ -5400,12 +5400,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/86/861193A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/86/861193A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416437,
         car: "TOYOTA00",
         ssd: "$*KwF6Tl9XIR0pFSp8FytjcCI2FhEPfnF8fW9Aczs9DhoGAgADRlF9Fzk9OQgeBxZQTUd6cwIOBg1uD0NKShsMHG95eX4yf194aj1sdWoTbGAzfCFyfTMxPSAqDGo9YCEtbHV8ZWwqeHshcmt2eXh6bGAzdm1qc2x3fnh_dSJeITU3OCYsCTVucnwhcmlseHF4enkhPS9oayc7anNubkFeUQkEbGNoayMvMyUjahwUBXl5fgA8WE0YDAUOamVubmd8IXJpIDokJWJsM3lqLGt0b3k0AAAAAJwtF_w=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ANTENNA",
@@ -5413,12 +5413,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/86/860794B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/86/860794B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416439,
         car: "TOYOTA00",
         ssd: "$*KwFBdWRsGiYSLhFHLBBYSxkNLSo0RUpHRlR7SAAGNSE9OTs4fWpGLAIGAjMlPC1rdnxBSDk1PTZVNHhxcSA3J1RCQkUJRGRDUQZXTlEoV1sIRxpJRggKBhsRN1EGWxoWV05HXlcRQ0AaSVBNQkNGV1sITVZRSFdMRUJCTh5mGg4MAx0XMg5VSUcaSVJXQ0pDQUIaBhRTUBwAUUhVVXplajI_V1hTUBgUCB4YUScvPkJCRTsHY3YjNz41UV5VVVxHGklSGwEfHllXCEJRF1BPVEIPAAAAABUHQ6Q=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ANTENNA",
@@ -5426,12 +5426,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/86/860792C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/86/860792C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416440,
         car: "TOYOTA00",
         ssd: "$*KwEJPSwkUm5aZlkPZFgQA1FFZWJ8DQIPDhwzAEhOfWl1cXNwNSIOZEpOSnttdGUjPjQJAHF9dX4dfDA5OWh_bxwKCg1BDCwLGU4fBhlgHxNAD1IBDkBCTlNZfxlOE1JeHwYPFh9ZCwhSARgFCgsOHxNABR4ZAB8EDQoKBlAvUkZES1VfekYdAQ9SARofCwILCQpSTlwbGFRIGQAdHTItInp3HxAbGFBcQFZQGW9ndgoKDXNPKz5rf3Z9GRYdHRQPUgEaU0lXVhEfQAoZXxgHHApHAAAAAOQ-zfo=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HORN",
@@ -5439,12 +5439,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/86/860621B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/86/860621B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416442,
         car: "TOYOTA00",
         ssd: "$*KwEpHQwEck56RnkvRHgwI3FlRUJcLSIvLjwTIGhuXUlVUVNQFQIuRGpualtNVEUDHhQpIFFdVV49XBAZGUhfTzwqKi1hLAwrOW4_JjlAPzNgL3IhLmBibnN5XzluM3J-PyYvNj95KyhyITglKiorPzNgJT45ID8kLSorLXMOcmZka3V_WmY9IS9yITo_KyIrKSpybnw7OHRoOSA9PRINAlpXPzA7OHB8YHZwOU9HVioqLVNvCx5LX1ZdOTY9PTQvciE6c2l3djE_YCo5fzgnPCpnAAAAAAlJvAY=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HORN",
@@ -5452,12 +5452,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/86/860622B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/86/860622B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416443,
         car: "TOYOTA00",
         ssd: "$*KwHF8eDonqKWqpXDqJTcz52Jqa6wwc7DwtD_zISCsaW5vb-8-e7CqIaChrehuKnv8vjFzL2xubLRsPz19aSzo9DGxsGNwODH1YLTytWs09-Mw57NwoyOgp-Vs9WC356S08rD2tOVx8SezdTJxsbH09-MydLVzNPIwcbHwZzinoqIh5mTtorRzcOezdbTx87HxcaegpDX1JiE1czR0f7h7ra709zX1JyQjJqc1aOrusbGwb-D5_Kns7qx1drR0djDns3Wn4Wbmt3TjMbVk9TL0MaLAAAAAJUMVfE=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "MIRROR",
@@ -5465,12 +5465,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872409I.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872409I.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416444,
         car: "TOYOTA00",
         ssd: "$*KwHX4_L6jLCEuIfRuobO3Y-bu7yi09zR0MLt3paQo7err62u6_zQupSQlKWzqrv94OrX3q-jq6DDou7n57ahscLU1NOf0vLVx5DB2Me-wc2e0Yzf0J6ckI2HoceQzYyAwdjRyMGH1daM38bb1dXVwc2e28DH3sHa0tbX0YX7jJialYuBpJjD39GM38TB1dzV19SMkILFxoqWx97Dw-zz_KSpwc7Fxo6CnoiOx7G5qNTU062R9eC1oaijx8jDw8rRjN_EjZeJiM_BntTHgcbZwtSZAAAAAOHTa40=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - HEATER UNIT & BLOWER",
@@ -5478,12 +5478,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872420G.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872420G.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416446,
         car: "TOYOTA00",
         ssd: "$*KwF8SFlRJxsvEyx6ES1ldiQwEBcJeHd6e2lGdT07CBwABAYFQFd7ET87Pw4YARBWS0F8dQQIAAtoCUVMTB0KGml_f3g0eVl-bDtqc2wVamY1eid0ezU3OyYsCmw7ZicranN6Y2osfn0ndG1wfn99amY1cGtsdWpxeX18eCdeJzMxPiAqDzNodHondG9qfnd-fH8nOylubSE9bHVoaEdYVw8CamVubSUpNSMlbBoSA39_eAY6XkseCgMIbGNoaGF6J3RvJjwiI2RqNX9sKm1yaX8yAAAAAJ31fQ4=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - HEATER UNIT & BLOWER",
@@ -5491,12 +5491,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872355F.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872355F.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416447,
         car: "TOYOTA00",
         ssd: "$*KwGmkoOL_cH1yfagy_e_rP7qys3Toq2gobOcr-fh0sba3tzfmo2hy-Xh5dTC28qMkZumr97S2tGy05-WlsfQwLOlpaLuo4OktuGwqbbPsLzvoP2uoe_t4fz20LbhvP3xsKmgubD2pKf9rreqpKWnsLzvqrG2r7Cro6ehpfiF_enr5Prw1emyrqD9rrWwpK2kpqX94fO0t_vntq-ysp2CjdXYsL-0t__z7_n_tsDI2aWlotzghJHE0NnStrmysrug_a61_Ob4-b6w76W28Leos6XoAAAAAP48qa4=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - COOLER UNIT",
@@ -5504,12 +5504,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/873002D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/873002D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416448,
         car: "TOYOTA00",
         ssd: "$*KwH8yNnRp5uvk6z6ka3l9qSwkJeJ-Pf6--nG9b27iJyAhIaFwNf7kb-7v46YgZDWy8H89YSIgIvoicXMzJ2Kmun___i0-dn-7Lvq8-yV6ua1-qf0-7W3u6asiuy75qer6vP64-qs_v2n9O3w_v_76ua18Ovs9erx-fz4-qXdp7OxvqCqj7Po9Pqn9O_q_vf-_P-nu6nu7aG97PXo6MfY14-C6uXu7aWptaOl7JqSg___-Ia63sueioOI7OPo6OH6p_Tvpryio-Tqtf_squ3y6f-yAAAAAPbPboo=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - COOLER UNIT",
@@ -5517,12 +5517,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/873004C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/873004C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416449,
         car: "TOYOTA00",
         ssd: "$*KwFZbXx0Aj4KNglfNAhAUwEVNTIsXVJfXkxjUBgeLTklISMgZXJeNBoeGis9JDVzbmRZUCEtJS5NLGBpaTgvP0xaWl0RXHxbSR5PVkkwT0MQXwJRXhASHgMJL0keQwIOT1ZfRk8JW1gCUUhVW1peT0MQVU5JUE9UXFldXwZ_AhYUGwUPKhZNUV8CUUpPW1JbWVoCHgxLSAQYSVBNTWJ9cionT0BLSAAMEAYAST83JlpaXSMfe247LyYtSUZNTURfAlFKAxkHBkFPEFpJD0hXTFoXAAAAAB7zRDs=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - COOLER UNIT",
@@ -5530,12 +5530,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/873011A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/873011A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416450,
         car: "TOYOTA00",
         ssd: "$*KwGKvq-n0e3Z5dqM59uTgNLG5uH_joGMjZ-wg8vN_ur28vDztqGN58nNyfju9-agvbeKg_L-9v2e_7O6uuv87J-JiY7Cj6-Ims2chZrjnJDDjNGCjcPBzdDa_JrNkNHdnIWMlZzaiIvRgpuGiImNnJDDhp2ag5yHj4qOjdCu0cXHyNbc-cWegozRgpmciIGIionRzd-Ym9fLmoOenrGuofn0nJOYm9Pfw9XTmuzk9YmJjvDMqL3o_PX-mpWenpeM0YKZ0MrU1ZKcw4ma3JuEn4nEAAAAAH5t8AA=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - CONTROL & AIR DUCT",
@@ -5543,12 +5543,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872853A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872853A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416451,
         car: "TOYOTA00",
         ssd: "$*KwFcaHlxBzsPMwxaMQ1FVgQQMDcpWFdaW0lmVR0bKDwgJCYlYHdbMR8bHy44ITB2a2FcVSQoICtIKWVsbD0qOklfX1gUWXleTBtKU0w1SkYVWgdUWxUXGwYMKkwbRgcLSlNaQ0oMXl0HVE1QXl9aSkYVUEtMVUpRWV1QXwR4BxMRHgAKLxNIVFoHVE9KXldeXF8HGwlOTQEdTFVISGd4dy8iSkVOTQUJFQMFTDoyI19fWCYafms-KiMoTENISEFaB1RPBhwCA0RKFV9MCk1SSV8SAAAAAJIyyTM=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - CONTROL & AIR DUCT",
@@ -5556,12 +5556,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/877615A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/877615A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416453,
         car: "TOYOTA00",
         ssd: "$*KwHI_O3lk6-bp5jOpZnRwpCEpKO9zMPOz93ywYmPvKi0sLKx9OPPpYuPi7qstaTi__XIwbC8tL_cvfH4-Km-rt3Ly8yAze3K2I_ex9ih3tKBzpPAz4GDj5KYvtiP0pOf3sfO196YysmTwNnEysvO3tKBxN_Ywd7FzczKz5bsk4eFipSeu4fcwM6TwNveysPKyMuTj53a2ZWJ2MHc3PPs47u23tHa2ZGdgZeR2K6mt8vLzLKO6v-qvre82Nfc3NXOk8DbkoiWl9DegcvYntnG3cuGAAAAAMRkA28=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - CONTROL & AIR DUCT",
@@ -5569,12 +5569,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872388.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872388.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416454,
         car: "TOYOTA00",
         ssd: "$*KwEjFwYOeERwTHMlTnI6KXtvT0hWJyglJDYZKmJkV0NfW1laHwgkTmBkYFFHXk8JFB4jKltXX1Q3VhoTE0JVRTYgICdrJgYhM2Q1LDNKNTlqJXgrJGpoZHlzVTNkOXh0NSwlPDVzISJ4KzIvISAlNTlqLzQzKjUuJiIkLXBkJ29mfnJRazV2K2RgMTIgLyAkIiVqanozeWM0KzA1RQkUG1wyOzYzfXQ3cmZ4REpdJyEgWzgPCApUW1Y0PTA1YytkYDF-Ynp9PDc3Li8-Myo3J2wAAAAAP6WXgA==$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - CONTROL & AIR DUCT",
@@ -5582,12 +5582,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872861B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872861B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416455,
         car: "TOYOTA00",
         ssd: "$*KwH6zt_XoZ2plar8l6vj8KK2lpGP_vH8_e_A87u9jpqGgoCDxtH9l7m9uYieh5bQzcf684KOho3uj8PKypuMnO_5-f6y_9_46r3s9eqT7OCz_KHy_bOxvaCqjOq94KGt7PX85eyq-Puh8uv2-Pn87OCz9u3q8-z3__v2-qDdobW3uKasibXu8vyh8uns-PH4-vmhva_o66e76vPu7sHe0YmE7OPo66Ovs6Wj6pyUhfn5_oC82M2YjIWO6uXu7uf8ofLpoLqkpeLss_nqrOv07_m0AAAAAPx3bVI=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - CONTROL & AIR DUCT",
@@ -5595,12 +5595,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/874288.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/874288.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416457,
         car: "TOYOTA00",
         ssd: "$*KwFwRFVdKxcjHyB2HSFpeig8HBsFdHt2d2VKeTE3BBAMCAoJTFt3HTM3MwIUDRxaR01weQgEDAdkBUlAQBEGFmVzc3Q4dVVyYDdmf2AZZmo5dit4dzk7NyogBmA3aisnZn92b2YgcnEreGF8cnN2Zmo5fGdgeWZ9dXd2fiM3dDw1LSECOGYleDczYmFzfHN3cXY5OSlgKjBneGNmFlpHSA9haGVgLidkITUrFxkOdHJzCGtcW1kHCAVnbmNmMHg3M2ItMSkub2RkfXxtYHlkdD8AAAAABYrZjQ==$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - WATER PIPING",
@@ -5608,12 +5608,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872353B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872353B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416459,
         car: "TOYOTA00",
         ssd: "$*KwHC9ufvmaWRrZLEr5PbyJqOrqm3xsnExdf4y4OFtqK-uri7_unFr4GFgbCmv67o9f_Cy7q2vrXWt_vy8qO0pNfBwcaKx-fA0oXUzdKr1NiLxJnKxYuJhZiStNKF2JmV1M3E3dSSwMOZytPOwMHH1NiLztXSy9TPx8PFwZrlmY2PgJ6UsY3WysSZytHUwMnAwsGZhZfQ05-D0svW1vnm6bG81NvQ05uXi52b0qSsvcHBxriE4PWgtL220t3W1t_EmcrRmIKcndrUi8HSlNPM18GMAAAAADI_x70=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - WATER PIPING",
@@ -5621,12 +5621,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/875687F.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/875687F.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416460,
         car: "TOYOTA00",
         ssd: "$*KwGDt6au2OTQ7NOF7tKaidvP7-j2h4iFhJa5isLE9-P_-_n6v6iE7sDEwPHn_u-ptL6Divv3__SX9rqzs-L15ZaAgIfLhqaBk8SVjJPqlZnKhdiLhMrIxNnT9ZPEmdjUlYyFnJXTgYLYi5KPgYCGlZnKj5STipWOhoWBjd-g2MzOwd_V8MyXi4XYi5CVgYiBg4DYxNaRkt7Ck4qXl7inqPD9lZqRktrWytzak-Xt_ICAh_nFobTh9fz3k5yXl56F2IuQ2cPd3JuVyoCT1ZKNloDNAAAAAB3KpJo=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - WATER PIPING",
@@ -5634,12 +5634,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872871C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872871C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416461,
         car: "TOYOTA00",
         ssd: "$*KwHO-uvjlamdoZ7Io5_XxJaCoqW7ysXIydv0x4-Juq6ytrS38uXJo42Jjbyqs6Lk-fPOx7a6srnau_f-_q-4qNvNzcqGy-vM3onYwd6n2NSHyJXGyYeFiZSeuN6J1JWZ2MHI0diezM-Vxt_CzM3L2NSHwtnex9jDy8_Cz5TolYGDjJKYvYHaxsiVxt3YzMXMzs2ViZvc35OP3sfa2vXq5b2w2Nfc35ebh5GX3qigsc3NyrSI7PmsuLG63tHa2tPIlcbdlI6QkdbYh83emN_A282AAAAAABhkams=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - COOLER PIPING",
@@ -5647,12 +5647,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872883C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872883C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416462,
         car: "TOYOTA00",
         ssd: "$*KwF-SltTJRktES54Ey9ndCYyEhULenV4eWtEdz85Ch4CBgQHQlV5Ez05PQwaAxJUSUN-dwYKAglqC0dOTh8IGGt9fXo2e1t8bjlocW4XaGQ3eCV2eTc1OSQuCG45ZCUpaHF4YWgufH8ldm9yfH11aGQ3cmlud2hze39ycCZYJTEzPCIoDTFqdngldm1ofHV8fn0lOStsbyM_bndqakVaVQ0AaGdsbycrNyEnbhgQAX19egQ4XEkcCAEKbmFqamN4JXZtJD4gIWZoN31uKG9wa30wAAAAAMQ2o8Y=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - COOLER PIPING",
@@ -5660,12 +5660,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872884B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872884B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416463,
         car: "TOYOTA00",
         ssd: "$*KwESJjc_SXVBfUIUf0MLGEpefnlnFhkUFQcoG1NVZnJuamhrLjkVf1FVUWB2b344JS8SG2pmbmUGZysiInNkdAcRERZaFzcQAlUEHQJ7BAhbFEkaFVtZVUhCZAJVCElFBB0UDQRCEBNJGgMeEBEZBAhbHgUCGwQfFxMeHE01SV1fUE5EYV0GGhRJGgEEEBkQEhFJVUcAA09TAhsGBik2OWFsBAsAA0tHW01LAnR8bRERFmhUMCVwZG1mAg0GBg8USRoBSFJMTQoEWxECRAMcBxFcAAAAAEvy5UI=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - COOLER PIPING",
@@ -5673,12 +5673,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872886D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872886D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416465,
         car: "TOYOTA00",
         ssd: "$*KwGLv66m0OzY5NuN5tqSgdPH5-D-j4CNjJ6xgsrM_-v38_Hyt6CM5sjMyPnv9uehvLaLgvP_9_yf_rK7u-r97Z6IiI_Djq6Jm8ydhJvinZHCjdCDjMLAzNHb_ZvMkdDcnYSNlJ3biYrQg5qHiYiAnZHCh5ybgp2GjoqHhdaq0MTGydfd-MSfg43Qg5idiYCJi4jQzN6ZmtbKm4Kfn7CvoPj1nZKZmtLewtTSm-3l9IiIj_HNqbzp_fT_m5Sfn5aN0IOY0cvV1JOdwoib3ZqFnojFAAAAAII41D8=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - COOLER PIPING",
@@ -5686,12 +5686,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/876281.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/876281.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416466,
         car: "TOYOTA00",
         ssd: "$*KwGAtKWt2-fT79CG7dGZitjM7Ov1hIuGh5W6icHH9OD8-Pr5vKuH7cPHw_Lk_eyqt72Aifj0_PeU9bmwsOH25pWDg4TIhaWCkMeWj5DplprJhtuIh8nLx9rQ9pDHmtvXlo-Gn5bQgoHbiJGMgoOLlprJjJeQiZaNhYWGjtrHhMzF3dHyyJbViMfDkpGDjIOHgYbJydmQ2sCXiJOW5qq3uP-RmJWQ3teU0cXb5-n-hIKD-Jusq6n3-PWXnpOWwIjHw5Ldwdnen5SUjYydkImUhM8AAAAAdt7DZg==$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - COOLER PIPING",
@@ -5699,12 +5699,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872888D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872888D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416469,
         car: "TOYOTA00",
         ssd: "$*KwGFsaCo3uLW6tWD6NScj93J6e7wgY6DgpC_jMTC8eX5_f_8ua6C6MbCxvfh-OmvsriFjP3x-fKR8Ly1teTz45CGhoHNgKCHlcKTipXsk5_Mg96NgszOwt_V85XCn97Sk4qDmpPVh4TejZSJh4aOk5_MiZKVjJOIgISJi9ak3srIx9nT9sqRjYPejZaTh46HhYbewtCXlNjElYyRkb6hrvb7k5yXlNzQzNrclePr-oaGgf_Dp7Ln8_rxlZqRkZiD3o2W38Xb2p2TzIaV05SLkIbLAAAAAEv5p98=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - COOLER PIPING",
@@ -5712,12 +5712,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872922A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872922A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416471,
         car: "TOYOTA00",
         ssd: "$*KwFZbXx0Aj4KNglfNAhAUwEVNTIsXVJfXkxjUBgeLTklISMgZXJeNBoeGis9JDVzbmRZUCEtJS5NLGBpaTgvP0xaWl0RXHxbSR5PVkkwT0MQXwJRXhASHgMJL0keQwIOT1ZfRk8JW1gCUUhVW1pST0MQVU5JUE9UXFhUXQB9AhYUGwUPKhZNUV8CUUpPW1JbWVoCHgxLSAQYSVBNTWJ9cionT0BLSAAMEAYAST83JlpaXSMfe247LyYtSUZNTURfAlFKAxkHBkFPEFpJD0hXTFoXAAAAAJdzaas=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - COMPRESSOR",
@@ -5725,12 +5725,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872879A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872879A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416473,
         car: "TOYOTA00",
         ssd: "$*KwEoHA0Fc097R3guRXkxInBkRENdLCMuLz0SIWlvXEhUUFJRFAMvRWtva1pMVUQCHxUoIVBcVF88XREYGEleTj0rKyxgLQ0qOG8-JzhBPjJhLnMgL2Fjb3J4XjhvMnN_PicuNz54KilzIDkkKisiPjJhJD84IT4lLSkkKXoMc2dlanR-W2c8IC5zIDs-KiMqKCtzb306OXVpOCE8PBMMA1tWPjE6OXF9YXdxOE5GVysrLFJuCh9KXldcODc8PDUucyA7cmh2dzA-YSs4fjkmPStmAAAAANvjgIE=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HEATING & AIR CONDITIONING - COMPRESSOR",
@@ -5738,14 +5738,14 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/87/872404C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/87/872404C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416474,
         car: "TOYOTA00",
         ssd: "$*KwGOuquj1end4d6I49-XhNbC4uX7ioWIiZu0h8_J-u7y9vT3sqWJ483Jzfzq8-KkubOOh_b68vma-7e-vu_46JuNjYrGi6uMnsmYgZ7nmJTHiNWGicfFydTe-J7JlNXZmIGIkZjejI_Vhp-CjI2EmJTHgpmeh5iDi4-OiNGo1cHDzNLY_cGahojVhp2YjIWMjo3Vyducn9PPnoeamrWqpf3wmJecn9fbx9HXnujg8Y2NivTIrLns-PH6npGampOI1Yad1M7Q0ZaYx42e2J-Am43AAAAAAE70eh4=$",
         cid: 4,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
-    ] as SouqPartsGroup[],
+    ] ,
     parts: [
       {
         number: "9015950353",
@@ -22998,7 +22998,7 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         gid: null,
         ssd: null,
       },
-    ] as SouqPartsGroup[],
+    ] ,
   },
   {
     part_category: "Power Train/Chassis",
@@ -23009,12 +23009,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/51/510401D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/51/510401D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416252,
         car: "TOYOTA00",
         ssd: "$*KwErHw4GcEx4RHstRnoyIXNnR0BeLyAtLD4RImpsX0tXU1FSFwAsRmhsaFlPVkcBHBYrIlNfV1w_XhIbG0pdTT4oKC9jLg4pO2w9JDtCPTFiLXAjK2JgbHF7XTtsMXB8PSQqND17KSpwIzoqLywpPTFiJzw7Ij0rKCgrLXEKcGRmaXd9WGQ_Iy1wIzg9KSApKyhwbH45OnZqOyI_PxAPAFhVPTI5OnJ-YnRyO01FVCgoL1FtCRxJXVRfOzQ_PzYtcCM4cWt1dDM9Yig7fTolPihlAAAAACdnj98=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SUSPENSION CROSSMEMBER & UNDER COVER",
@@ -23022,12 +23022,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/51/510372I.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/51/510372I.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416253,
         car: "TOYOTA00",
         ssd: "$*KwEFMSAoXmJWalUDaFQcD11JaW5wAQ4DAhA_DERCcWV5fX98OS4CaEZCRndheGkvMjgFDH1xeXIRcDw1NWRzYxAGBgFNACAHFUITChVsEx9MA14NBUxOQl9VcxVCH15SEwoEGhNVBwReDRQEAQIEEx9MCRIVDBMFBgYCBFwpXkpIR1lTdkoRDQNeDRYTBw4HBQZeQlAXFFhEFQwRET4hLnZ7ExwXFFxQTFpcFWNregYGAX9DJzJnc3pxFRoRERgDXg0WX0VbWh0TTAYVUxQLEAZLAAAAAGDIYLQ=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SPARE WHEEL CARRIER",
@@ -23035,12 +23035,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/51/510360G.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/51/510360G.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416254,
         car: "TOYOTA00",
         ssd: "$*KwF5TVxUIh4qFil_FChgcyE1FRIMfXJ_fmxDcDg-DRkFAQMARVJ-FDo-OgsdBBVTTkR5cAENBQ5tDEBJSRgPH2x6en0xfFx7aT5vdmkQb2MwfyJxeTAyPiMpD2k-YyIub3Z4Zm8pe3gicWh4fX55b2MwdW5pcG95enp-eSJbIjY0OyUvCjZtcX8icWpve3J7eXoiPixraCQ4aXBtbUJdUgoHb2BraCAsMCYgaR8XBnp6fQM_W04bDwYNaWZtbWR_InFqIzknJmFvMHppL2h3bHo3AAAAAPyUiIw=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CAB MOUNTING & BODY MOUNTING",
@@ -23048,12 +23048,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/52/520357C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/52/520357C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416255,
         car: "TOYOTA00",
         ssd: "$*KwFKfm9nES0ZJRpMJxtTQBIGJiE_TkFMTV9wQwsNPio2MjAzdmFNJwkNCTguNyZgfXdKQzI-Nj1eP3N6eis8LF9JSU4CT29IWg1cRVojXFADTBFCSgMBDRAaPFoNUBEdXEVLVVwaSEsRQltLTU1IXFADRl1aQ1xKSklNSRZsEQUHCBYcOQVeQkwRQllcSEFISkkRDR9YWxcLWkNeXnFuYTk0XFNYWxMfAxUTWiwkNUlJTjAMaH0oPDU-WlVeXldMEUJZEAoUFVJcA0laHFtEX0kEAAAAAFLFU6I=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT BUMPER & BUMPER STAY",
@@ -23061,12 +23061,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/52/520359C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/52/520359C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416256,
         car: "TOYOTA00",
         ssd: "$*KwE5DRwUYl5qVmk_VGggM2F1VVJMPTI_PiwDMHh-TVlFQUNABRI-VHp-ektdRFUTDgQ5MEFNRU4tTAAJCVhPXyw6Oj1xPBw7KX4vNilQLyNwP2IxOXByfmNpTyl-I2JuLzY4Ji9pOzhiMSg4Pj44LyNwNS4pMC85OTo-OmsfYnZ0e2VvSnYtMT9iMSovOzI7OTpifmwrKGR4KTAtLQIdEkpHLyArKGBscGZgKV9XRjo6PUN_Gw5bT0ZNKSYtLSQ_YjEqY3lnZiEvcDopbyg3LDp3AAAAAAJg4k4=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT BUMPER & BUMPER STAY",
@@ -23074,12 +23074,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/52/520553.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/52/520553.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416257,
         car: "TOYOTA00",
         ssd: "$*KwGIvK2l0-_b59iO5dmRgtDE5OP9jIOOj52ygcnP_Oj08PLxtKOP5cvPy_rs9eSiv7WIgfD89P-c_bG4uOn-7p2Li4zAja2KmM-eh5jhnpLBjtOAiMHDz9LY_pjPktPfnoeJl57YionTgJmJj4-JnpLBhJ-YgZ6IiIuJi9DPjMTN1dn6wJ7dgM_LmpmLhIuPiY7BwdGY0sifgJue7qK_sPeZkJ2Y1t-c2c3T7-H2jIqL8JOko6H_8P2flpueyIDPy5rVydHWl5ychYSVmIGcjMcAAAAAdgpgiw==$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR BUMPER & BUMPER STAY",
@@ -23087,12 +23087,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/52/520968A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/52/520968A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416259,
         car: "TOYOTA00",
         ssd: "$*KwHo3M3Fs4-7h7juhbnx4rCkhIOd7OPu7_3S4amvnIiUkJKR1MPvhauvq5qMlYTC39Xo4ZCclJ_8ndHY2Imejv3r6-yg7c3q-K_-5_iB_vKh7rPg6KGjr7K4nviv8rO__ufp9_646umz4Pnp7-_o_vKh5P_44f7o6Ovl6LvMs6elqrS-m6f84O6z4Pv-6uPq6Ouzr736-bWp-OH8_NPMw5uW_vH6-bG9obex-I6Gl-vr7JKuyt-Knpec-Pf8_PXus-D7sqi2t_D-oev4vvnm_eumAAAAAKY4XJA=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "RADIATOR GRILLE",
@@ -23100,12 +23100,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/53/530598C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/53/530598C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416260,
         car: "TOYOTA00",
         ssd: "$*KwF7T15WIBwoFCt9FipicSM3FxAOf3B9fG5Bcjo8DxsHAwECR1B8Fjg8OAkfBhdRTEZ7cgMPBwxvDkJLSxoNHW54eH8zfl55azxtdGsSbWEyfSBzezIwPCErDWs8YSAsbXR6ZG0reXogc2p6fXx5bWEyd2xrcm17enh6dChdIDQ2OSctCDRvc30gc2hteXB5e3ggPC5paiY6a3Jvb0BfUAgFbWJpaiIuMiQiax0VBHh4fwE9WUwZDQQPa2Rvb2Z9IHNoITslJGNtMnhrLWp1bng1AAAAAGUXBz0=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HOOD & FRONT FENDER",
@@ -23113,12 +23113,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/53/536407C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/53/536407C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416261,
         car: "TOYOTA00",
         ssd: "$*KwFBdWRsGiYSLhFHLBBYSxkNLSo0RUpHRlR7SAAGNSE9OTs4fWpGLAIGAjMlPC1rdnxBSDk1PTZVNHhxcSA3J1RCQkUJRGRDUQZXTlEoV1sIRxpJQQgKBhsRN1EGWxoWV05AXlcRQ0AaSVBAR0ZBV1sITVZRSFdBQERBRx1nGg4MAx0XMg5VSUcaSVJXQ0pDQUIaBhRTUBwAUUhVVXplajI_V1hTUBgUCB4YUScvPkJCRTsHY3YjNz41UV5VVVxHGklSGwEfHllXCEJRF1BPVEIPAAAAABfsiJ0=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HOOD & FRONT FENDER",
@@ -23126,12 +23126,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/53/536408A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/53/536408A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416262,
         car: "TOYOTA00",
         ssd: "$*KwFbb352ADwINAtdNgpCUQMXNzAuX1BdXE5hUhocLzsnIyEiZ3BcNhgcGCk_JjdxbGZbUiMvJyxPLmJrazotPU5YWF8TXn5ZSxxNVEsyTUESXQBTWxIQHAELLUscQQAMTVRaRE0LWVoAU0paXVxbTUESV0xLUk1bWl5bXQh_ABQWGQcNKBRPU10AU0hNWVBZW1gAHA5JSgYaS1JPT2B_cCglTUJJSgIOEgQCSz01JFhYXyEdeWw5LSQvS0RPT0ZdAFNIARsFBENNElhLDUpVTlgVAAAAAP5Zccg=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HOOD LOCK & HINGE",
@@ -23139,12 +23139,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/53/530597D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/53/530597D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416263,
         car: "TOYOTA00",
         ssd: "$*KwEhFQQMekZyTnEnTHA4K3ltTUpUJSonJjQbKGBmVUFdWVtYHQomTGJmYlNFXE0LFhwhKFlVXVY1VBgREUBXRzQiIiVpJAQjMWY3LjFINztoJ3opIWhqZntxVzFmO3p2Ny4gPjdxIyB6KTAgJyYmNztoLTYxKDchICIgLn0Aem5sY313Um41KSd6KTI3IyojISJ6ZnQzMHxgMSg1NRoFClJfNzgzMHh0aH54MUdPXiIiJVtnAxZDV15VMT41NTwneikye2F_fjk3aCIxdzAvNCJvAAAAADOs0Sk=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT FENDER APRON & DASH PANEL",
@@ -23152,12 +23152,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/53/530611G.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/53/530611G.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416264,
         car: "TOYOTA00",
         ssd: "$*KwHs2MnBt4u_g7zqgb315rSggIeZ6Ofq6_nW5a2rmIyQlJaV0Mfrga-rr56IkYDG29Hs5ZSYkJv4mdXc3I2aivnv7-ik6cnu_Kv64_yF-val6rfk7KWnq7a8mvyr9re7-uPt8_q87u235P3t6uvq-val4Pv85frs7e_u67bOt6OhrrC6n6P45Oq35P_67ufu7O-3q7n-_bGt_OX4-NfIx5-S-vX-_bW5pbO1_IqCk-_v6JaqztuOmpOY_PP4-PHqt-T_tqyys_T6pe_8uv3i-e-iAAAAAHUXOdo=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "INSTRUMENT PANEL & GLOVE COMPARTMENT",
@@ -23165,12 +23165,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/55/550462I.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/55/550462I.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416265,
         car: "TOYOTA00",
         ssd: "$*KwFwRFVdKxcjHyB2HSFpeig8HBsFdHt2d2VKeTE3BBAMCAoJTFt3HTM3MwIUDRxaR01weQgEDAdkBUlAQBEGFmVzc3Q4dVVyYDdmf2AZZmo5dit4cDk7NyogBmA3aisnZn9xb2YgcnEreGFxcHdyZmo5fGdgeWZwd3NwcClcKz89MiwmAz9keHYreGNmcntycHMrNyViYS0xYHlkZEtUWwMOZmliYSklOS8pYBYeD3NzdAo2UkcSBg8EYG9kZG12K3hjKjAuL2hmOXNgJmF-ZXM-AAAAAFVPigY=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "INSTRUMENT PANEL & GLOVE COMPARTMENT",
@@ -23178,12 +23178,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/55/550463M.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/55/550463M.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416266,
         car: "TOYOTA00",
         ssd: "$*KwGWorO7zfHF-caQ-8ePnM7a-v3jkp2QkYOsn9fR4vbq7uzvqr2R-9XR1eTy6_q8oauWn-7i6uGC46-mpvfg8IOVlZLek7OUhtGAmYb_gIzfkM2elt_d0czG4IbRjM3BgJmXiYDGlJfNnoeXlpGUgIzfmoGGn4CWkZWWls6-zdnb1MrA5dmCnpDNnoWAlJ2UlpXN0cOEh8vXhp-Cgq2yveXogI-Eh8_D38nPhvD46ZWVkuzQtKH04OnihomCgouQzZ6FzNbIyY6A35WGwIeYg5XYAAAAALJNcK4=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "COWL PANEL & WINDSHIELD GLASS",
@@ -23191,12 +23191,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/55/550469E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/55/550469E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416268,
         car: "TOYOTA00",
         ssd: "$*KwEjFwYOeERwTHMlTnI6KXtvT0hWJyglJDYZKmJkV0NfW1laHwgkTmBkYFFHXk8JFB4jKltXX1Q3VhoTE0JVRTYgICdrJgYhM2Q1LDNKNTlqJXgrI2poZHlzVTNkOXh0NSwiPDVzISJ4KzIiIyQjNTlqLzQzKjUjJCAjI3EDeGxuYX91UGw3KyV4KzA1ISghIyB4ZHYxMn5iMyo3NxgHCFBdNToxMnp2anx6M0VNXCAgJ1llARRBVVxXMzw3Nz4leCsweWN9fDs1aiAzdTItNiBtAAAAAO6HN8w=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT FLOOR PANEL & FRONT FLOOR MEMBER",
@@ -23204,12 +23204,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/580787O.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/580787O.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416269,
         car: "TOYOTA00",
         ssd: "$*KwGNuaig1ure4t2L4NyUh9XB4eb4iYaLipi3hMzK-e3x9ff0saaK4M7Kzv_p8OGnurCNhPX58fqZ-LS9vez765iOjonFiKiPncqbgp3km5fEi9aFjcTGytfd-53Kl9bam4KMkpvdj4zWhZyMgIqPm5fEgZqdhJuNh46Og9Gn1sLAz9Hb_sKZhYvWhZ6bj4aPjY7WytifnNDMnYSZmbappv7zm5SfnNTYxNLUnevj8o6OiffLr7rv-_L5nZKZmZCL1oWe183T0pWbxI6d25yDmI7DAAAAAD_qNC0=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT FLOOR PANEL & FRONT FLOOR MEMBER",
@@ -23217,12 +23217,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/581621C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/581621C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416270,
         car: "TOYOTA00",
         ssd: "$*KwHP--rilKicoJ_Jop7WxZeDo6S6y8TJyNr1xo6Iu6-zt7W28-TIooyIjL2rsqPl-PLPxre7s7jbuvb__665qdrMzMuHyurN34jZwN-m2dWGyZTHz4aEiJWfud-I1ZSY2cDO0Nmfzc6Ux97OwsjN2dWGw9jfxtnPxc3Ny5XplICCjZOZvIDbx8mUx9zZzcTNz8yUiJrd3pKO38bb2_Tr5Lyx2dbd3paahpCW36mhsMzMy7WJ7fitubC739Db29LJlMfclY-RkNfZhszfmd7B2syBAAAAANDOWG8=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR FLOOR PANEL & REAR FLOOR MEMBER",
@@ -23230,12 +23230,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/580797E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/580797E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416271,
         car: "TOYOTA00",
         ssd: "$*KwFKfm9nES0ZJRpMJxtTQBIGJiE_TkFMTV9wQwsNPio2MjAzdmFNJwkNCTguNyZgfXdKQzI-Nj1eP3N6eis8LF9JSU4CT29IWg1cRVojXFADTBFCSgMBDRAaPFoNUBEdXEVLVVwaSEsRQltLR01LXFADRl1aQ1xKQElJRRZqEQUHCBYcOQVeQkwRQllcSEFISkkRDR9YWxcLWkNeXnFuYTk0XFNYWxMfAxUTWiwkNUlJTjAMaH0oPDU-WlVeXldMEUJZEAoUFVJcA0laHFtEX0kEAAAAAK3u32U=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR FLOOR PANEL & REAR FLOOR MEMBER",
@@ -23243,12 +23243,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/581130E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/581130E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416272,
         car: "TOYOTA00",
         ssd: "$*KwFlUUBIPgI2CjVjCDR8bz0pCQ4QYW5jYnBfbCQiEQUZHR8cWU5iCCYiJhcBGAlPUlhlbB0RGRJxEFxVVQQTA3BmZmEtYEBndSJzanUMc38sYz5tZSwuIj81E3Uifz4yc2pkenM1Z2Q-bXRkaGJkc38saXJ1bHNlb2dgYD5FPiooJzkzFipxbWM-bXZzZ25nZWY-IjB3dDgkdWxxcV5BThYbc3x3dDwwLDo8dQMLGmZmYR8jR1IHExoRdXpxcXhjPm12PyU7On1zLGZ1M3RrcGYrAAAAAOkeNj8=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FLOOR INSULATOR",
@@ -23256,12 +23256,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/580776.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/580776.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416273,
         car: "TOYOTA00",
         ssd: "$*KwHf6_ryhLiMsI_Zso7G1YeTs7Sq29TZ2Mrl1p6Yq7-jp6Wm4_TYspyYnK27orP16OLf1qero6jLqubv776pucrc3NuX2vrdz5jJ0M-2ycWW2YTX35aUmIWPqc-YxYSIydDewMmP3d6E187e0tjfycWW08jP1snf1dzc3oKY25Oago6tl8mK15iczc7c09zY3tmWlobPhZ_I18zJufXo56DOx8rPgYjLjpqEuLah293cp8Tz9Paop6rIwczJn9eYnM2CnoaBwMvL0tPCz9bL25AAAAAAurlawQ==$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FLOOR MAT & SILENCER PAD",
@@ -23269,12 +23269,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/581195E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/581195E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416274,
         car: "TOYOTA00",
         ssd: "$*KwENOSggVmpeYl0LYFwUB1VBYWZ4CQYLChg3BExKeW1xdXd0MSYKYE5KTn9pcGEnOjANBHV5cXoZeDQ9PWx7axgODglFCCgPHUobAh1kGxdEC1YFDURGSlddex1KF1ZaGwIMEhtdDwxWBRwMAAoKGxdEARodBBsNBw8IAlMtVkJAT1FbfkIZBQtWBR4bDwYPDQ5WSlgfHFBMHQQZGTYpJn5zGxQfHFRYRFJUHWtjcg4OCXdLLzpve3J5HRIZGRALVgUeV01TUhUbRA4dWxwDGA5DAAAAAB8Dhmg=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CONSOLE BOX & BRACKET",
@@ -23282,12 +23282,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/580780K.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/580780K.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416275,
         car: "TOYOTA00",
         ssd: "$*KwH5zdzUop6qlqn_lKjg86G1lZKM_fL__uzD8Li-jZmFgYOAxdL-lLq-uoudhJXTzsT58IGNhY7tjMDJyZiPn-z6-v2x_Nz76b7v9umQ7-Ow_6Lx-bCyvqOpj-m-46Ku7_b45u-p-_ii8ej49P7_7-Ow9e7p8O_58_r696LXora0u6Wvirbt8f-i8erv-_L7-fqivqzr6KS46fDt7cLd0oqH7-Dr6KCssKag6Z-Xhvr6_YO_286bj4aN6ebt7eT_ovHqo7mnpuHvsPrpr-j37Pq3AAAAAFHbPo8=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CONSOLE BOX & BRACKET",
@@ -23295,12 +23295,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/581199E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/581199E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416276,
         car: "TOYOTA00",
         ssd: "$*KwE-ChsTZVltUW44U28nNGZyUlVLOjU4OSsEN395Sl5CRkRHAhU5U315fUxaQ1IUCQM-N0ZKQkkqSwcODl9IWCs9PTp2Oxs8LnkoMS5XKCR3OGU2Pnd1eWRuSC55JGVpKDE_IShuPD9lNi8_Mzk4KCR3MikuNyg-NDw7MWweZXFzfGJoTXEqNjhlNi0oPDU8Pj1leWssL2N_LjcqKgUaFU1AKCcsL2drd2FnLlhQQT09OkR4HAlcSEFKLiEqKiM4ZTYtZH5gYSYodz0uaC8wKz1wAAAAAKiZg0c=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SIDE MEMBER",
@@ -23308,12 +23308,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/614604A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/614604A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416279,
         car: "TOYOTA00",
         ssd: "$*KwGCtqev2eXR7dKE79ObiNrO7un3homEhZe4i8PF9uL--vj7vqmF78HFwfDm_-6otb-Ci_r2_vWW97uysuP05JeBgYbKh6eAksWUjZLrlJjLhNmKgsvJxdjS9JLFmNnVlI2DnZTSgIPZipOAhoWAlJjLjpWSi5SBgYWAhN2m2c3PwN7U8c2WioTZipGUgImAgoHZxdeQk9_DkouWlrmmqfH8lJuQk9vXy93bkuTs_YGBhvjEoLXg9P32kp2Wlp-E2YqR2MLc3ZqUy4GS1JOMl4HMAAAAAK63Vzk=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SIDE MEMBER",
@@ -23321,12 +23321,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/610753S.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/610753S.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416280,
         car: "TOYOTA00",
         ssd: "$*KwGCtqev2eXR7dKE79ObiNrO7un3homEhZe4i8PF9uL--vj7vqmF78HFwfDm_-6otb-Ci_r2_vWW97uysuP05JeBgYbKh6eAksWUjZLrlJjLhNmKgsvJxdjS9JLFmNnVlI2DnZTSgIPZipOAhoWAlJjLjpWSi5SBgYGBgdq02c3PwN7U8c2WioTZipGUgImAgoHZxdeQk9_DkouWlrmmqfH8lJuQk9vXy93bkuTs_YGBhvjEoLXg9P32kp2Wlp-E2YqR2MLc3ZqUy4GS1JOMl4HMAAAAABmYiqA=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SIDE MEMBER",
@@ -23334,12 +23334,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/613201C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/613201C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416281,
         car: "TOYOTA00",
         ssd: "$*KwFHc2JqHCAUKBdBKhZeTR8LKywyQ0xBQFJ9TgYAMyc7Pz0-e2xAKgQABDUjOittcHpHTj8zOzBTMn53dyYxIVJEREMPQmJFVwBRSFcuUV0OQRxPRw4MAB0XMVcAXRwQUUhGWFEXRUYcT1ZFQ0BFUV0OS1BXTlFEREdBQR1hHAgKBRsRNAhTT0EcT1RRRUxFR0QcABJVVhoGV05TU3xjbDQ5UV5VVh4SDhgeVyEpOEREQz0BZXAlMTgzV1hTU1pBHE9UHQcZGF9RDkRXEVZJUkQJAAAAAOcVVfQ=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SIDE WINDOW",
@@ -23347,12 +23347,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/610730G.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/610730G.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416282,
         car: "TOYOTA00",
         ssd: "$*KwGHs6Kq3ODU6NeB6taejd_L6-zyg4yBgJK9jsbA8-f7__3-u6yA6sTAxPXj-uutsLqHjv_z-_CT8r63t-bx4ZKEhIPPgqKFl8CRiJfukZ3OgdyPh87MwN3X8ZfAndzQkYiGmJHXhYbcj5aFg4CGkZ3Oi5CXjpGEhISEgtyl3MjKxdvR9MiTj4Hcj5SRhYyFh4TcwNKVltrGl46Tk7yjrPT5kZ6Vlt7Sztjel-Hp-ISEg_3BpbDl8fjzl5iTk5qB3I-U3cfZ2J-RzoSX0ZaJkoTJAAAAAGLPL7E=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ROOF PANEL & BACK PANEL",
@@ -23360,12 +23360,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/610739D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/610739D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416283,
         car: "TOYOTA00",
         ssd: "$*KwEMOCkhV2tfY1wKYV0VBlRAYGd5CAcKCxk2BU1LeGxwdHZ1MCcLYU9LT35ocWAmOzEMBXR4cHsYeTU8PG16ahkPDwhECSkOHEsaAxxlGhZFClcEDEVHS1ZcehxLFldbGgMNExpcDg1XBB0OCAsMGhZFABscBRoPDw8PCV4tV0NBTlBaf0MYBApXBB8aDgcODA9XS1keHVFNHAUYGDcoJ39yGhUeHVVZRVNVHGpicw8PCHZKLjtuenN4HBMYGBEKVwQfVkxSUxQaRQ8cWh0CGQ9CAAAAAPMSXaU=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ROOF PANEL & BACK PANEL",
@@ -23373,12 +23373,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/613161.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/613161.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416284,
         car: "TOYOTA00",
         ssd: "$*KwFwRFVdKxcjHyB2HSFpeig8HBsFdHt2d2VKeTE3BBAMCAoJTFt3HTM3MwIUDRxaR01weQgEDAdkBUlAQBEGFmVzc3Q4dVVyYDdmf2AZZmo5dit4cDk7NyogBmA3aisnZn9xb2YgcnEreGFydHdwZmo5fGdgeWZzc3B1cCo3dDw1LSECOGYleDczYmFzfHN3cXY5OSlgKjBneGNmFlpHSA9haGVgLidkITUrFxkOdHJzCGtcW1kHCAVnbmNmMHg3M2ItMSkub2RkfXxtYHlkdD8AAAAALFVYlw==$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ROOF PANEL & BACK PANEL",
@@ -23386,12 +23386,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/610734M.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/610734M.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416285,
         car: "TOYOTA00",
         ssd: "$*KwHwxNXdq5ejn6D2naHp-qi8nJuF9Pv29-XK-bG3hJCMiIqJzNv3nbO3s4KUjZzax83w-YiEjIfkhcnAwJGGluXz8_S49dXy4Lfm_-CZ5uq59qv48Lm7t6qghuC36qun5v_x7-ag8vGr-OHy9Pfw5uq5_Ofg-ebz8_Pz9a_Yq7-9sqymg7_k-Par-OPm8vvy8POrt6Xi4a2x4Pnk5MvU24OO5uni4amlua-p4Jaej_Pz9Iq20seSho-E4O_k5O32q_jjqrCur-jmufPgpuH-5fO-AAAAAOeD_Sg=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR VENTILATOR & ROOF VENTILATOR",
@@ -23399,12 +23399,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/610718A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/610718A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416288,
         car: "TOYOTA00",
         ssd: "$*KwF-SltTJRktES54Ey9ndCYyEhULenV4eWtEdz85Ch4CBgQHQlV5Ez05PQwaAxJUSUN-dwYKAglqC0dOTh8IGGt9fXo2e1t8bjlocW4XaGQ3eCV2fjc1OSQuCG45ZCUpaHF_YWgufH8ldm98enl4aGQ3cmlud2h9fX19eS1aJTEzPCIoDTFqdngldm1ofHV8fn0lOStsbyM_bndqakVaVQ0AaGdsbycrNyEnbhgQAX19egQ4XEkcCAEKbmFqamN4JXZtJD4gIWZoN31uKG9wa30wAAAAAMurJW4=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "INSIDE TRIM BOARD",
@@ -23412,12 +23412,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/64/640472G.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/64/640472G.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416289,
         car: "TOYOTA00",
         ssd: "$*KwEbLz42QHxIdEsddkoCEUNXd3BuHxAdHA4hElpcb3tnY2FiJzAcdlhcWGl_ZncxLCYbEmNvZ2wPbiIrK3ptfQ4YGB9THj4ZC1wNFAtyDQFSHUATG1JQXEFLbQtcAUBMDRQaBA1LGRpAEwoZGhwZDQFSFwwLEg0YHRgbGkI5QFRWWUdNaFQPEx1AEwgNGRAZGxhAXE4JCkZaCxIPDyA_MGhlDQIJCkJOUkRCC311ZBgYH2FdOSx5bWRvCwQPDwYdQBMIQVtFRAMNUhgLTQoVDhhVAAAAAKoErwk=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ROOF HEADLINING & SILENCER PAD",
@@ -23425,12 +23425,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/64/640643A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/64/640643A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416291,
         car: "TOYOTA00",
         ssd: "$*KwGLv66m0OzY5NuN5tqSgdPH5-D-j4CNjJ6xgsrM_-v38_Hyt6CM5sjMyPnv9uehvLaLgvP_9_yf_rK7u-r97Z6IiI_Djq6Jm8ydhJvinZHCjdCDi8LAzNHb_ZvMkdDcnYSKlJ3biYrQg5qJioyKnZHCh5ybgp2IjYiJidOv0MTGydfd-MSfg43Qg5idiYCJi4jQzN6ZmtbKm4Kfn7CvoPj1nZKZmtLewtTSm-3l9IiIj_HNqbzp_fT_m5Sfn5aN0IOY0cvV1JOdwoib3ZqFnojFAAAAADItKW8=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ROOF HEADLINING & SILENCER PAD",
@@ -23438,12 +23438,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/64/640644B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/64/640644B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416292,
         car: "TOYOTA00",
         ssd: "$*KwH8yNnRp5uvk6z6ka3l9qSwkJeJ-Pf6--nG9b27iJyAhIaFwNf7kb-7v46YgZDWy8H89YSIgIvoicXMzJ2Kmun___i0-dn-7Lvq8-yV6ua1-qf0_LW3u6asiuy75qer6vP94-qs_v2n9O3-_fv96ua18Ovs9er_-v_-_qPbp7OxvqCqj7Po9Pqn9O_q_vf-_P-nu6nu7aG97PXo6MfY14-C6uXu7aWptaOl7JqSg___-Ia63sueioOI7OPo6OH6p_Tvpryio-Tqtf_squ3y6f-yAAAAAOHcVR0=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "PACKAGE TRAY PANEL",
@@ -23451,12 +23451,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/64/640454.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/64/640454.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416294,
         car: "TOYOTA00",
         ssd: "$*KwHt2cjAtoq-gr3rgLz057WhgYaY6ebr6vjX5KyqmY2RlZeU0cbqgK6qrp-JkIHH2tDt5JWZkZr5mNTd3Yybi_ju7uml6Mjv_ar74v2E-_ek67bl7aSmqre9m_2q97a6--Ls8vu97-y25fzv7Orq-_ek4fr95Pvu6-7t7rKq6aGosLyfpfu45aqu__zu4e7q7OukpLT9t6365f77i8fa1ZL89fj9s7r5vKi2ioST6e_ulfbBxsSalZj68_77reWqrv-wrLSz8vn54OHw_eT56aIAAAAAjr3TAg==$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT DOOR PANEL & GLASS",
@@ -23464,12 +23464,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/671258E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/671258E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416295,
         car: "TOYOTA00",
         ssd: "$*KwGtmYiA9sr-wv2rwPy0p_XhwcbYqaarqriXpOzq2c3R1dfUkYaqwO7q7t_J0MGHmpCtpNXZ0dq52JSdnczby7iurqnlqIivveq7or3Eu7fkq_alreTm6vf9273qt_b6u6Kssrv9r6z2pbyvr6qvu7fkobq9pLuuqK-rrv6N9uLg7_H73uK5pav2pb67r6avra726vi_vPDsvaS5uZaJht7Tu7S_vPT45PL0vcvD0q6uqdfrj5rP29LZvbK5ubCr9qW-9-3z8rW75K69-7yjuK7jAAAAAOXek1k=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT DOOR PANEL & GLASS",
@@ -23477,12 +23477,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/672813A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/672813A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416296,
         car: "TOYOTA00",
         ssd: "$*KwG6jp-X4d3p1eq81-ujsOL21tHPvrG8va-As_v9ztrGwsDDhpG91_n9-cjex9aQjYe6s8LOxs2uz4OKitvM3K-5ub7yv5-4qv2starTrKDzvOGyuvPx_eDqzKr9oOHtrLW7pazquLvhsqu4uL24rKDztq2qs6y5v7u2veKe4fX3-ObsyfWusrzhsqmsuLG4urnh_e-oq-f7qrOuroGekcnErKOoq-Pv8-XjqtzUxbm5vsD8mI3YzMXOqqWurqe84bKp4Prk5aKs87mq7Ku0r7n0AAAAAJRr3Hk=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT DOOR LOCK & HANDLE",
@@ -23490,12 +23490,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/672799B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/672799B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416297,
         car: "TOYOTA00",
         ssd: "$*KwExBRQcalZiXmE3XGAoO2l9XVpENTo3NiQLOHB2RVFNSUtIDRo2XHJ2ckNVTF0bBgwxOElFTUYlRAgBAVBHVyQyMjV5NBQzIXYnPiFYJyt4N2o5MXh6dmthRyF2K2pmJz4wLidhMzBqOSAzMzYxJyt4PSYhOCcyNDAyPmMWan58c21nQn4lOTdqOSInMzozMTJqdmQjIGxwITglJQoVGkJPJygjIGhkeG5oIVdfTjIyNUt3EwZTR05FIS4lJSw3ajkia3FvbikneDIhZyA_JDJ_AAAAAC-X8Vc=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT DOOR WINDOW REGULATOR & HINGE",
@@ -23503,12 +23503,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/671265E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/671265E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416298,
         car: "TOYOTA00",
         ssd: "$*KwGLv66m0OzY5NuN5tqSgdPH5-D-j4CNjJ6xgsrM_-v38_Hyt6CM5sjMyPnv9uehvLaLgvP_9_yf_rK7u-r97Z6IiI_Djq6Jm8ydhJvinZHCjdCDi8LAzNHb_ZvMkdDcnYSKlJ3biYrQg5qJiYyMnZHCh5ybgp2IjomNi9Wr0MTGydfd-MSfg43Qg5idiYCJi4jQzN6ZmtbKm4Kfn7CvoPj1nZKZmtLewtTSm-3l9IiIj_HNqbzp_fT_m5Sfn5aN0IOY0cvV1JOdwoib3ZqFnojFAAAAAI2iLcg=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR DOOR PANEL & GLASS",
@@ -23516,12 +23516,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/671256I.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/671256I.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416299,
         car: "TOYOTA00",
         ssd: "$*KwGumouD9cn9wf6ow_-3pPbiwsXbqqWoqbuUp-_p2s7S1tTXkoWpw-3p7dzK08KEmZOup9ba0tm625eens_YyLutrarmq4usvum4ob7HuLTnqPWmrufl6fT-2L7ptPX5uKGvsbj-rK_1pr-srKmouLTnorm-p7itq6yorfOC9eHj7PL43eG6pqj1pr24rKWsrq316fu8v_Pvvqe6upWKhd3QuLe8v_f75_H3vsjA0a2tqtTojJnM2NHavrG6urOo9aa99O7w8ba4562--L-gu63gAAAAAP9PQyo=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR DOOR PANEL & GLASS",
@@ -23529,12 +23529,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/672841.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/672841.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416300,
         car: "TOYOTA00",
         ssd: "$*KwEfKzoyRHhMcE8Zck4GFUdTc3RqGxQZGAolFl5Ya39jZ2VmIzQYclxYXG17YnM1KCIfFmdrY2gLaiYvL35peQocHBtXGjodD1gJEA92CQVWGUQXH1ZUWEVPaQ9YBURICRAeAAlPHR5EFw4dHRgZCQVWEwgPFgkcGh4THUVYG1NaQk5tVwlKF1hcDQ4cExwYHhlWVkYPRV8IFwwJeTUoJ2AOBwoPQUgLTlpEeHZhGx0cZwQzNDZoZ2oIAQwJXxdYXA1CXkZBAAsLEhMCDxYLG1AAAAAAnHGYmw==$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR DOOR LOCK & HANDLE",
@@ -23542,12 +23542,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/672795A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/672795A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416301,
         car: "TOYOTA00",
         ssd: "$*KwHJ_ezkkq6appnPpJjQw5GFpaK8zcLPztzzwIiOvam1sbOw9eLOpIqOiruttKXj_vTJwLG9tb7dvPD5-ai_r9zKys2BzOzL2Y7fxtmg39OAz5LByYCCjpOZv9mO05Ke38bI1t-Zy8iSwdjLy87M39OAxd7ZwN_KzMjKxpftkoaEi5Wfuobdwc-Swdrfy8LLycqSjpzb2JSI2cDd3fLt4rq339Db2JCcgJaQ2a-ntsrKzbOP6_6rv7a92dbd3dTPksHak4mXltHfgMrZn9jH3MqHAAAAAAdrsxQ=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR DOOR WINDOW REGULATOR & HINGE",
@@ -23555,12 +23555,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/671266D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/671266D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416302,
         car: "TOYOTA00",
         ssd: "$*KwGhlYSM-sbyzvGnzPC4q_ntzcrUpaqnprSbqODm1cHd2dvYnYqmzOLm4tPF3M2LlpyhqNnV3da11JiRkcDXx7SioqXppISjsea3rrHIt7vop_qpoejq5vvx17Hmu_r2t66gvrfxo6D6qbCjo6alt7vorbaxqLeipKOnofyA-u7s4_330u61qaf6qbK3o6qjoaL65vSzsPzgsai1tZqFitLft7izsPj06P74scfP3qKipdvng5bD197Vsb61tbyn-qmy--H__rm36KKx97CvtKLvAAAAAKZ7RGk=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BACK DOOR PANEL & GLASS",
@@ -23568,12 +23568,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/671237E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/671237E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416303,
         car: "TOYOTA00",
         ssd: "$*KwHS5vf_ibWBvYLUv4PL2Iqevrmn1tnU1cfo25OVprKuqqir7vnVv5GVkaC2r7745e_S26qmrqXGp-vi4rOktMfR0daa1_fQwpXE3cK7xMib1Ina0puZlYiCpMKVyImFxN3TzcSC0NOJ2sPQ0NbQxMib3sXC28TR19DU147yiZ2fkI6EoZ3G2tSJ2sHE0NnQ0tGJlYfAw4-TwtvGxun2-aGsxMvAw4uHm42LwrS8rdHR1qiU8OWwpK2mws3Gxs_UidrBiJKMjcrEm9HChMPcx9GcAAAAAMcRt4k=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BACK DOOR PANEL & GLASS",
@@ -23581,12 +23581,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/671234F.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/671234F.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416304,
         car: "TOYOTA00",
         ssd: "$*KwFVYXB4DjIGOgVTOARMXw0ZOT4gUV5TUkBvXBQSITUpLS8saX5SOBYSFicxKDl_YmhVXC0hKSJBIGxlZTQjM0BWVlEdUHBXRRJDWkU8Q08cUw5dVRweEg8FI0USTw4CQ1pUSkMFV1QOXURXV1FXQ08cWUJFXENWUFdTUAp2DhoYFwkDJhpBXVMOXUZDV15XVVYOEgBHRAgURVxBQW5xfiYrQ0xHRAwAHAoMRTM7KlZWUS8Td2I3IyohRUpBQUhTDl1GDxULCk1DHFZFA0RbQFYbAAAAAKdzGAg=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BACK DOOR LOCK & HINGE",
@@ -23594,12 +23594,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/671917G.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/671917G.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416305,
         car: "TOYOTA00",
         ssd: "$*KwFlUUBIPgI2CjVjCDR8bz0pCQ4QYW5jYnBfbCQiEQUZHR8cWU5iCCYiJhcBGAlPUlhlbB0RGRJxEFxVVQQTA3BmZmEtYEBndSJzanUMc38sYz5tZSwuIj81E3Uifz4yc2pkenM1Z2Q-bXRnZ2Fkc38saXJ1bHNmYGdoYjlHPiooJzkzFipxbWM-bXZzZ25nZWY-IjB3dDgkdWxxcV5BThYbc3x3dDwwLDo8dQMLGmZmYR8jR1IHExoRdXpxcXhjPm12PyU7On1zLGZ1M3RrcGYrAAAAAKQIyDU=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "LOCK CYLINDER SET",
@@ -23607,12 +23607,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/675923A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/675923A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416306,
         car: "TOYOTA00",
         ssd: "$*KwHwxNXdq5ejn6D2naHp-qi8nJuF9Pv29-XK-bG3hJCMiIqJzNv3nbO3s4KUjZzax83w-YiEjIfkhcnAwJGGluXz8_S49dXy4Lfm_-CZ5uq59qv48Lm7t6qghuC36qun5v_x7-ag8vGr-OHy8vT25uq5_Ofg-ebz9fb99KjUq7-9sqymg7_k-Par-OPm8vvy8POrt6Xi4a2x4Pnk5MvU24OO5uni4amlua-p4Jaej_Pz9Iq20seSho-E4O_k5O32q_jjqrCur-jmufPgpuH-5fO-AAAAABV-AtM=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -23620,12 +23620,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711030D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711030D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416307,
         car: "TOYOTA00",
         ssd: "$*KwGlkYCI_sL2yvWjyPS8r_3pyc7Qoa6jorCfrOTi0cXZ3d_cmY6iyObi5tfB2MmPkpilrN3R2dKx0JyVlcTTw7CmpqHtoICnteKzqrXMs7_so_6tpezu4v_107Xiv_7ys6qkurP1p6T-rbSmoaKns7_sqbK1rLOnpqehoP6E_uro5_nz1uqxraP-rbazp66npab-4vC3tPjktayxsZ6Bjtbbs7y3tPzw7Pr8tcPL2qamod_jh5LH09rRtbqxsbij_q22_-X7-r2z7Ka187SrsKbrAAAAAAvWKnc=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -23633,12 +23633,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/714158A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/714158A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416310,
         car: "TOYOTA00",
         ssd: "$*KwH4zN3Vo5-rl6j-lanh8qC0lJON_PP-_-3C8bm_jJiEgIKBxNP_lbu_u4qchZTSz8X48YCMhI_sjcHIyJmOnu37-_yw_d366L_u9-iR7uKx_qPw-LGzv6Kojui_4qOv7vf55-6o-vmj8On7_P_67uKx9O_o8e76-__9-6vco7e1uqSui7fs8P6j8Ovu-vP6-Pujv63q6aW56PHs7MPc04uG7uHq6aGtsaeh6J6Wh_v7_IK-2s-ajoeM6Ofs7OX-o_Drorimp-Dusfvorun27fu2AAAAAHSKNnM=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -23646,12 +23646,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711104.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711104.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416311,
         car: "TOYOTA00",
         ssd: "$*KwFBdWRsGiYSLhFHLBBYSxkNLSo0RUpHRlR7SAAGNSE9OTs4fWpGLAIGAjMlPC1rdnxBSDk1PTZVNHhxcSA3J1RCQkUJRGRDUQZXTlEoV1sIRxpJQQgKBhsRN1EGWxoWV05AXlcRQ0AaSVBCRUZDV1sITVZRSFdDQkNERx4GRQ0EHBAzCVcUSQYCU1BCTUJGQEcICBhRGwFWSVJXJ2t2eT5QWVRRHxZVEAQaJig_RUNCOVptamg2OTRWX1JXAUkGAlMcABgfXlVVTE1cUUhVRQ4AAAAA9mxSzA==$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -23659,12 +23659,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/712376.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/712376.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416313,
         car: "TOYOTA00",
         ssd: "$*KwHR5fT8iraCvoHXvIDI24mdvbqk1drX1sTr2JCWpbGtqauo7frWvJKWkqO1rL375uzR2KmlrabFpOjh4bCnt8TS0tWZ1PTTwZbH3sG4x8uY14rZ0ZialouBp8GWy4qGx97QzseB09CK2cDS1dbTx8uY3cbB2MfT0tDW0IyW1Z2UjICjmceE2ZaSw8DS3dLW0NeYmIjBi5HG2cLHt_vm6a7AycTBj4bFgJSKtriv1dPSqcr9-vimqaTGz8LHkdmWksOMkIiPzsXF3N3MwdjF1Z4AAAAALeI2OQ==$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -23672,12 +23672,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711117T.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711117T.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416315,
         car: "TOYOTA00",
         ssd: "$*KwHf6_ryhLiMsI_Zso7G1YeTs7Sq29TZ2Mrl1p6Yq7-jp6Wm4_TYspyYnK27orP16OLf1qero6jLqubv776pucrc3NuX2vrdz5jJ0M-2ycWW2YTX35aUmIWPqc-YxYSIydDewMmP3d6E187c29jdycWW08jP1snd3N3a2IPuhJCSnYOJrJDL19mE18zJ3dTd39yEmIrNzoKez9bLy-T79KyhycbNzoaKloCGz7mxoNzc26WZ_ei9qaCrz8DLy8LZhNfMhZ-BgMfJltzPic7RytyRAAAAAAeh5Iw=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -23685,12 +23685,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711010M.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711010M.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416316,
         car: "TOYOTA00",
         ssd: "$*KwFpXUxEMg46BjlvBDhwYzElBQIcbWJvbnxTYCguHQkVERMQVUJuBCouKhsNFAVDXlRpYBEdFR59HFBZWQgfD3xqam0hbExreS5_ZnkAf3MgbzJhaSAiLjM5H3kuczI-f2Zodn85a2gyYXhqbW5rf3MgZX55YH9ramttbjJBMiYkKzU_GiZ9YW8yYXp_a2JraWoyLjx7eDQoeWB9fVJNQhoXf3B7eDA8IDYweQ8HFmpqbRMvS14LHxYdeXZ9fXRvMmF6Myk3NnF_IGp5P3hnfGonAAAAAEU2eOk=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -23698,12 +23698,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711007C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711007C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416317,
         car: "TOYOTA00",
         ssd: "$*KwGonI2F88_7x_iuxfmxovDkxMPdrKOur72Soenv3MjU0NLRlIOvxevv69rM1cSCn5WoodDc1N-83ZGYmMnezr2rq6zgrY2quO--p7jBvrLhrvOgqOHj7_L43rjvsvP_vqept774qqnzoLmrrK-qvrLhpL-4ob6qq6qsrvSO8-fl6vT-2-e8oK7zoLu-qqOqqKvz7_26ufXpuKG8vJOMg9vWvrG6ufH94ffxuM7G16urrNLuip_K3tfcuLe8vLWu86C78uj297C-4au4_rmmvavmAAAAAMucxRM=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -23711,12 +23711,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711001A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711001A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416318,
         car: "TOYOTA00",
         ssd: "$*KwGeqruzxfnN8c6Y88-HlMbS8vXrmpWYmYukl9_Z6v7i5uTnorWZ893Z3ez64_K0qaOel-bq4umK66eurv_o-IudnZrWm7ucjtmIkY73iITXmMWWntfV2cTO6I7ZhMXJiJGfgYjOnJ_Flo-dmpmciITXkomOl4icnZyamMS6xdHT3MLI7dGKlpjFlo2InJWcnp3F2cuMj8PfjpeKiqW6te3giIeMj8fL18HHjvjw4Z2dmuTYvKn86OHqjoGKioOYxZaNxN7AwYaI152OyI-Qi53QAAAAAKOo2gc=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -23724,12 +23724,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711002S.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711002S.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416320,
         car: "TOYOTA00",
         ssd: "$*KwH8yNnRp5uvk6z6ka3l9qSwkJeJ-Pf6--nG9b27iJyAhIaFwNf7kb-7v46YgZDWy8H89YSIgIvoicXMzJ2Kmun___i0-dn-7Lvq8-yV6ua1-qf0_LW3u6asiuy75qer6vP94-qs_v2n9O3_-Pv-6ua18Ovs9er-__74-qXKp7OxvqCqj7Po9Pqn9O_q_vf-_P-nu6nu7aG97PXo6MfY14-C6uXu7aWptaOl7JqSg___-Ia63sueioOI7OPo6OH6p_Tvpryio-Tqtf_squ3y6f-yAAAAAKGsprM=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -23737,12 +23737,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/712378A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/712378A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416321,
         car: "TOYOTA00",
         ssd: "$*KwHS5vf_ibWBvYLUv4PL2Iqevrmn1tnU1cfo25OVprKuqqir7vnVv5GVkaC2r7745e_S26qmrqXGp-vi4rOktMfR0daa1_fQwpXE3cK7xMib1Ina0puZlYiCpMKVyImFxN3TzcSC0NOJ2sPR1tXQxMib3sXC28TQ0dPV04H2iZ2fkI6EoZ3G2tSJ2sHE0NnQ0tGJlYfAw4-TwtvGxun2-aGsxMvAw4uHm42LwrS8rdHR1qiU8OWwpK2mws3Gxs_UidrBiJKMjcrEm9HChMPcx9GcAAAAABImHeE=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT BELT",
@@ -23750,12 +23750,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/710990A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/710990A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416322,
         car: "TOYOTA00",
         ssd: "$*KwGpnYyE8s76xvmvxPiwo_HlxcLcraKvrryToOju3cnV0dPQlYKuxOru6tvN1MWDnpSpoNHd1d693JCZmcjfz7yqqq3hrIyrue6_prnAv7Pgr_KhqeDi7vP537nus_L-v6aotr_5q6jyobiqra6ov7Pgpb65oL-rqqqkpvKN8ubk6_X_2ua9oa_yobq_q6Krqary7vy7uPTouaC9vZKNgtrXv7C7uPD84Pbwuc_H1qqqrdPvi57L39bduba9vbSv8qG68-n39rG_4Kq5_7invKrnAAAAANs70Uo=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT BELT",
@@ -23763,12 +23763,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/710995H.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/710995H.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416324,
         car: "TOYOTA00",
         ssd: "$*KwFQZHV9CzcDPwBWPQFJWggcPDslVFtWV0VqWREXJDAsKCopbHtXPRMXEyI0LTx6Z21QWSgkLCdEJWlgYDEmNkVTU1QYVXVSQBdGX0A5RkoZVgtYUBkbFwoAJkAXSgsHRl9RT0YAUlELWEFTVFdRRkoZXEdAWUZSU1NdXw59Cx8dEgwGIx9EWFYLWENGUltSUFMLFwVCQQ0RQFlERGt0eyMuRklCQQkFGQ8JQDY-L1NTVCoWcmcyJi8kQE9ERE1WC1hDChAOD0hGGVNABkFeRVMeAAAAAJyBdvY=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT BELT",
@@ -23776,12 +23776,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711723B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711723B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416325,
         car: "TOYOTA00",
         ssd: "$*KwEMOCkhV2tfY1wKYV0VBlRAYGd5CAcKCxk2BU1LeGxwdHZ1MCcLYU9LT35ocWAmOzEMBXR4cHsYeTU8PG16ahkPDwhECSkOHEsaAxxlGhZFClcEDEVHS1ZcehxLFldbGgMNExpcDg1XBB0PCAsNGhZFABscBRoODw4PCFQrV0NBTlBaf0MYBApXBB8aDgcODA9XS1keHVFNHAUYGDcoJ39yGhUeHVVZRVNVHGpicw8PCHZKLjtuenN4HBMYGBEKVwQfVkxSUxQaRQ8cWh0CGQ9CAAAAAF5UW9A=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ARMREST & VISOR",
@@ -23789,12 +23789,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/74/740470A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/74/740470A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416326,
         car: "TOYOTA00",
         ssd: "$*KwFnU0JKPAA0CDdhCjZ-bT8rCwwSY2xhYHJdbiYgEwcbHx0eW0xgCiQgJBUDGgtNUFpnbh8TGxBzEl5XVwYRAXJkZGMvYkJldyBxaHcOcX0uYTxvZy4sID03EXcgfTwwcWhmeHE3ZWY8b3ZkZmBlcX0ua3B3bnFlYWRnZjxDPCgqJTsxFChzb2E8b3RxZWxlZ2Q8IDJ1djomd25zc1xDTBQZcX51dj4yLjg-dwEJGGRkYx0hRVAFERgTd3hzc3phPG90PSc5OH9xLmR3MXZpcmQpAAAAAHq254E=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ARMREST & VISOR",
@@ -23802,12 +23802,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/74/740467J.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/74/740467J.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416328,
         car: "TOYOTA00",
         ssd: "$*KwEKPi8nUW1ZZVoMZ1sTAFJGZmF_DgEMDR8wA0tNfmp2cnBzNiENZ0lNSXhud2YgPTcKA3J-dn0efzM6Omt8bB8JCQ5CDy8IGk0cBRpjHBBDDFECCkNBTVBafBpNEFFdHAULFRxaCAtRAhsJCw0IHBBDBh0aAxwIDAkKClYlUUVHSFZceUUeAgxRAhkcCAEICglRTV8YG1dLGgMeHjEuIXl0HBMYG1NfQ1VTGmxkdQkJDnBMKD1ofHV-GhUeHhcMUQIZUEpUVRIcQwkaXBsEHwlEAAAAANtrFpo=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BATTERY CARRIER",
@@ -23815,12 +23815,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/74/740455A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/74/740455A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416329,
         car: "TOYOTA00",
         ssd: "$*KwFpXUxEMg46BjlvBDhwYzElBQIcbWJvbnxTYCguHQkVERMQVUJuBCouKhsNFAVDXlRpYBEdFR59HFBZWQgfD3xqam0hbExreS5_ZnkAf3MgbzJhaSAiLjM5H3kuczI-f2Zodn85a2gyYXhqaG5uf3MgZX55YH9rb2ppajdNMiYkKzU_GiZ9YW8yYXp_a2JraWoyLjx7eDQoeWB9fVJNQhoXf3B7eDA8IDYweQ8HFmpqbRMvS14LHxYdeXZ9fXRvMmF6Myk3NnF_IGp5P3hnfGonAAAAADFH5kk=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CAUTION PLATE",
@@ -23828,12 +23828,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/74/746153A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/74/746153A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416330,
         car: "TOYOTA00",
         ssd: "$*KwHH8-LqnKCUqJfBqpbezZ-Lq6yyw8zBwNL9zoaAs6e7v72---zAqoSAhLWjuqvt8PrHzr-zu7DTsv7396axodLExMOPwuLF14DRyNeu0d2OwZzPx46MgJ2XsdeA3ZyQ0cjG2NGXxcacz9bExsDB0d2Oy9DXztHFwcLCxJ_jnIiKhZuRtIjTz8Gcz9TRxczFx8ScgJLV1pqG187T0_zj7LS50d7V1p6Sjpie16GpuMTEw72B5fClsbiz19jT09rBnM_UnYeZmN_RjsTXkdbJ0sSJAAAAAL2IzYA=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CAUTION PLATE",
@@ -23841,12 +23841,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/74/740458O.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/74/740458O.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416331,
         car: "TOYOTA00",
         ssd: "$*KwHv28rCtIi8gL_pgr725bejg4Sa6-Tp6PrV5q6om4-Tl5WW08TogqyorJ2LkoPF2NLv5pebk5j7mtbf346Zifrs7Oun6srt_6j54P-G-fWm6bTn76akqLW_mf-o9bS4-eDu8Pm_7e605_7s7ujp-fWm4_j_5vnt6ezv7LzFtKCirbO5nKD75-m05_z57eTt7-y0qLr9_rKu_-b7-9TLxJyR-fb9_ra6prC2_4mBkOzs65WpzdiNmZCb__D7-_LptOf8ta-xsPf5puz_uf7h-uyhAAAAAHIGNBE=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ASH RECEPTACLE",
@@ -23854,12 +23854,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/74/740469A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/74/740469A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416332,
         car: "TOYOTA00",
         ssd: "$*KwF8SFlRJxsvEyx6ES1ldiQwEBcJeHd6e2lGdT07CBwABAYFQFd7ET87Pw4YARBWS0F8dQQIAAtoCUVMTB0KGml_f3g0eVl-bDtqc2wVamY1eid0fDU3OyYsCmw7ZicranN9Y2osfn0ndG1_fXt5amY1cGtsdWp-en98fC5YJzMxPiAqDzNodHondG9qfnd-fH8nOylubSE9bHVoaEdYVw8CamVubSUpNSMlbBoSA39_eAY6XkseCgMIbGNoaGF6J3RvJjwiI2RqNX9sKm1yaX8yAAAAAJvguy8=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "EMBLEM & NAME PLATE",
@@ -23867,12 +23867,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/75/750461A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/75/750461A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416333,
         car: "TOYOTA00",
         ssd: "$*KwEUIDE5T3NHe0QSeUUNHkxYeH9hEB8SEwEuHVVTYHRobG5tKD8TeVdTV2ZwaXg-IykUHWxgaGMAYS0kJHVicgEXFxBcETEWBFMCGwR9Ag5dEk8cFF1fU05EYgRTDk9DAhsVCwJEFhVPHAUXFBMWAg5dGAMEHQIWExcUFE4wT1tZVkhCZ1sAHBJPHAcCFh8WFBdPU0EGBUlVBB0AAC8wP2dqAg0GBU1BXUtNBHJ6axcXEG5SNiN2YmtgBAsAAAkSTxwHTlRKSwwCXRcEQgUaARdaAAAAADHI5c4=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "MOULDING",
@@ -23880,12 +23880,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/75/750456F.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/75/750456F.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416334,
         car: "TOYOTA00",
         ssd: "$*KwHk0MHJv4O3i7TiibX97ryoiI-R4O_i4_He7aWjkISYnJ6d2M_jiaejp5aAmYjO09nk7ZyQmJPwkd3U1IWSgvHn5-Cs4cHm9KPy6_SN8v6t4r_s5K2vo760kvSj_r-z8uvl-_K05uW_7PXn5OPl8v6t6PP07fLm4-fk57nHv6uppriyl6vw7OK_7Pfy5u_m5Oe_o7H29bml9O3w8N_Az5ea8v329b2xrbu99IKKm-fn4J6ixtOGkpuQ9Pvw8Pniv-z3vqS6u_zyref0svXq8eeqAAAAAHeleD8=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BODY STRIPE",
@@ -23893,12 +23893,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/75/750447.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/75/750447.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416335,
         car: "TOYOTA00",
         ssd: "$*KwGCtqev2eXR7dKE79ObiNrO7un3homEhZe4i8PF9uL--vj7vqmF78HFwfDm_-6otb-Ci_r2_vWW97uysuP05JeBgYbKh6eAksWUjZLrlJjLhNmKgsvJxdjS9JLFmNnVlI2DnZTSgIPZipOBgoWClJjLjpWSi5SAhYGCgN7Fhs7H39PwypTXisXBkJOBjoGFg4TLy9uS2MKVipGU5Ki1uv2TmpeS3NWW08fZ5ev8hoCB-pmuqav1-veVnJGUworFwZDfw9vcnZaWj46fkouWhs0AAAAAmuwoTg==$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BODY STRIPE",
@@ -23906,12 +23906,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/75/750777.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/75/750777.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416336,
         car: "TOYOTA00",
         ssd: "$*KwEQJDU9S3dDf0AWfUEJGkhcfHtlFBsWFwUqGVFXZHBsaGppLDsXfVNXU2J0bXw6Jy0QGWhkbGcEZSkgIHFmdgUTExRYFTUSAFcGHwB5BgpZFksYEFlbV0pAZgBXCktHBh8RDwZAEhFLGAETEBcQBgpZHAcAGQYSFxMTEUxXFFxVTUFiWAZFGFdTAgETHBMXERZZWUkASlAHGAMGdjonKG8BCAUATkcEQVVLd3luFBITaAs8OzlnaGUHDgMGUBhXUwJNUUlODwQEHRwNABkEFF8AAAAAeZ4Q6w==$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BODY STRIPE",
@@ -23919,12 +23919,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/75/750943.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/75/750943.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416337,
         car: "TOYOTA00",
         ssd: "$*KwGJvayk0u7a5tmP5NiQg9HF5eL8jYKPjpyzgMjO_en18fPwtaKO5MrOyvvt9OWjvrSJgPH99f6d_LC5uej_75yKio3BjKyLmc6fhpngn5PAj9KBicDCztPZ_5nOk9Len4aIlp_Zi4jSgZiKiY6Jn5PAhZ6ZgJ-LjoqEi9HOjcXM1Nj7wZ_cgc7Km5iKhYqOiI_AwNCZ08megZqf76O-sfaYkZyZ196d2MzS7uD3jYuK8ZKloqD-8fyel5qfyYHOypvUyNDXlp2dhIWUmYCdjcYAAAAAwAzBxg==$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "TOOL BOX & LICENSE PLATE BRACKET",
@@ -23932,12 +23932,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/75/750450.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/75/750450.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416339,
         car: "TOYOTA00",
         ssd: "$*KwGqno-H8c35xfqsx_uzoPLmxsHfrqGsrb-Qo-vt3srW0tDTloGtx-nt6djO18aAnZeqo9Le1t2-35OamsvczL-pqa7ir4-ouu28pbrDvLDjrPGiquPh7fD63LrtsPH9vKWrtbz6qKvxorupqq2tvLDjpr26o7yoramqqfHtrubv9_vY4rz_ou3puLuppqmtq6zj4_O68Oq9orm8zICdktW7sr-69P2---_xzcPUrqip0rGGgYPd0t-9tLm86qLt6bj36_P0tb6-p6a3uqO-ruUAAAAABxcykw==$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FUEL TANK & TUBE",
@@ -23945,12 +23945,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/77/770530H.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/77/770530H.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416341,
         car: "TOYOTA00",
         ssd: "$*KwGUoLG5z_PH-8SS-cWNnszY-P_hkJ-Sk4GundXT4PTo7O7tqL-T-dfT1-bw6fi-o6mUnezg6OOA4a2kpPXi8oGXl5DckbGWhNOCm4T9go7dks-clN3f087E4oTTjs_DgpuVi4LElpXPnIWXlpOWgo7dmIOEnYKWkZeVkc-5z9vZ1sjC59uAnJLPnIeClp-WlJfP08GGhcnVhJ2AgK-wv-fqgo2Ghc3B3cvNhPL665eXkO7StqP24uvghIuAgImSz5yHztTKy4yC3ZeEwoWagZfaAAAAAGgwcq4=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FUEL TANK & TUBE",
@@ -23958,12 +23958,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/77/770531D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/77/770531D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416342,
         car: "TOYOTA00",
         ssd: "$*KwHp3czEso66hrnvhLjw47GlhYKc7eLv7vzT4KiunYmVkZOQ1cLuhKquqpuNlIXD3tTp4JGdlZ79nNDZ2Yifj_zq6u2h7Mzr-a7_5vmA__Og77Lh6aCirrO5n_mu87K-_-bo9v-56-iy4fjq6-7r__Og5f754P_r7Oro7LPIsqakq7W_mqb94e-y4fr_6-Lr6eqyrrz7-LSo-eD9_dLNwpqX__D7-LC8oLaw-Y-Hlurq7ZOvy96Ln5ad-fb9_fTvsuH6s6m3tvH_oOr5v_jn_OqnAAAAAIdJX2M=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ACCELERATOR LINK",
@@ -23971,14 +23971,14 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/78/780321E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/78/780321E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416347,
         car: "TOYOTA00",
         ssd: "$*KwG2gpOb7dHl2eaw2-evvO762t3Dsr2wsaOMv_fxwtbKzszPip2x2_Xx9cTSy9qcgYu2v87CysGiw4-GhtfA0KO1tbL-s5O0pvGguabfoKz_sO2-tv_98ezmwKbxrO3hoLm3qaDmtLftvqe1u7G0oKz_uqGmv6C0vLWxsuyW7fn79OrgxfmivrDtvqWgtL20trXt8eOkp-v3pr-ioo2SncXIoK-kp-_j_-nvptDYybW1sszwlIHUwMnCpqmioquw7b6l7Pbo6a6g_7Wm4Ke4o7X4AAAAAIaiNJM=$",
         cid: 3,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
-    ] as SouqPartsGroup[],
+    ] ,
     parts: [
       {
         number: "510036A300",
@@ -60653,7 +60653,7 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         gid: null,
         ssd: null,
       },
-    ] as SouqPartsGroup[],
+    ] ,
   },
   {
     part_category: "Body/Interior",
@@ -60664,12 +60664,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/51/510401D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/51/510401D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416252,
         car: "TOYOTA00",
         ssd: "$*KwFMeGlhFysfIxxKIR1VRhQAICc5SEdKS1l2RQ0LOCwwNDY1cGdLIQ8LDz4oMSBme3FMRTQ4MDtYOXV8fC06KllPT0gESWlOXAtaQ1wlWlYFShdETAUHCxYcOlwLVhcbWkNNU1ocTk0XRF1NSEtOWlYFQFtcRVpMT09MShZtFwMBDhAaPwNYREoXRF9aTkdOTE8XCxleXRENXEVYWHdoZz8yWlVeXRUZBRMVXCoiM09PSDYKbnsuOjM4XFNYWFFKF0RfFgwSE1RaBU9cGl1CWU8CAAAAAKN8U2E=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SUSPENSION CROSSMEMBER & UNDER COVER",
@@ -60677,12 +60677,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/51/510372I.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/51/510372I.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416253,
         car: "TOYOTA00",
         ssd: "$*KwGdqbiwxvrO8s2b8MyEl8XR8fbomZabmoinlNza6f3h5efkobaa8N7a3u_54PG3qqCdlOXp4eqJ6KStrfzr-4ienpnVmLifjdqLko30i4fUm8aVndTW2sfN643ah8bKi5KcgovNn5zGlYycmZqci4fUkYqNlIudnp6anMSxxtLQ38HL7tKJlZvGlY6Ln5afnZ7G2siPjMDcjZSJiaa5tu7ji4SPjMTI1MLEjfvz4p6emefbv6r_6-LpjYKJiYCbxpWOx93DwoWL1J6Ny4yTiJ7TAAAAALb2Lrs=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SPARE WHEEL CARRIER",
@@ -60690,12 +60690,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/51/510360G.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/51/510360G.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416254,
         car: "TOYOTA00",
         ssd: "$*KwF-SltTJRktES54Ey9ndCYyEhULenV4eWtEdz85Ch4CBgQHQlV5Ez05PQwaAxJUSUN-dwYKAglqC0dOTh8IGGt9fXo2e1t8bjlocW4XaGQ3eCV2fjc1OSQuCG45ZCUpaHF_YWgufH8ldm9_enl-aGQ3cmlud2h-fX15fiVcJTEzPCIoDTFqdngldm1ofHV8fn0lOStsbyM_bndqakVaVQ0AaGdsbycrNyEnbhgQAX19egQ4XEkcCAEKbmFqamN4JXZtJD4gIWZoN31uKG9wa30wAAAAAOuaoug=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CAB MOUNTING & BODY MOUNTING",
@@ -60703,12 +60703,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/52/520357C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/52/520357C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416255,
         car: "TOYOTA00",
         ssd: "$*KwF-SltTJRktES54Ey9ndCYyEhULenV4eWtEdz85Ch4CBgQHQlV5Ez05PQwaAxJUSUN-dwYKAglqC0dOTh8IGGt9fXo2e1t8bjlocW4XaGQ3eCV2fjc1OSQuCG45ZCUpaHF_YWgufH8ldm9_eXl8aGQ3cmlud2h-fn15fSJYJTEzPCIoDTFqdngldm1ofHV8fn0lOStsbyM_bndqakVaVQ0AaGdsbycrNyEnbhgQAX19egQ4XEkcCAEKbmFqamN4JXZtJD4gIWZoN31uKG9wa30wAAAAAI4K_8k=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT BUMPER & BUMPER STAY",
@@ -60716,12 +60716,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/52/520359C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/52/520359C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416256,
         car: "TOYOTA00",
         ssd: "$*KwGtmYiA9sr-wv2rwPy0p_XhwcbYqaarqriXpOzq2c3R1dfUkYaqwO7q7t_J0MGHmpCtpNXZ0dq52JSdnczby7iurqnlqIivveq7or3Eu7fkq_alreTm6vf9273qt_b6u6Kssrv9r6z2pbysqqqsu7fkobq9pLutra6qrv-L9uLg7_H73uK5pav2pb67r6avra726vi_vPDsvaS5uZaJht7Tu7S_vPT45PL0vcvD0q6uqdfrj5rP29LZvbK5ubCr9qW-9-3z8rW75K69-7yjuK7jAAAAALDgUwo=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT BUMPER & BUMPER STAY",
@@ -60729,12 +60729,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/52/520553.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/52/520553.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416257,
         car: "TOYOTA00",
         ssd: "$*KwG-ipuT5dnt0e640--ntOby0tXLurW4uauEt__5yt7CxsTHgpW50_35_czaw9KUiYO-t8bKwsmqy4eOjt_I2Ku9vbr2u5u8rvmosa7XqKT3uOW2vvf1-eTuyK75pOXpqLG_oajuvL_ltq-_ubm_qKT3sqmut6i-vr2_veb5uvL74-_M9qjrtvn9rK-9sr25v7j39-eu5P6ptq2o2JSJhsGvpquu4Omq7_vl2dfAury9xqWSlZfJxsupoK2o_rb5_azj_-fgoaqqs7KjrrequvEAAAAAEqUG9w==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR BUMPER & BUMPER STAY",
@@ -60742,12 +60742,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/52/520968A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/52/520968A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416259,
         car: "TOYOTA00",
         ssd: "$*KwENOSggVmpeYl0LYFwUB1VBYWZ4CQYLChg3BExKeW1xdXd0MSYKYE5KTn9pcGEnOjANBHV5cXoZeDQ9PWx7axgODglFCCgPHUobAh1kGxdEC1YFDURGSlddex1KF1ZaGwIMEhtdDwxWBRwMCgoNGxdEARodBBsNDQ4ADV4pVkJAT1FbfkIZBQtWBR4bDwYPDQ5WSlgfHFBMHQQZGTYpJn5zGxQfHFRYRFJUHWtjcg4OCXdLLzpve3J5HRIZGRALVgUeV01TUhUbRA4dWxwDGA5DAAAAAHfCmzQ=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "RADIATOR GRILLE",
@@ -60755,12 +60755,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/53/530598C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/53/530598C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416260,
         car: "TOYOTA00",
         ssd: "$*KwHB9eTsmqaSrpHHrJDYy5mNraq0xcrHxtT7yICGtaG9ubu4_erGrIKGgrOlvK3r9vzByLm1vbbVtPjx8aC3p9TCwsWJxOTD0YbXztGo19uIx5rJwYiKhpuRt9GG25qW187A3teRw8CaydDAx8bD19uIzdbRyNfBwMLAzpLnmo6Mg52Xso7VyceaydLXw8rDwcKahpTT0JyA0cjV1frl6rK_19jT0JiUiJ6Y0aevvsLCxbuH4_ajt7610d7V1dzHmsnSm4GfntnXiMLRl9DP1MKPAAAAAIiHTwc=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HOOD & FRONT FENDER",
@@ -60768,12 +60768,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/53/536407C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/53/536407C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416261,
         car: "TOYOTA00",
         ssd: "$*KwFrX05GMAw4BDttBjpyYTMnBwAeb2BtbH5RYiosHwsXExESV0BsBigsKBkPFgdBXFZrYhMfFxx_HlJbWwodDX5oaG8jbk5peyx9ZHsCfXEibTBjayIgLDE7HXsscTA8fWRqdH07aWowY3pqbWxrfXEiZ3x7Yn1ram5rbTdNMCQmKTc9GCR_Y20wY3h9aWBpa2gwLD55ejYqe2J_f1BPQBgVfXJ5ejI-IjQyew0FFGhobxEtSVwJHRQfe3R_f3ZtMGN4MSs1NHN9Imh7PXplfmglAAAAAN25JuU=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HOOD & FRONT FENDER",
@@ -60781,12 +60781,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/53/536408A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/53/536408A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416262,
         car: "TOYOTA00",
         ssd: "$*KwF6Tl9XIR0pFSp8FytjcCI2FhEPfnF8fW9Aczs9DhoGAgADRlF9Fzk9OQgeBxZQTUd6cwIOBg1uD0NKShsMHG95eX4yf194aj1sdWoTbGAzfCFyejMxPSAqDGo9YCEtbHV7ZWwqeHshcmt7fH16bGAzdm1qc2x6e396fCleITU3OCYsCTVucnwhcmlseHF4enkhPS9oayc7anNubkFeUQkEbGNoayMvMyUjahwUBXl5fgA8WE0YDAUOamVubmd8IXJpIDokJWJsM3lqLGt0b3k0AAAAAEe8Cp8=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "HOOD LOCK & HINGE",
@@ -60794,12 +60794,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/53/530597D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/53/530597D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416263,
         car: "TOYOTA00",
         ssd: "$*KwFOemtjFSkdIR5IIx9XRBYCIiU7SkVISVt0Rw8JOi4yNjQ3cmVJIw0JDTwqMyJkeXNORzY6MjlaO3d-fi84KFtNTUoGS2tMXglYQV4nWFQHSBVGTgcFCRQeOF4JVBUZWEFPUVgeTE8VRl9PSElJWFQHQlleR1hOT01PQRJvFQEDDBIYPQFaRkgVRl1YTEVMTk0VCRtcXxMPXkdaWnVqZT0wWFdcXxcbBxEXXiggMU1NSjQIbHksODE6XlFaWlNIFUZdFA4QEVZYB01eGF9AW00AAAAAAEZMpdo=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT FENDER APRON & DASH PANEL",
@@ -60807,12 +60807,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/53/530611G.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/53/530611G.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416264,
         car: "TOYOTA00",
         ssd: "$*KwGjl4aO-MTwzPOlzvK6qfvvz8jWp6ilpLaZquLk18Pf29nan4ikzuDk4NHH3s-JlJ6jqtvX39S31pqTk8LVxbagoKfrpoahs-S1rLPKtbnqpfiro-ro5Pnz1bPkufj0tayivLXzoaL4q7KipaSltbnqr7SzqrWjoqChpPmB-Ozu4f_10Oy3q6X4q7C1oaiho6D45Paxsv7is6q3t5iHiNDdtbqxsvr26vz6s8XN3KCgp9nlgZTB1dzXs7y3t76l-Kuw-eP9_Lu16qCz9bKttqDtAAAAAHH74J8=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "INSTRUMENT PANEL & GLOVE COMPARTMENT",
@@ -60820,12 +60820,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/55/550462I.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/55/550462I.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416265,
         car: "TOYOTA00",
         ssd: "$*KwEvGwoCdEh8QH8pQn42JXdjQ0RaKyQpKDoVJm5oW09TV1VWEwQoQmxobF1LUkMFGBIvJldbU1g7WhYfH05ZSTosLCtnKgotP2g5ID9GOTVmKXQnL2ZkaHV_WT9oNXR4OSAuMDl_LS50Jz4uLygtOTVmIzg_JjkvKCwvL3YDdGBibXN5XGA7Jyl0Jzw5LSQtLyx0aHo9PnJuPyY7OxQLBFxROTY9PnZ6ZnB2P0lBUCwsK1VpDRhNWVBbPzA7OzIpdCc8dW9xcDc5Ziw_eT4hOixhAAAAAGklBZg=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "INSTRUMENT PANEL & GLOVE COMPARTMENT",
@@ -60833,12 +60833,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/55/550463M.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/55/550463M.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416266,
         car: "TOYOTA00",
         ssd: "$*KwGdqbiwxvrO8s2b8MyEl8XR8fbomZabmoinlNza6f3h5efkobaa8N7a3u_54PG3qqCdlOXp4eqJ6KStrfzr-4ienpnVmLifjdqLko30i4fUm8aVndTW2sfN643ah8bKi5KcgovNn5zGlYycnZqfi4fUkYqNlIudmp6dncW1xtLQ38HL7tKJlZvGlY6Ln5afnZ7G2siPjMDcjZSJiaa5tu7ji4SPjMTI1MLEjfvz4p6emefbv6r_6-LpjYKJiYCbxpWOx93DwoWL1J6Ny4yTiJ7TAAAAAMH9pYE=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "COWL PANEL & WINDSHIELD GLASS",
@@ -60846,12 +60846,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/55/550469E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/55/550469E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416268,
         car: "TOYOTA00",
         ssd: "$*KwHzx9beqJSgnKP1nqLq-au_n5iG9_j19ObJ-rK0h5OPi4mKz9j0nrC0sIGXjp_ZxM7z-ouHj4TnhsrDw5KFlebw8Pe79tbx47Tl_OOa5em69aj787q4tKmjheO06aik5fzy7OWj8fKo--Ly8_Tz5em6_-Tj-uXz9PDz86HTqLy-sa-lgLzn-_Wo--Dl8fjx8_CotKbh4q6y4_rn58jX2ICN5erh4qqmuqyq45WdjPDw94m10cSRhYyH4-zn5-71qPvgqbOtrOvluvDjpeL95vC9AAAAACtbiuI=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT FLOOR PANEL & FRONT FLOOR MEMBER",
@@ -60859,12 +60859,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/580787O.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/580787O.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416269,
         car: "TOYOTA00",
         ssd: "$*KwHxxdTcqpainqH3nKDo-6m9nZqE9fr39uTL-LC2hZGNiYuIzdr2nLK2soOVjJ3bxszx-ImFjYblhMjBwZCHl-Ty8vW59NTz4bbn_uGY5-u496r58bi6tquhh-G266qm5_7w7ueh8_Cq-eDw_Pbz5-u4_ebh-Ofx-_Ly_63bqr68s62ngr7l-feq-eLn8_rz8fKqtqTj4Kyw4fjl5crV2oKP5-jj4KikuK6o4ZefjvLy9Yu308aTh46F4e7l5ez3qvniq7GvrunnuPLhp-D_5PK_AAAAAPDHa2c=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT FLOOR PANEL & FRONT FLOOR MEMBER",
@@ -60872,12 +60872,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/581621C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/581621C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416270,
         car: "TOYOTA00",
         ssd: "$*KwENOSggVmpeYl0LYFwUB1VBYWZ4CQYLChg3BExKeW1xdXd0MSYKYE5KTn9pcGEnOjANBHV5cXoZeDQ9PWx7axgODglFCCgPHUobAh1kGxdEC1YFDURGSlddex1KF1ZaGwIMEhtdDwxWBRwMAAoPGxdEARodBBsNBw8PCVcrVkJAT1FbfkIZBQtWBR4bDwYPDQ5WSlgfHFBMHQQZGTYpJn5zGxQfHFRYRFJUHWtjcg4OCXdLLzpve3J5HRIZGRALVgUeV01TUhUbRA4dWxwDGA5DAAAAAGc2GBk=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR FLOOR PANEL & REAR FLOOR MEMBER",
@@ -60885,12 +60885,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/580797E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/580797E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416271,
         car: "TOYOTA00",
         ssd: "$*KwHY7P31g7-Lt4jetYnB0oCUtLOt3NPe383i0ZmfrLikoKKh5PPftZufm6q8pbTy7-XY0aCspK_MreHo6Lmuvs3b29yQ3f3ayJ_O18ixzsKR3oPQ2JGTn4KIrsifwoOPztfZx86I2tmD0MnZ1d_ZzsKR1M_I0c7Y0tvb14T4g5eVmoSOq5fM0N6D0MvO2tPa2NuDn43KyYWZyNHMzOP886umzsHKyYGNkYeByL62p9vb3KKe-u-6rqesyMfMzMXeg9DLgpiGh8DOkdvIjsnWzduWAAAAAMCJkqQ=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR FLOOR PANEL & REAR FLOOR MEMBER",
@@ -60898,12 +60898,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/581130E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/581130E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416272,
         car: "TOYOTA00",
         ssd: "$*KwHyxtffqZWhnaL0n6Pr-Kq-npmH9vn09efI-7O1hpKOioiLztn1n7G1sYCWj57Yxc_y-4qGjoXmh8vCwpOElOfx8fa699fw4rXk_eKb5Oi79Kn68ru5taiihOK16Kml5P3z7eSi8POp-uPz__Xz5Oi7_uXi--Ty-PD396nSqb2_sK6kgb3m-vSp-uHk8Pnw8vGptafg46-z4vvm5snW2YGM5Ovg46unu62r4pScjfHx9oi00MWQhI2G4u3m5u_0qfrhqLKsrerku_HipOP85_G8AAAAANnV-hk=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FLOOR INSULATOR",
@@ -60911,12 +60911,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/580776.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/580776.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416273,
         car: "TOYOTA00",
         ssd: "$*KwEtGQgAdkp-Qn0rQHw0J3VhQUZYKSYrKjgXJGxqWU1RVVdUEQYqQG5qbl9JUEEHGhAtJFVZUVo5WBQdHUxbSzguLillKAgvPWo7Ij1EOzdkK3YlLWRmand9Wz1qN3Z6OyIsMjt9Lyx2JTwsICotOzdkITo9JDstJy4uLHBqKWFocHxfZTt4JWpuPzwuIS4qLCtkZHQ9d206JT47SwcaFVI8NTg9c3o5fGh2SkRTKS8uVTYBBgRaVVg6Mz47bSVqbj9wbHRzMjk5ICEwPSQ5KWIAAAAAHBk3qw==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FLOOR MAT & SILENCER PAD",
@@ -60924,12 +60924,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/581195E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/581195E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416274,
         car: "TOYOTA00",
         ssd: "$*KwHF8eDonqKWqpXDqJTcz52Jqa6wwc7DwtD_zISCsaW5vb-8-e7CqIaChrehuKnv8vjFzL2xubLRsPz19aSzo9DGxsGNwODH1YLTytWs09-Mw57NxYyOgp-Vs9WC356S08rE2tOVx8SezdTEyMLC09-MydLVzNPFz8fAypvlnoqIh5mTtorRzcOezdbTx87HxcaegpDX1JiE1czR0f7h7ra709zX1JyQjJqc1aOrusbGwb-D5_Kns7qx1drR0djDns3Wn4Wbmt3TjMbVk9TL0MaLAAAAABOixdA=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CONSOLE BOX & BRACKET",
@@ -60937,12 +60937,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/580780K.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/580780K.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416275,
         car: "TOYOTA00",
         ssd: "$*KwGzh5ae6NTg3OO13uKquev_39jGt7i1tKaJuvL0x9PPy8nKj5i03vD08MHXzt-ZhI6zusvHz8SnxoqDg9LF1aawsLf7tpaxo_SlvKPapan6tei7s_r49OnjxaP0qejkpbyyrKXjsbLou6KyvrS1pan6v6SjuqWzubCwveid6Pz-8e_lwPynu7Xou6Clsbixs7Do9Oahou7yo7qnp4iXmMDNpaqhourm-uzqo9XdzLCwt8n1kYTRxczHo6ynp6616Lug6fPt7Kul-rCj5aK9prD9AAAAAAibZi0=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CONSOLE BOX & BRACKET",
@@ -60950,12 +60950,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/58/581199E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/58/581199E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416276,
         car: "TOYOTA00",
         ssd: "$*KwFlUUBIPgI2CjVjCDR8bz0pCQ4QYW5jYnBfbCQiEQUZHR8cWU5iCCYiJhcBGAlPUlhlbB0RGRJxEFxVVQQTA3BmZmEtYEBndSJzanUMc38sYz5tZSwuIj81E3Uifz4yc2pkenM1Z2Q-bXRkaGJjc38saXJ1bHNlb2dgajdFPiooJzkzFipxbWM-bXZzZ25nZWY-IjB3dDgkdWxxcV5BThYbc3x3dDwwLDo8dQMLGmZmYR8jR1IHExoRdXpxcXhjPm12PyU7On1zLGZ1M3RrcGYrAAAAAAG2W98=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SIDE MEMBER",
@@ -60963,12 +60963,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/614604A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/614604A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416279,
         car: "TOYOTA00",
         ssd: "$*KwGhlYSM-sbyzvGnzPC4q_ntzcrUpaqnprSbqODm1cHd2dvYnYqmzOLm4tPF3M2LlpyhqNnV3da11JiRkcDXx7SioqXppISjsea3rrHIt7vop_qpoejq5vvx17Hmu_r2t66gvrfxo6D6qbCjpaajt7vorbaxqLeioqajp_6F-u7s4_330u61qaf6qbK3o6qjoaL65vSzsPzgsai1tZqFitLft7izsPj06P74scfP3qKipdvng5bD197Vsb61tbyn-qmy--H__rm36KKx97CvtKLvAAAAAF3wh-0=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SIDE MEMBER",
@@ -60976,12 +60976,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/610753S.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/610753S.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416280,
         car: "TOYOTA00",
         ssd: "$*KwFFcWBoHiIWKhVDKBRcTx0JKS4wQU5DQlB_TAQCMSU5PT88eW5CKAYCBjchOClvcnhFTD0xOTJRMHx1dSQzI1BGRkENQGBHVQJTSlUsU18MQx5NRQwOAh8VM1UCXx4SU0pEWlMVR0QeTVRHQUJHU18MSVJVTFNGRkZGRh1zHgoIBxkTNgpRTUMeTVZTR05HRUYeAhBXVBgEVUxRUX5hbjY7U1xXVBwQDBocVSMrOkZGQT8DZ3InMzoxVVpRUVhDHk1WHwUbGl1TDEZVE1RLUEYLAAAAAPPMSzE=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SIDE MEMBER",
@@ -60989,12 +60989,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/613201C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/613201C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416281,
         car: "TOYOTA00",
         ssd: "$*KwHC9ufvmaWRrZLEr5PbyJqOrqm3xsnExdf4y4OFtqK-uri7_unFr4GFgbCmv67o9f_Cy7q2vrXWt_vy8qO0pNfBwcaKx-fA0oXUzdKr1NiLxJnKwouJhZiStNKF2JmV1M3D3dSSwMOZytPAxsXA1NiLztXSy9TBwcLExJjkmY2PgJ6UsY3WysSZytHUwMnAwsGZhZfQ05-D0svW1vnm6bG81NvQ05uXi52b0qSsvcHBxriE4PWgtL220t3W1t_EmcrRmIKcndrUi8HSlNPM18GMAAAAAKX6ZIo=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SIDE WINDOW",
@@ -61002,12 +61002,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/610730G.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/610730G.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416282,
         car: "TOYOTA00",
         ssd: "$*KwGxhZSc6tbi3uG33OCou-n93drEtbq3tqSLuPD2xdHNycvIjZq23PL28sPVzN2bhoyxuMnFzcalxIiBgdDH16SysrX5tJSzofanvqHYp6v4t-q5sfj69uvhx6H2q-rmp76wrqfhs7DquaCztbawp6v4vaahuKeysrKytOqT6v788-3nwv6lubfquaKns7qzsbLq9uSjoOzwobilpYqVmsLPp6ijoOjk-O7oodffzrKytcv3k4bTx87Foa6lpay36rmi6_Hv7qmn-LKh56C_pLL_AAAAAPSiKFk=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ROOF PANEL & BACK PANEL",
@@ -61015,12 +61015,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/610739D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/610739D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416283,
         car: "TOYOTA00",
         ssd: "$*KwG2gpOb7dHl2eaw2-evvO762t3Dsr2wsaOMv_fxwtbKzszPip2x2_Xx9cTSy9qcgYu2v87CysGiw4-GhtfA0KO1tbL-s5O0pvGguabfoKz_sO2-tv_98ezmwKbxrO3hoLm3qaDmtLftvqe0srG2oKz_uqGmv6C1tbW1s-SX7fn79OrgxfmivrDtvqWgtL20trXt8eOkp-v3pr-ioo2SncXIoK-kp-_j_-nvptDYybW1sszwlIHUwMnCpqmioquw7b6l7Pbo6a6g_7Wm4Ke4o7X4AAAAAB6CFZ8=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ROOF PANEL & BACK PANEL",
@@ -61028,12 +61028,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/613161.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/613161.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416284,
         car: "TOYOTA00",
         ssd: "$*KwFxRVRcKhYiHiF3HCBoeyk9HRoEdXp3dmRLeDA2BRENCQsITVp2HDI2MgMVDB1bRkxxeAkFDQZlBEhBQRAHF2RycnU5dFRzYTZnfmEYZ2s4dyp5cTg6NishB2E2ayomZ35wbmchc3AqeWBzdXZxZ2s4fWZheGdycnF0cSs2dT00LCADOWckeTYyY2ByfXJ2cHc4OChhKzFmeWJnF1tGSQ5gaWRhLyZlIDQqFhgPdXNyCWpdWlgGCQRmb2JnMXk2MmMsMCgvbmVlfH1sYXhldT4AAAAAEtI5pA==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ROOF PANEL & BACK PANEL",
@@ -61041,12 +61041,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/610734M.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/610734M.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416285,
         car: "TOYOTA00",
         ssd: "$*KwEWIjM7TXFFeUYQe0cPHE5aen1jEh0QEQMsH1dRYnZqbmxvKj0Re1VRVWRya3o8ISsWH25iamECYy8mJndgcAMVFRJeEzMUBlEAGQZ_AAxfEE0eFl9dUUxGYAZRDE1BABkXCQBGFBdNHgcUEhEWAAxfGgEGHwAVFRUVE0k-TVlbVEpAZVkCHhBNHgUAFB0UFhVNUUMEB0tXBh8CAi0yPWVoAA8EB09DX0lPBnB4aRUVEmxQNCF0YGliBgkCAgsQTR4FTFZISQ4AXxUGQAcYAxVYAAAAALQyR-4=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR VENTILATOR & ROOF VENTILATOR",
@@ -61054,12 +61054,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/61/610718A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/61/610718A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416288,
         car: "TOYOTA00",
         ssd: "$*KwHq3s_HsY25hbrsh7vz4LKmhoGf7uHs7f_Q46utnoqWkpCT1sHth6mtqZiOl4bA3dfq45Kelp3-n9Pa2oucjP_p6e6i78_o-q385fqD_PCj7LHi6qOhrbC6nPqt8LG9_OXr9fy66Oux4vvo7u3s_PCj5v364_zp6enp7bnOsaWnqLa8maX-4uyx4vn86OHo6umxrb_4-7er-uP-_tHOwZmU_PP4-7O_o7Wz-oyElenp7pCsyN2InJWe-vX-_vfsseL5sKq0tfL8o-n6vPvk_-mkAAAAAHkrlCo=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "INSIDE TRIM BOARD",
@@ -61067,12 +61067,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/64/640472G.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/64/640472G.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416289,
         car: "TOYOTA00",
         ssd: "$*KwGFsaCo3uLW6tWD6NScj93J6e7wgY6DgpC_jMTC8eX5_f_8ua6C6MbCxvfh-OmvsriFjP3x-fKR8Ly1teTz45CGhoHNgKCHlcKTipXsk5_Mg96NhczOwt_V85XCn97Sk4qEmpPVh4TejZSHhIKHk5_MiZKVjJOGg4aFhNyn3srIx9nT9sqRjYPejZaTh46HhYbewtCXlNjElYyRkb6hrvb7k5yXlNzQzNrclePr-oaGgf_Dp7Ln8_rxlZqRkZiD3o2W38Xb2p2TzIaV05SLkIbLAAAAAKPdHYM=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ROOF HEADLINING & SILENCER PAD",
@@ -61080,12 +61080,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/64/640643A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/64/640643A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416291,
         car: "TOYOTA00",
         ssd: "$*KwEnEwIKfEB0SHchSnY-LX9rS0xSIywhIDIdLmZgU0dbX11eGwwgSmRgZFVDWksNEBonLl9TW1AzUh4XF0ZRQTIkJCNvIgIlN2AxKDdOMT1uIXwvJ25sYH13UTdgPXxwMSgmODF3JSZ8LzYlJiAmMT1uKzA3LjEkISQlJX8DfGhqZXtxVGgzLyF8LzQxJSwlJyR8YHI1NnpmNy4zMxwDDFRZMT41Nn5ybnh-N0FJWCQkI11hBRBFUVhTNzgzMzohfC80fWd5eD8xbiQ3cTYpMiRpAAAAADjcyws=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ROOF HEADLINING & SILENCER PAD",
@@ -61093,12 +61093,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/64/640644B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/64/640644B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416292,
         car: "TOYOTA00",
         ssd: "$*KwH2wtPbrZGlmabwm6fv_K66mp2D8v3w8ePM_7exgpaKjoyPyt3xm7WxtYSSi5rcwcv2_46CioHig8_GxpeAkOP19fK-89P05rHg-eaf4Oy_8K3-9r-9saymgOax7K2h4Pn36eCm9Pet_uf09_H34Oy_-uHm_-D18PX09KnRrbm7tKqghbni_vCt_uXg9P309vWtsaPk56u35v_i4s3S3YWI4O_k56-jv6mv5pCYifX18oyw1MGUgImC5uni4uvwrf7lrLaoqe7gv_XmoOf44_W4AAAAAFqFVtM=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "PACKAGE TRAY PANEL",
@@ -61106,12 +61106,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/64/640454.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/64/640454.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416294,
         car: "TOYOTA00",
         ssd: "$*KwF2QlNbLRElGSZwGydvfC46Gh0Dcn1wcWNMfzcxAhYKDgwPSl1xGzUxNQQSCxpcQUt2fw4CCgFiA09GRhcAEGN1dXI-c1N0ZjFgeWYfYGw_cC1-dj89MSwmAGYxbC0hYHl3aWAmdHctfmd0d3FxYGw_emFmf2B1cHV2dSkxcjozKycEPmAjfjE1ZGd1enVxd3A_Py9mLDZhfmVgEFxBTglnbmNmKCFiJzMtER8IcnR1Dm1aXV8BDgNhaGVgNn4xNWQrNy8oaWJie3prZn9icjkAAAAAJdmXbw==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT DOOR PANEL & GLASS",
@@ -61119,12 +61119,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/671258E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/671258E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416295,
         car: "TOYOTA00",
         ssd: "$*KwGumouD9cn9wf6ow_-3pPbiwsXbqqWoqbuUp-_p2s7S1tTXkoWpw-3p7dzK08KEmZOup9ba0tm625eens_YyLutrarmq4usvum4ob7HuLTnqPWmrufl6fT-2L7ptPX5uKGvsbj-rK_1pr-srKmsuLTnorm-p7itq6yorf2O9eHj7PL43eG6pqj1pr24rKWsrq316fu8v_Pvvqe6upWKhd3QuLe8v_f75_H3vsjA0a2tqtTojJnM2NHavrG6urOo9aa99O7w8ba4562--L-gu63gAAAAAGeV7js=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT DOOR PANEL & GLASS",
@@ -61132,12 +61132,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/672813A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/672813A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416296,
         car: "TOYOTA00",
         ssd: "$*KwF9SVhQJhouEi17ECxkdyUxERYIeXZ7emhHdDw6CR0BBQcEQVZ6ED46Pg8ZABFXSkB9dAUJAQppCERNTRwLG2h-fnk1eFh_bTprcm0Ua2c0eyZ1fTQ2OictC206ZyYqa3J8Ymstf3wmdWx_f3p_a2c0cWptdGt-eHxxeiVZJjIwPyErDjJpdXsmdW5rf3Z_fX4mOihvbCA8bXRpaUZZVg4Da2RvbCQoNCIkbRsTAn5-eQc7X0ofCwIJbWJpaWB7JnVuJz0jImVrNH5tK2xzaH4zAAAAAH4_Heg=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT DOOR LOCK & HANDLE",
@@ -61145,12 +61145,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/672799B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/672799B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416297,
         car: "TOYOTA00",
         ssd: "$*KwHP--rilKicoJ_Jop7WxZeDo6S6y8TJyNr1xo6Iu6-zt7W28-TIooyIjL2rsqPl-PLPxre7s7jbuvb__665qdrMzMuHyurN34jZwN-m2dWGyZTHz4aEiJWfud-I1ZSY2cDO0Nmfzc6Ux97NzcjP2dWGw9jfxtnMys7MwJ3olICCjZOZvIDbx8mUx9zZzcTNz8yUiJrd3pKO38bb2_Tr5Lyx2dbd3paahpCW36mhsMzMy7WJ7fitubC739Db29LJlMfclY-RkNfZhszfmd7B2syBAAAAALVbtQc=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FRONT DOOR WINDOW REGULATOR & HINGE",
@@ -61158,12 +61158,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/671265E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/671265E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416298,
         car: "TOYOTA00",
         ssd: "$*KwHv28rCtIi8gL_pgr725bejg4Sa6-Tp6PrV5q6om4-Tl5WW08TogqyorJ2LkoPF2NLv5pebk5j7mtbf346Zifrs7Oun6srt_6j54P-G-fWm6bTn76akqLW_mf-o9bS4-eDu8Pm_7e605_7t7ejo-fWm4_j_5vns6u3p77HPtKCirbO5nKD75-m05_z57eTt7-y0qLr9_rKu_-b7-9TLxJyR-fb9_ra6prC2_4mBkOzs65WpzdiNmZCb__D7-_LptOf8ta-xsPf5puz_uf7h-uyhAAAAAIvyjBQ=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR DOOR PANEL & GLASS",
@@ -61171,12 +61171,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/671256I.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/671256I.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416299,
         car: "TOYOTA00",
         ssd: "$*KwFpXUxEMg46BjlvBDhwYzElBQIcbWJvbnxTYCguHQkVERMQVUJuBCouKhsNFAVDXlRpYBEdFR59HFBZWQgfD3xqam0hbExreS5_ZnkAf3MgbzJhaSAiLjM5H3kuczI-f2Zodn85a2gyYXhra25vf3MgZX55YH9qbGtvajRFMiYkKzU_GiZ9YW8yYXp_a2JraWoyLjx7eDQoeWB9fVJNQhoXf3B7eDA8IDYweQ8HFmpqbRMvS14LHxYdeXZ9fXRvMmF6Myk3NnF_IGp5P3hnfGonAAAAABUbgrs=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR DOOR PANEL & GLASS",
@@ -61184,12 +61184,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/672841.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/672841.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416300,
         car: "TOYOTA00",
         ssd: "$*KwFMeGlhFysfIxxKIR1VRhQAICc5SEdKS1l2RQ0LOCwwNDY1cGdLIQ8LDz4oMSBme3FMRTQ4MDtYOXV8fC06KllPT0gESWlOXAtaQ1wlWlYFShdETAUHCxYcOlwLVhcbWkNNU1ocTk0XRF1OTktKWlYFQFtcRVpPSU1AThYLSAAJER0-BFoZRAsPXl1PQE9LTUoFBRVcFgxbRF9aKmZ7dDNdVFlcEhtYHQkXKyUySE5PNFdgZ2U7NDlbUl9aDEQLD14RDRUSU1hYQUBRXEVYSAMAAAAAIE1c9Q==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR DOOR LOCK & HANDLE",
@@ -61197,12 +61197,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/672795A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/672795A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416301,
         car: "TOYOTA00",
         ssd: "$*KwFoXE1FMw87BzhuBTlxYjAkBAMdbGNub31SYSkvHAgUEBIRVENvBSsvKxoMFQRCX1VoYRAcFB98HVFYWAkeDn1ra2wgbU1qeC9-Z3gBfnIhbjNgaCEjLzI4HngvcjM_fmdpd344amkzYHlqam9tfnIhZH94YX5rbWlrZzZMMyclKjQ-Gyd8YG4zYHt-amNqaGszLz16eTUpeGF8fFNMQxsWfnF6eTE9ITcxeA4GF2trbBIuSl8KHhcceHd8fHVuM2B7Mig2N3B-IWt4PnlmfWsmAAAAAKHNeNo=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "REAR DOOR WINDOW REGULATOR & HINGE",
@@ -61210,12 +61210,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/671266D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/671266D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416302,
         car: "TOYOTA00",
         ssd: "$*KwFOemtjFSkdIR5IIx9XRBYCIiU7SkVISVt0Rw8JOi4yNjQ3cmVJIw0JDTwqMyJkeXNORzY6MjlaO3d-fi84KFtNTUoGS2tMXglYQV4nWFQHSBVGTgcFCRQeOF4JVBUZWEFPUVgeTE8VRl9MTElKWFQHQlleR1hNS0xIThNvFQEDDBIYPQFaRkgVRl1YTEVMTk0VCRtcXxMPXkdaWnVqZT0wWFdcXxcbBxEXXiggMU1NSjQIbHksODE6XlFaWlNIFUZdFA4QEVZYB01eGF9AW00AAAAAAMzYgAM=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BACK DOOR PANEL & GLASS",
@@ -61223,12 +61223,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/671237E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/671237E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416303,
         car: "TOYOTA00",
         ssd: "$*KwHa7v_3gb2JtYrct4vD0IKWtrGv3tHc3c_g05udrrqmoqCj5vHdt5mdmai-p7bw7efa06Kupq3Or-Pq6rusvM_Z2d6S3__Yyp3M1cqzzMCT3IHS2pORnYCKrMqdwIGNzNXbxcyK2NuB0svY2N7YzMCT1s3K08zZ39jc34b6gZWXmIaMqZXO0tyB0snM2NHY2tmBnY_Iy4ebytPOzuH-8amkzMPIy4OPk4WDyry0pdnZ3qCc-O24rKWuysXOzsfcgdLJgJqEhcLMk9nKjMvUz9mUAAAAADbqH8Q=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BACK DOOR PANEL & GLASS",
@@ -61236,12 +61236,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/671234F.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/671234F.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416304,
         car: "TOYOTA00",
         ssd: "$*KwHyxtffqZWhnaL0n6Pr-Kq-npmH9vn09efI-7O1hpKOioiLztn1n7G1sYCWj57Yxc_y-4qGjoXmh8vCwpOElOfx8fa699fw4rXk_eKb5Oi79Kn68ru5taiihOK16Kml5P3z7eSi8POp-uPw8Pbw5Oi7_uXi--Tx9_D0963Rqb2_sK6kgb3m-vSp-uHk8Pnw8vGptafg46-z4vvm5snW2YGM5Ovg46unu62r4pScjfHx9oi00MWQhI2G4u3m5u_0qfrhqLKsrerku_HipOP85_G8AAAAAN4yL0M=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BACK DOOR LOCK & HINGE",
@@ -61249,12 +61249,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/671917G.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/671917G.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416305,
         car: "TOYOTA00",
         ssd: "$*KwFZbXx0Aj4KNglfNAhAUwEVNTIsXVJfXkxjUBgeLTklISMgZXJeNBoeGis9JDVzbmRZUCEtJS5NLGBpaTgvP0xaWl0RXHxbSR5PVkkwT0MQXwJRWRASHgMJL0keQwIOT1ZYRk8JW1gCUUhbW11YT0MQVU5JUE9aXFtUXgV7AhYUGwUPKhZNUV8CUUpPW1JbWVoCHgxLSAQYSVBNTWJ9cionT0BLSAAMEAYAST83JlpaXSMfe247LyYtSUZNTURfAlFKAxkHBkFPEFpJD0hXTFoXAAAAAIk8zBM=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "LOCK CYLINDER SET",
@@ -61262,12 +61262,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/67/675923A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/67/675923A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416306,
         car: "TOYOTA00",
         ssd: "$*KwFFcWBoHiIWKhVDKBRcTx0JKS4wQU5DQlB_TAQCMSU5PT88eW5CKAYCBjchOClvcnhFTD0xOTJRMHx1dSQzI1BGRkENQGBHVQJTSlUsU18MQx5NRQwOAh8VM1UCXx4SU0pEWlMVR0QeTVRHR0FDU18MSVJVTFNGQENIQR1hHgoIBxkTNgpRTUMeTVZTR05HRUYeAhBXVBgEVUxRUX5hbjY7U1xXVBwQDBocVSMrOkZGQT8DZ3InMzoxVVpRUVhDHk1WHwUbGl1TDEZVE1RLUEYLAAAAAB4byMA=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -61275,12 +61275,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711030D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711030D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416307,
         car: "TOYOTA00",
         ssd: "$*KwGonI2F88_7x_iuxfmxovDkxMPdrKOur72Soenv3MjU0NLRlIOvxevv69rM1cSCn5WoodDc1N-83ZGYmMnezr2rq6zgrY2quO--p7jBvrLhrvOgqOHj7_L43rjvsvP_vqept774qqnzoLmrrK-qvrLhpL-4ob6qq6qsrfOJ8-fl6vT-2-e8oK7zoLu-qqOqqKvz7_26ufXpuKG8vJOMg9vWvrG6ufH94ffxuM7G16urrNLuip_K3tfcuLe8vLWu86C78uj297C-4au4_rmmvavmAAAAAKeBA90=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -61288,12 +61288,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/714158A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/714158A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416310,
         car: "TOYOTA00",
         ssd: "$*KwFSZnd_CTUBPQJUPwNLWAoePjknVllUVUdoWxMVJjIuKigrbnlVPxEVESA2Lz54ZW9SWyomLiVGJ2tiYjMkNEdRUVYaV3dQQhVEXUI7REgbVAlaUhsZFQgCJEIVSAkFRF1TTUQCUFMJWkNRVlVQREgbXkVCW0RQUVVXUQF2CR0fEA4EIR1GWlQJWkFEUFlQUlEJFQdAQw8TQltGRml2eSEsREtAQwsHGw0LQjQ8LVFRVigUcGUwJC0mQk1GRk9UCVpBCBIMDUpEG1FCBENcR1EcAAAAAKGcKJI=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -61301,12 +61301,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711104.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711104.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416311,
         car: "TOYOTA00",
         ssd: "$*KwG9iZiQ5tru0u270Oykt-Xx0dbIuba7uqiHtPz6yd3BxcfEgZa60P76_s_ZwNGXioC9tMXJwcqpyISNjdzL26i-vrn1uJi_rfqrsq3Uq6f0u-a1vfT2-ufty636p-bqq7K8oqvtv7zmtay-ubq_q6f0saqttKu_vr-4u-L6ufH44OzP9avotfr-r6y-sb66vLv09OSt5_2qta6r25eKhcKspait4-qp7Pjm2tTDub--xaaRlpTKxciqo66r_bX6_q_g_OTjoqmpsLGgrbSpufIAAAAA-JV21Q==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -61314,12 +61314,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/712376.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/712376.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416313,
         car: "TOYOTA00",
         ssd: "$*KwHr387GsIy4hLvthrry4bOnh4Ce7-Dt7P7R4qqsn4uXk5GS18DshqisqJmPlofB3Nbr4pOfl5z_ntLb24qdjf7o6O-j7s7p-6z95PuC_fGi7bDj66KgrLG7nfus8bC8_eTq9P276eqw4_ro7-zp_fGi5_z74v3p6Ors6ras76eutrqZo_2-46yo-fro5-js6u2iorL7sav84_j9jcHc05T68_77tbz_uq6wjIKV7-nok_DHwMKck5789fj9q-OsqPm2qrK19P__5uf2--L_76QAAAAAnBrbUA==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -61327,12 +61327,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711117T.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711117T.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416315,
         car: "TOYOTA00",
         ssd: "$*KwHP--rilKicoJ_Jop7WxZeDo6S6y8TJyNr1xo6Iu6-zt7W28-TIooyIjL2rsqPl-PLPxre7s7jbuvb__665qdrMzMuHyurN34jZwN-m2dWGyZTHz4aEiJWfud-I1ZSY2cDO0Nmfzc6Ux97My8jN2dWGw9jfxtnNzM3KyJP-lICCjZOZvIDbx8mUx9zZzcTNz8yUiJrd3pKO38bb2_Tr5Lyx2dbd3paahpCW36mhsMzMy7WJ7fitubC739Db29LJlMfclY-RkNfZhszfmd7B2syBAAAAAD8nslc=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -61340,12 +61340,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711010M.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711010M.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416316,
         car: "TOYOTA00",
         ssd: "$*KwEfKzoyRHhMcE8Zck4GFUdTc3RqGxQZGAolFl5Ya39jZ2VmIzQYclxYXG17YnM1KCIfFmdrY2gLaiYvL35peQocHBtXGjodD1gJEA92CQVWGUQXH1ZUWEVPaQ9YBURICRAeAAlPHR5EFw4cGxgdCQVWEwgPFgkdHB0bGEQ3RFBSXUNJbFALFxlEFwwJHRQdHxxEWEoNDkJeDxYLCyQ7NGxhCQYNDkZKVkBGD3lxYBwcG2VZPSh9aWBrDwALCwIZRBcMRV9BQAcJVhwPSQ4RChxRAAAAADFCJG0=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -61353,12 +61353,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711007C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711007C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416317,
         car: "TOYOTA00",
         ssd: "$*KwEmEgMLfUF1SXYgS3c_LH5qSk1TIi0gITMcL2dhUkZaXlxfGg0hS2VhZVRCW0oMERsmL15SWlEyUx8WFkdQQDMlJSJuIwMkNmEwKTZPMDxvIH0uJm9tYXx2UDZhPH1xMCknOTB2JCd9LjclIiEkMDxvKjE2LzAkJSQiIHoAfWlrZHpwVWkyLiB9LjUwJC0kJiV9YXM0N3tnNi8yMh0CDVVYMD80N39zb3l_NkBIWSUlIlxgBBFEUFlSNjkyMjsgfS41fGZ4eT4wbyU2cDcoMyVoAAAAAPrDIUI=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -61366,12 +61366,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711001A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711001A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416318,
         car: "TOYOTA00",
         ssd: "$*KwGeqruzxfnN8c6Y88-HlMbS8vXrmpWYmYukl9_Z6v7i5uTnorWZ893Z3ez64_K0qaOel-bq4umK66eurv_o-IudnZrWm7ucjtmIkY73iITXmMWWntfV2cTO6I7ZhMXJiJGfgYjOnJ_Flo-dmpmciITXkomOl4icnZyamMS6xdHT3MLI7dGKlpjFlo2InJWcnp3F2cuMj8PfjpeKiqW6te3giIeMj8fL18HHjvjw4Z2dmuTYvKn86OHqjoGKioOYxZaNxN7AwYaI152OyI-Qi53QAAAAAKOo2gc=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -61379,12 +61379,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711002S.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711002S.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416320,
         car: "TOYOTA00",
         ssd: "$*KwG1gZCY7tLm2uWz2OSsv-352d7Asb6zsqCPvPTywdXJzc_MiZ6y2Pby9sfRyNmfgoi1vM3BycKhwIyFhdTD06C2trH9sJC3pfKjuqXco6_8s-69tfz-8u_lw6Xyr-7io7q0qqPlt7TuvaS2sbK3o6_8uaKlvKO3trexs-yD7vr49-njxvqhvbPuvaajt763tbbu8uCnpOj0pbyhoY6RnsbLo6ynpOzg_OrspdPbyra2sc_zl4LXw8rBpaqhoaiz7r2m7_Xr6q2j_Lal46S7oLb7AAAAAHqng3M=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT & SEAT TRACK",
@@ -61392,12 +61392,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/712378A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/712378A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416321,
         car: "TOYOTA00",
         ssd: "$*KwFabn93AT0JNQpcNwtDUAIWNjEvXlFcXU9gUxsdLjomIiAjZnFdNxkdGSg-JzZwbWdaUyIuJi1OL2NqajssPE9ZWV4SX39YSh1MVUozTEATXAFSWhMRHQAKLEodQAENTFVbRUwKWFsBUktZXl1YTEATVk1KU0xYWVtdWwl-ARUXGAYMKRVOUlwBUklMWFFYWlkBHQ9ISwcbSlNOTmF-cSkkTENISwMPEwUDSjw0JVlZXiAceG04LCUuSkVOTkdcAVJJABoEBUJME1lKDEtUT1kUAAAAAPyeBTU=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT BELT",
@@ -61405,12 +61405,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/710990A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/710990A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416322,
         car: "TOYOTA00",
         ssd: "$*KwHR5fT8iraCvoHXvIDI24mdvbqk1drX1sTr2JCWpbGtqauo7frWvJKWkqO1rL375uzR2KmlrabFpOjh4bCnt8TS0tWZ1PTTwZbH3sG4x8uY14rZ0ZialouBp8GWy4qGx97QzseB09CK2cDS1dbQx8uY3cbB2MfT0tLc3or1ip6ck42Hop7F2deK2cLH09rT0dKKloTDwIyQwdjFxer1-qKvx8jDwIiEmI6Iwbe_rtLS1auX8-azp66lwc7FxczXitnCi5GPjsnHmNLBh8DfxNKfAAAAAIFT2QY=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT BELT",
@@ -61418,12 +61418,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/710995H.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/710995H.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416324,
         car: "TOYOTA00",
         ssd: "$*KwEkEAEJf0N3S3QiSXU9LnxoSE9RIC8iIzEeLWVjUERYXF5dGA8jSWdjZ1ZAWUgOExkkLVxQWFMwUR0UFEVSQjEnJyBsIQEmNGMyKzRNMj5tIn8sJG1vY350UjRjPn9zMislOzJ0JiV_LDUnICMlMj5tKDM0LTImJycpK3oJf2tpZnhyV2swLCJ_LDcyJi8mJCd_Y3E2NXllNC0wMB8AD1daMj02NX1xbXt9NEJKWycnIF5iBhNGUltQNDswMDkifyw3fmR6ezwybSc0cjUqMSdqAAAAAKJXgfE=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SEAT BELT",
@@ -61431,12 +61431,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/71/711723B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/71/711723B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416325,
         car: "TOYOTA00",
         ssd: "$*KwF7T15WIBwoFCt9FipicSM3FxAOf3B9fG5Bcjo8DxsHAwECR1B8Fjg8OAkfBhdRTEZ7cgMPBwxvDkJLSxoNHW54eH8zfl55azxtdGsSbWEyfSBzezIwPCErDWs8YSAsbXR6ZG0reXogc2p4f3x6bWEyd2xrcm15eHl4fyNcIDQ2OSctCDRvc30gc2hteXB5e3ggPC5paiY6a3Jvb0BfUAgFbWJpaiIuMiQiax0VBHh4fwE9WUwZDQQPa2Rvb2Z9IHNoITslJGNtMnhrLWp1bng1AAAAAOLJ0bU=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ARMREST & VISOR",
@@ -61444,12 +61444,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/74/740470A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/74/740470A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416326,
         car: "TOYOTA00",
         ssd: "$*KwEYLD01Q39Ld0gedUkBEkBUdHNtHBMeHw0iEVlfbHhkYGJhJDMfdVtfW2p8ZXQyLyUYEWBsZG8MbSEoKHlufg0bGxxQHT0aCF8OFwhxDgJRHkMQGFFTX0JIbghfAkNPDhcZBw5IGhlDEAkbGR8aDgJRFA8IEQ4aHhsYGUM8Q1dVWkROa1cMEB5DEAsOGhMaGBtDX00KCUVZCBEMDCM8M2tmDgEKCUFNUUdBCH52ZxsbHGJeOi96bmdsCAcMDAUeQxALQlhGRwAOURsITgkWDRtWAAAAADfQxak=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ARMREST & VISOR",
@@ -61457,12 +61457,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/74/740467J.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/74/740467J.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416328,
         car: "TOYOTA00",
         ssd: "$*KwEaLj83QX1JdUocd0sDEEJWdnFvHhEcHQ8gE1tdbnpmYmBjJjEdd1ldWWh-Z3YwLScaE2JuZm0ObyMqKntsfA8ZGR5SHz8YCl0MFQpzDABTHEESGlNRXUBKbApdAEFNDBUbBQxKGBtBEgsZGx0YDABTFg0KEwwYHBkaGkY1QVVXWEZMaVUOEhxBEgkMGBEYGhlBXU8IC0dbChMODiE-MWlkDAMIC0NPU0VDCnx0ZRkZHmBcOC14bGVuCgUODgccQRIJQFpERQIMUxkKTAsUDxlUAAAAAOPtQEE=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BATTERY CARRIER",
@@ -61470,12 +61470,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/74/740455A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/74/740455A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416329,
         car: "TOYOTA00",
         ssd: "$*KwETJzY-SHRAfEMVfkIKGUtff3hmFxgVFAYpGlJUZ3Nva2lqLzgUflBUUGF3bn85JC4TGmtnb2QHZiojI3JldQYQEBdbFjYRA1QFHAN6BQlaFUgbE1pYVElDZQNUCUhEBRwSDAVDERJIGwIQEhQUBQlaHwQDGgURFRATEE03SFxeUU9FYFwHGxVIGwAFERgRExBIVEYBAk5SAxoHByg3OGBtBQoBAkpGWkxKA3V9bBAQF2lVMSRxZWxnAwwHBw4VSBsASVNNTAsFWhADRQIdBhBdAAAAACGNRYY=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CAUTION PLATE",
@@ -61483,12 +61483,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/74/746153A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/74/746153A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416330,
         car: "TOYOTA00",
         ssd: "$*KwGWorO7zfHF-caQ-8ePnM7a-v3jkp2QkYOsn9fR4vbq7uzvqr2R-9XR1eTy6_q8oauWn-7i6uGC46-mpvfg8IOVlZLek7OUhtGAmYb_gIzfkM2elt_d0czG4IbRjM3BgJmXiYDGlJfNnoeVl5GQgIzfmoGGn4CUkJOTlc6yzdnb1MrA5dmCnpDNnoWAlJ2UlpXN0cOEh8vXhp-Cgq2yveXogI-Eh8_D38nPhvD46ZWVkuzQtKH04OnihomCgouQzZ6FzNbIyY6A35WGwIeYg5XYAAAAAK_-FtY=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CAUTION PLATE",
@@ -61496,12 +61496,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/74/740458O.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/74/740458O.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416331,
         car: "TOYOTA00",
         ssd: "$*KwGIvK2l0-_b59iO5dmRgtDE5OP9jIOOj52ygcnP_Oj08PLxtKOP5cvPy_rs9eSiv7WIgfD89P-c_bG4uOn-7p2Li4zAja2KmM-eh5jhnpLBjtOAiMHDz9LY_pjPktPfnoeJl57YionTgJmLiY-OnpLBhJ-YgZ6KjouIi9ui08fFytTe-8ecgI7TgJueioOKiIvTz92amdXJmIGcnLOso_v2npGamdHdwdfRmO7m94uLjPLOqr_q_vf8mJecnJWO04Cb0sjW15CewYuY3pmGnYvGAAAAAPYd6K8=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ASH RECEPTACLE",
@@ -61509,12 +61509,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/74/740469A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/74/740469A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416332,
         car: "TOYOTA00",
         ssd: "$*KwExBRQcalZiXmE3XGAoO2l9XVpENTo3NiQLOHB2RVFNSUtIDRo2XHJ2ckNVTF0bBgwxOElFTUYlRAgBAVBHVyQyMjV5NBQzIXYnPiFYJyt4N2o5MXh6dmthRyF2K2pmJz4wLidhMzBqOSAyMDY0Jyt4PSYhOCczNzIxMWMVan58c21nQn4lOTdqOSInMzozMTJqdmQjIGxwITglJQoVGkJPJygjIGhkeG5oIVdfTjIyNUt3EwZTR05FIS4lJSw3ajkia3FvbikneDIhZyA_JDJ_AAAAANWuyek=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "EMBLEM & NAME PLATE",
@@ -61522,12 +61522,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/75/750461A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/75/750461A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416333,
         car: "TOYOTA00",
         ssd: "$*KwFzR1ZeKBQgHCN1HiJqeSs_HxgGd3h1dGZJejI0BxMPCwkKT1h0HjA0MAEXDh9ZRE5zegsHDwRnBkpDQxIFFWZwcHc7dlZxYzRlfGMaZWk6dSh7czo4NCkjBWM0aSgkZXxybGUjcXIoe2Jwc3RxZWk6f2RjemVxdHBzcylXKDw-MS8lADxne3Uoe2BlcXhxc3AoNCZhYi4yY3pnZ0hXWAANZWphYiomOiwqYxUdDHBwdwk1UUQRBQwHY2xnZ251KHtgKTMtLGtlOnBjJWJ9ZnA9AAAAALXTOXA=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "MOULDING",
@@ -61535,12 +61535,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/75/750456F.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/75/750456F.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416334,
         car: "TOYOTA00",
         ssd: "$*KwGdqbiwxvrO8s2b8MyEl8XR8fbomZabmoinlNza6f3h5efkobaa8N7a3u_54PG3qqCdlOXp4eqJ6KStrfzr-4ienpnVmLifjdqLko30i4fUm8aVndTW2sfN643ah8bKi5KcgovNn5zGlYyenZqci4fUkYqNlIufmp6dnsC-xtLQ38HL7tKJlZvGlY6Ln5afnZ7G2siPjMDcjZSJiaa5tu7ji4SPjMTI1MLEjfvz4p6emefbv6r_6-LpjYKJiYCbxpWOx93DwoWL1J6Ny4yTiJ7TAAAAAOUkppI=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BODY STRIPE",
@@ -61548,12 +61548,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/75/750447.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/75/750447.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416335,
         car: "TOYOTA00",
         ssd: "$*KwE0ABEZb1NnW2QyWWUtPmx4WF9BMD8yMyEOPXVzQFRITE5NCB8zWXdzd0ZQSVgeAwk0PUxASEMgQQ0EBFVCUiE3NzB8MRE2JHMiOyRdIi59Mm88NH1_c25kQiRzLm9jIjs1KyJkNjVvPCU3NDM0Ii59OCMkPSI2Mzc0NmhzMHhxaWVGfCJhPHN3JiU3ODczNTJ9fW0kbnQjPCciUh4DDEslLCEkamMgZXFvU11KMDY3TC8YHx1DTEEjKicidDxzdyZpdW1qKyAgOTgpJD0gMHsAAAAAZ3C5YQ==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BODY STRIPE",
@@ -61561,12 +61561,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/75/750777.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/75/750777.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416336,
         car: "TOYOTA00",
         ssd: "$*KwEOOisjVWldYV4IY18XBFZCYmV7CgUICRs0B09Jem5ydnR3MiUJY01JTXxqc2IkOTMOB3Z6cnkaezc-Pm94aBsNDQpGCysMHkkYAR5nGBRHCFUGDkdFSVReeB5JFFVZGAEPERheDA9VBh8NDgkOGBRHAhkeBxgMCQ0ND1JJCkJLU198RhhbBklNHB8NAg0JDwhHR1ceVE4ZBh0YaCQ5NnEfFhseUFkaX0tVaWdwCgwNdhUiJSd5dnsZEB0YTgZJTRxTT1dQERoaAwITHgcaCkEAAAAAj1NGKg==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "BODY STRIPE",
@@ -61574,12 +61574,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/75/750943.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/75/750943.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416337,
         car: "TOYOTA00",
         ssd: "$*KwGhlYSM-sbyzvGnzPC4q_ntzcrUpaqnprSbqODm1cHd2dvYnYqmzOLm4tPF3M2LlpyhqNnV3da11JiRkcDXx7SioqXppISjsea3rrHIt7vop_qpoejq5vvx17Hmu_r2t66gvrfxo6D6qbCioaaht7vorbaxqLejpqKso_nmpe3k_PDT6bf0qebis7CiraKmoKfo6Pix--G2qbK3x4uWmd6wubSx__a18OT6xsjfpaOi2bqNiojW2dS2v7K34anm4rP84Pj_vrW1rK28sai1pe4AAAAAUm7xew==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "TOOL BOX & LICENSE PLATE BRACKET",
@@ -61587,12 +61587,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/75/750450.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/75/750450.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416339,
         car: "TOYOTA00",
         ssd: "$*KwFjV0ZOOAQwDDNlDjJ6aTsvDwgWZ2hlZHZZaiIkFwMfGxkaX0hkDiAkIBEHHg9JVF5jahsXHxR3FlpTUwIVBXZgYGcrZkZhcyR1bHMKdXkqZThrYyooJDkzFXMkeTg0dWxifHUzYWI4a3JgY2RkdXkqb3RzanVhZGBjYDgkZy8mPjIRK3U2ayQgcXJgb2BkYmUqKjpzOSN0a3B1BUlUWxxye3ZzPTR3MiY4BAodZ2FgG3hPSEoUGxZ0fXB1I2skIHE-Ijo9fHd3bm9-c2p3ZywAAAAALsjTow==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FUEL TANK & TUBE",
@@ -61600,12 +61600,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/77/770530H.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/77/770530H.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416341,
         car: "TOYOTA00",
         ssd: "$*KwGHs6Kq3ODU6NeB6taejd_L6-zyg4yBgJK9jsbA8-f7__3-u6yA6sTAxPXj-uutsLqHjv_z-_CT8r63t-bx4ZKEhIPPgqKFl8CRiJfukZ3OgdyPh87MwN3X8ZfAndzQkYiGmJHXhYbcj5aEhYCFkZ3Oi5CXjpGFgoSGgtyq3MjKxdvR9MiTj4Hcj5SRhYyFh4TcwNKVltrGl46Tk7yjrPT5kZ6Vlt7Sztjel-Hp-ISEg_3BpbDl8fjzl5iTk5qB3I-U3cfZ2J-RzoSX0ZaJkoTJAAAAANL9WRc=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FUEL TANK & TUBE",
@@ -61613,12 +61613,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/77/770531D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/77/770531D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416342,
         car: "TOYOTA00",
         ssd: "$*KwGiloeP-cXxzfKkz_O7qPruzsnXpqmkpbeYq-Pl1sLe2tjbnomlz-Hl4dDG386IlZ-iq9rW3tW215uSksPUxLehoabqp4egsuW0rbLLtLjrpPmqouvp5fjy1LLluPn1tK2jvbTyoKP5qrOhoKWgtLjrrrWyq7Sgp6Gjp_iD-e3v4P700e22qqT5qrG0oKmgoqH55fews__jsqu2tpmGidHctLuws_v36_37ssTM3aGhptjkgJXA1N3Wsr22tr-k-aqx-OL8_bq066Gy9LOst6HsAAAAABbg0SA=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ACCELERATOR LINK",
@@ -61626,14 +61626,14 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/78/780321E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/78/780321E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416347,
         car: "TOYOTA00",
         ssd: "$*KwF1QVBYLhImGiVzGCRsfy05GR4AcX5zcmBPfDQyARUJDQ8MSV5yGDYyNgcRCBlfQkh1fA0BCQJhAExFRRQDE2B2dnE9cFB3ZTJjemUcY288cy59dTw-Mi8lA2Uyby4iY3p0amMld3QufWR2eHJ3Y288eWJlfGN3f3ZycS9VLjo4NykjBjphfXMufWZjd353dXYuMiBnZCg0ZXxhYU5RXgYLY2xnZCwgPCosZRMbCnZ2cQ8zV0IXAwoBZWphYWhzLn1mLzUrKm1jPHZlI2R7YHY7AAAAAPmzogQ=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
-    ] as SouqPartsGroup[],
+    ],
     parts: [
       {
         number: "510036A300",
@@ -99634,7 +99634,7 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         gid: null,
         ssd: null,
       },
-    ] as SouqPartsGroup[],
+    ] 
   },
   {
     part_category: "Engine/Fuel/Tool",
@@ -99645,12 +99645,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/09/090075C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/09/090075C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416107,
         car: "TOYOTA00",
         ssd: "$*KwFpXUxEMg46BjlvBDhwYzElBQIcbWJvbnxTYCguHQkVERMQVUJuBCouKhsNFAVDXlRpYBEdFR59HFBZWQgfD3xqam0hbExreS5_ZnkAf3MgbzJhayAiLjM5H3kuczI-f2Zqdn85a2gyYXhtZWtrf3MgZX55YH9sYmptaDdPMiYkKzU_GiZ9YW8yYXp_a2JraWoyLjx7eDQoeWB9fVJNQhoXf3B7eDA8IDYweQ8HFmpqbRMvS14LHxYdeXZ9fXRvMmF6Myk3NnF_IGp5P3hnfGonAAAAAE7RBDs=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "PARTIAL ENGINE ASSEMBLY",
@@ -99658,12 +99658,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/MA/MAC101.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/MA/MAC101.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416108,
         car: "TOYOTA00",
         ssd: "$*KwEiFgcPeUVxTXIkT3M7KHpuTklXJikkJTcYK2NlVkJeWlhbHgklT2FlYVBGX04IFR8iK1pWXlU2VxsSEkNURDchISZqJwcgMmU0LTJLNDhrJHkqIGtpZXhyVDJlOHl1NC0hPTRyICN5KjMnJiAgNDhrLjUyKzRaUVInJHhlJm5nf3NQajR3KmVhMDMhLiElIyRra3syeGI1KjE0RAgVGl0zOjcyfHU2c2d5RUtcJiAhWjkOCQtVWlc1PDE0YiplYTB_Y3t8PTY2Ly4_Mis2Jm0AAAAA6PzVbQ==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "SHORT BLOCK ASSEMBLY",
@@ -99671,12 +99671,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/MA/MAC102.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/MA/MAC102.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416109,
         car: "TOYOTA00",
         ssd: "$*KwESJjc_SXVBfUIUf0MLGEpefnlnFhkUFQcoG1NVZnJuamhrLjkVf1FVUWB2b344JS8SG2pmbmUGZysiInNkdAcRERZaFzcQAlUEHQJ7BAhbFEkaEFtZVUhCZAJVCElFBB0RDQRCEBNJGgMXFhATBAhbHgUCGwRqYWIXFEtVFl5XT0NgWgRHGlVRAAMRHhEVExRbW0sCSFIFGgEEdDglKm0DCgcCTEUGQ1dJdXtsFhARagk-OTtlamcFDAEEUhpVUQBPU0tMDQYGHx4PAhsGFl0AAAAA0xyUPw==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ENGINE OVERHAUL GASKET KIT",
@@ -99684,12 +99684,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/11/119439.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/11/119439.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416110,
         car: "TOYOTA00",
         ssd: "$*KwFMeGlhFysfIxxKIR1VRhQAICc5SEdKS1l2RQ0LOCwwNDY1cGdLIQ8LDz4oMSBme3FMRTQ4MDtYOXV8fC06KllPT0gESWlOXAtaQ1wlWlYFShdETgUHCxYcOlwLVhcbWkNPU1ocTk0XRF1JSE5MWlYFQFtcRVpIT0ZMSR4LSAAJER0-BFoZRAsPXl1PQE9LTUoFBRVcFgxbRF9aKmZ7dDNdVFlcEhtYHQkXKyUySE5PNFdgZ2U7NDlbUl9aDEQLD14RDRUSU1hYQUBRXEVYSAMAAAAA995zSg==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ENGINE OVERHAUL GASKET KIT",
@@ -99697,12 +99697,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/11/119421.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/11/119421.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416111,
         car: "TOYOTA00",
         ssd: "$*KwELPy4mUGxYZFsNZloSAVNHZ2B-DwANDB4xAkpMf2t3c3FyNyAMZkhMSHlvdmchPDYLAnN_d3wffjI7O2p9bR4ICA9DDi4JG0wdBBtiHRFCDVADCUJATFFbfRtMEVBcHQQIFB1bCQpQAxoODwkLHRFCBxwbAh0PCAELD1FMD0dOVlp5Qx1eA0xIGRoIBwgMCg1CQlIbUUscAxgdbSE8M3QaEx4bVVwfWk5QbGJ1DwkIcxAnICJ8c34cFRgdSwNMSBlWSlJVFB8fBgcWGwIfD0QAAAAAKdH6OA==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CYLINDER HEAD",
@@ -99710,12 +99710,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/11/113627O.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/11/113627O.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416114,
         car: "TOYOTA00",
         ssd: "$*KwHQ5PX9i7eDv4DWvYHJ2oicvLul1NvW18Xq2ZGXpLCsqKqp7PvXvZOXk6K0rbz65-3Q2aikrKfEpeng4LGmtsXT09SY1fXSwJfG38C5xsqZ1ovY0pmbl4qApsCXyouHxt_Tz8aA0tGL2MHV1NLXxsqZ3MfA2cbU09DS1Iz6i5-dkoyGo5_E2NaL2MPG0tvS0NOLl4XCwY2RwNnExOv0-6OuxsnCwYmFmY-JwLa-r9PT1KqW8ueypq-kwM_ExM3Wi9jDipCOj8jGmdPAhsHexdOeAAAAAD_U5bg=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CYLINDER HEAD",
@@ -99723,12 +99723,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/11/110976A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/11/110976A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416116,
         car: "TOYOTA00",
         ssd: "$*KwEqHg8HcU15RXosR3szIHJmRkFfLiEsLT8QI2ttXkpWUlBTFgEtR2ltaVhOV0YAHRcqI1JeVl0-XxMaGktcTD8pKS5iLw8oOm08JTpDPDBjLHEiKGNhbXB6XDptMHF9PCUpNTx6KCtxIjsvLigtPDBjJj06IzwuKSknK3cOcWVnaHZ8WWU-IixxIjk8KCEoKilxbX84O3drOiM-PhEOAVlUPDM4O3N_Y3VzOkxEVSkpLlBsCB1IXFVeOjU-PjcscSI5cGp0dTI8Yyk6fDskPylkAAAAALuvLnA=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CYLINDER BLOCK",
@@ -99736,12 +99736,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/11/113633C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/11/113633C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416117,
         car: "TOYOTA00",
         ssd: "$*KwE5DRwUYl5qVmk_VGggM2F1VVJMPTI_PiwDMHh-TVlFQUNABRI-VHp-ektdRFUTDgQ5MEFNRU4tTAAJCVhPXyw6Oj1xPBw7KX4vNilQLyNwP2IxO3ByfmNpTyl-I2JuLzY6Ji9pOzhiMSg8PTs_LyNwNS4pMC89Ojk7PGEfYnZ0e2VvSnYtMT9iMSovOzI7OTpifmwrKGR4KTAtLQIdEkpHLyArKGBscGZgKV9XRjo6PUN_Gw5bT0ZNKSYtLSQ_YjEqY3lnZiEvcDopbyg3LDp3AAAAACe4ctk=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "TIMING GEAR COVER & REAR END PLATE",
@@ -99749,12 +99749,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/11/117455.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/11/117455.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416118,
         car: "TOYOTA00",
         ssd: "$*KwGJvayk0u7a5tmP5NiQg9HF5eL8jYKPjpyzgMjO_en18fPwtaKO5MrOyvvt9OWjvrSJgPH99f6d_LC5uej_75yKio3BjKyLmc6fhpngn5PAj9KBi8DCztPZ_5nOk9Len4aKlp_Zi4jSgZiMjYuMn5PAhZ6ZgJ-Nio2JitfOjcXM1Nj7wZ_cgc7Km5iKhYqOiI_AwNCZ08megZqf76O-sfaYkZyZ196d2MzS7uD3jYuK8ZKloqD-8fyel5qfyYHOypvUyNDXlp2dhIWUmYCdjcYAAAAA_kHYyQ==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "MOUNTING",
@@ -99762,12 +99762,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/11/110979D.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/11/110979D.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416120,
         car: "TOYOTA00",
         ssd: "$*KwGmkoOL_cH1yfagy_e_rP7qys3Toq2gobOcr-fh0sba3tzfmo2hy-Xh5dTC28qMkZumr97S2tGy05-WlsfQwLOlpaLuo4OktuGwqbbPsLzvoP2upO_t4fz20LbhvP3xsKmlubD2pKf9rrejoqSisLzvqrG2r7CipaWrp_SH_enr5Prw1emyrqD9rrWwpK2kpqX94fO0t_vntq-ysp2CjdXYsL-0t__z7_n_tsDI2aWlotzghJHE0NnStrmysrug_a61_Ob4-b6w76W28Leos6XoAAAAAAYdkcI=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "VENTILATION HOSE",
@@ -99775,12 +99775,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/12/120286A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/12/120286A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416121,
         car: "TOYOTA00",
         ssd: "$*KwGPu6qi1Ojc4N-J4t6WhdfD4-T6i4SJiJq1hs7I--_z9_X2s6SI4szIzP3r8uOluLKPhvf78_ib-ra_v-756ZqMjIvHiqqNn8iZgJ_mmZXGidSHjcbEyNXf-Z_IldTYmYCMkJnfjY7Uh56KiI2NmZXGg5ifhpmLj4yJgdKr1MDCzdPZ_MCbh4nUh5yZjYSNj4zUyNqdntLOn4abm7SrpPzxmZadntbaxtDWn-nh8IyMi_XJrbjt-fD7n5Cbm5KJ1Iec1c_R0JeZxoyf2Z6BmozBAAAAAL20wM8=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CRANKSHAFT & PISTON",
@@ -99788,12 +99788,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/13/131413A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/13/131413A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416123,
         car: "TOYOTA00",
         ssd: "$*KwHU4PH5j7OHu4TSuYXN3oyYuL-h0N_S08Hu3ZWToLSorK6t6P_TuZeTl6awqbj-4-nU3aygqKPAoe3k5LWissHX19Cc0fHWxJPC28S9ws6d0o_c1p2fk46EosSTzo-DwtvXy8KE1tWP3MXR0tbWws6d2MPE3cLQ1dbU04zwj5uZloiCp5vA3NKP3MfC1t_W1NePk4HGxYmVxN3AwO_w_6eqws3GxY2BnYuNxLK6q9fX0K6S9uO2oqugxMvAwMnSj9zHjpSKi8zCndfEgsXawdeaAAAAAFESL-g=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "CAMSHAFT & VALVE",
@@ -99801,12 +99801,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/13/132896.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/13/132896.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416124,
         car: "TOYOTA00",
         ssd: "$*KwFabn93AT0JNQpcNwtDUAIWNjEvXlFcXU9gUxsdLjomIiAjZnFdNxkdGSg-JzZwbWdaUyIuJi1OL2NqajssPE9ZWV4SX39YSh1MVUozTEATXAFSWBMRHQAKLEodQAENTFVZRUwKWFsBUktfXFhbTEATVk1KU0xeW1tWVQcdXhYfBwsoEkwPUh0ZSEtZVlldW1wTEwNKABpNUklMPHBtYiVLQk9KBA1OCx8BPTMkXlhZIkF2cXMtIi9NRElMGlIdGUgHGwMERU5OV1ZHSlNOXhUAAAAAxZmYJw==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ENGINE OIL PUMP",
@@ -99814,12 +99814,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/15/150247C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/15/150247C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416126,
         car: "TOYOTA00",
         ssd: "$*KwHI_O3lk6-bp5jOpZnRwpCEpKO9zMPOz93ywYmPvKi0sLKx9OPPpYuPi7qstaTi__XIwbC8tL_cvfH4-Km-rt3Ly8yAze3K2I_ex9ih3tKBzpPAyoGDj5KYvtiP0pOf3sfL196YysmTwNnNyMrK3tKBxN_Ywd7Mz8vOypTuk4eFipSeu4fcwM6TwNveysPKyMuTj53a2ZWJ2MHc3PPs47u23tHa2ZGdgZeR2K6mt8vLzLKO6v-qvre82Nfc3NXOk8DbkoiWl9DegcvYntnG3cuGAAAAAAIzAAQ=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "OIL FILTER",
@@ -99827,12 +99827,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/15/150249A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/15/150249A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416129,
         car: "TOYOTA00",
         ssd: "$*KwFKfm9nES0ZJRpMJxtTQBIGJiE_TkFMTV9wQwsNPio2MjAzdmFNJwkNCTguNyZgfXdKQzI-Nj1eP3N6eis8LF9JSU4CT29IWg1cRVojXFADTBFCSAMBDRAaPFoNUBEdXEVJVVwaSEsRQltPSkhLXFADRl1aQ1xOTUlMSBhuEQUHCBYcOQVeQkwRQllcSEFISkkRDR9YWxcLWkNeXnFuYTk0XFNYWxMfAxUTWiwkNUlJTjAMaH0oPDU-WlVeXldMEUJZEAoUFVJcA0laHFtEX0kEAAAAADmszpM=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ENGINE OIL COOLER",
@@ -99840,12 +99840,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/15/150248C.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/15/150248C.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416130,
         car: "TOYOTA00",
         ssd: "$*KwE3AxIabFBkWGcxWmYuPW97W1xCMzwxMCINPnZwQ1dLT01OCxwwWnRwdEVTSlsdAAo3Pk9DS0AjQg4HB1ZBUSI0NDN_MhI1J3AhOCdeIS1-MWw_NX58cG1nQSdwLWxgITg0KCFnNTZsPyYyNzU3IS1-OyAnPiEzMDQxNWQRbHh6dWthRHgjPzFsPyQhNTw1NzRscGIlJmp2Jz4jIwwTHERJIS4lJm5ifmhuJ1FZSDQ0M01xFQBVQUhDJygjIyoxbD8kbXdpaC8hfjQnYSY5IjR5AAAAAMZACs0=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "WATER PUMP",
@@ -99853,12 +99853,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/16/166411A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/16/166411A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416131,
         car: "TOYOTA00",
         ssd: "$*KwG6jp-X4d3p1eq81-ujsOL21tHPvrG8va-As_v9ztrGwsDDhpG91_n9-cjex9aQjYe6s8LOxs2uz4OKitvM3K-5ub7yv5-4qv2starTrKDzvOGyuPPx_eDqzKr9oOHtrLW5pazquLvhsqu_ubi4rKDztq2qs6y-vr-6veCe4fX3-ObsyfWusrzhsqmsuLG4urnh_e-oq-f7qrOuroGekcnErKOoq-Pv8-XjqtzUxbm5vsD8mI3YzMXOqqWurqe84bKp4Prk5aKs87mq7Ku0r7n0AAAAADznei0=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "RADIATOR & WATER OUTLET",
@@ -99866,12 +99866,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/16/160622F.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/16/160622F.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416132,
         car: "TOYOTA00",
         ssd: "$*KwEcKDkxR3tPc0wacU0FFkRQcHdpGBcaGwkmFV1baHxgZGZlIDcbcV9bX254YXA2KyEcFWRoYGsIaSUsLH1qegkfHxhUGTkeDFsKEwx1CgZVGkcUHlVXW0ZMagxbBkdLChMfAwpMHh1HFA0ZHx4cCgZVEAsMFQoYGB8eGEU_R1NRXkBKb1MIFBpHFA8KHhceHB9HW0kODUFdDBUICCc4N29iCgUODUVJVUNFDHpyYx8fGGZaPit-amNoDAMICAEaRxQPRlxCQwQKVR8MSg0SCR9SAAAAACFc6Fs=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "RADIATOR & WATER OUTLET",
@@ -99879,12 +99879,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/16/160629B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/16/160629B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416134,
         car: "TOYOTA00",
         ssd: "$*KwEsGAkBd0t_Q3wqQX01JnRgQEdZKCcqKzkWJW1rWExQVFZVEAcrQW9rb15IUUAGGxEsJVRYUFs4WRUcHE1aSjkvLyhkKQkuPGs6IzxFOjZlKnckLmVna3Z8WjxrNnd7OiMvMzp8Li13JD0pLy4sOjZlIDs8JTooKC8uKH4Ld2NhbnB6X2M4JCp3JD86LicuLC93a3k-PXFtPCU4OBcIB19SOjU-PXV5ZXN1PEpCUy8vKFZqDhtOWlNYPDM4ODEqdyQ_dmxyczQ6ZS88ej0iOS9iAAAAADz7txs=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "V-BELT",
@@ -99892,12 +99892,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/16/160615A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/16/160615A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416135,
         car: "TOYOTA00",
         ssd: "$*KwEbLz42QHxIdEsddkoCEUNXd3BuHxAdHA4hElpcb3tnY2FiJzAcdlhcWGl_ZncxLCYbEmNvZ2wPbiIrK3ptfQ4YGB9THj4ZC1wNFAtyDQFSHUATGVJQXEFLbQtcAUBMDRQYBA1LGRpAEwoeGBkdDQFSFwwLEg0fHxgZHEU_QFRWWUdNaFQPEx1AEwgNGRAZGxhAXE4JCkZaCxIPDyA_MGhlDQIJCkJOUkRCC311ZBgYH2FdOSx5bWRvCwQPDwYdQBMIQVtFRAMNUhgLTQoVDhhVAAAAALx-lf4=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "MANIFOLD",
@@ -99905,12 +99905,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/17/171564E.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/17/171564E.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416136,
         car: "TOYOTA00",
         ssd: "$*KwF4TF1VIx8rFyh-FSlhciA0FBMNfHN-f21CcTk_DBgEAAIBRFN_FTs_OwocBRRST0V4cQAMBA9sDUFISBkOHm17e3wwfV16aD9ud2gRbmIxfiNwejEzPyIoDmg_YiMvbnd7Z24oenkjcGl9enp6bmIxdG9ocW58fXp5eCdYIzc1OiQuCzdscH4jcGtuenN6eHsjPy1qaSU5aHFsbENcUwsGbmFqaSEtMSchaB4WB3t7fAI-Wk8aDgcMaGdsbGV-I3BrIjgmJ2BuMXtoLml2bXs2AAAAACoQn0I=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "EXHAUST PIPE",
@@ -99918,12 +99918,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/17/171978G.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/17/171978G.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416138,
         car: "TOYOTA00",
         ssd: "$*KwGZrby0wv7K9smf9MiAk8HV9fLsnZKfnoyjkNje7fnl4ePgpbKe9Nre2uv95PWzrqSZkOHt5e6N7KCpqfjv_4yamp3RnLybid6Plonwj4PQn8KRm9DS3sPJ74neg8LOj5aaho_Jm5jCkYicm5uYj4PQlY6JkI-dnJuUmMq7wtbU28XP6taNkZ_CkYqPm5KbmZrC3syLiMTYiZCNjaK9surnj4CLiMDM0MbAif_35pqanePfu6777-btiYaNjYSfwpGKw9nHxoGP0JqJz4iXjJrXAAAAABTo6KI=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "AIR CLEANER",
@@ -99931,12 +99931,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/17/171559B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/17/171559B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416141,
         car: "TOYOTA00",
         ssd: "$*KwG6jp-X4d3p1eq81-ujsOL21tHPvrG8va-As_v9ztrGwsDDhpG91_n9-cjex9aQjYe6s8LOxs2uz4OKitvM3K-5ub7yv5-4qv2starTrKDzvOGyuPPx_eDqzKr9oOHtrLW5pazquLvhsqu_uLi6rKDztq2qs6y-v7i7ueid4fX3-ObsyfWusrzhsqmsuLG4urnh_e-oq-f7qrOuroGekcnErKOoq-Pv8-XjqtzUxbm5vsD8mI3YzMXOqqWurqe84bKp4Prk5aKs87mq7Ku0r7n0AAAAAPpUcIM=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "VACUUM PIPING",
@@ -99944,12 +99944,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/17/170021.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/17/170021.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416144,
         car: "TOYOTA00",
         ssd: "$*KwHB9eTsmqaSrpHHrJDYy5mNraq0xcrHxtT7yICGtaG9ubu4_erGrIKGgrOlvK3r9vzByLm1vbbVtPjx8aC3p9TCwsWJxOTD0YbXztGo19uIx5rJw4iKhpuRt9GG25qW187C3teRw8CaydDEw8PK19uIzdbRyNfFxMLFxZuGxY2EnJCzideUyYaC09DCzcLGwMeIiJjRm4HWydLXp-v2-b7Q2dTRn5bVkISapqi_xcPCudrt6ui2ubTW39LXgcmGgtOcgJif3tXVzM3c0cjVxY4AAAAADA8VPg==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "VACUUM PIPING",
@@ -99957,12 +99957,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/17/171560J.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/17/171560J.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416145,
         car: "TOYOTA00",
         ssd: "$*KwEOOisjVWldYV4IY18XBFZCYmV7CgUICRs0B09Jem5ydnR3MiUJY01JTXxqc2IkOTMOB3Z6cnkaezc-Pm94aBsNDQpGCysMHkkYAR5nGBRHCFUGDEdFSVReeB5JFFVZGAENERheDA9VBh8LDAwFGBRHAhkeBxgKCwwPDlUhVUFDTFJYfUEaBghVBh0YDAUMDg1VSVscH1NPHgcaGjUqJX1wGBccH1dbR1FXHmhgcQ0NCnRILDlseHF6HhEaGhMIVQYdVE5QURYYRw0eWB8AGw1AAAAAAFgvDdU=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "IGNITION COIL & SPARK PLUG / GLOW PLUG",
@@ -99970,12 +99970,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/19/190500B.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/19/190500B.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416148,
         car: "TOYOTA00",
         ssd: "$*KwHF8eDonqKWqpXDqJTcz52Jqa6wwc7DwtD_zISCsaW5vb-8-e7CqIaChrehuKnv8vjFzL2xubLRsPz19aSzo9DGxsGNwODH1YLTytWs09-Mw57Nx4yOgp-Vs9WC356S08rG2tOVx8SezdTAycfH09-MydLVzNPBzsbEw57inoqIh5mTtorRzcOezdbTx87HxcaegpDX1JiE1czR0f7h7ra709zX1JyQjJqc1aOrusbGwb-D5_Kns7qx1drR0djDns3Wn4Wbmt3TjMbVk9TL0MaLAAAAAD5konw=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "ALTERNATOR",
@@ -99983,12 +99983,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/19/190670.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/19/190670.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416149,
         car: "TOYOTA00",
         ssd: "$*KwFlUUBIPgI2CjVjCDR8bz0pCQ4QYW5jYnBfbCQiEQUZHR8cWU5iCCYiJhcBGAlPUlhlbB0RGRJxEFxVVQQTA3BmZmEtYEBndSJzanUMc38sYz5tZywuIj81E3Uifz4yc2pmenM1Z2Q-bXRgaWdlc38saXJ1bHNhbmZnZD4iYSkgODQXLXMwbSImd3RmaWZiZGMsLDx1PyVybXZzA09SXRp0fXB1OzJxNCA-AgwbYWdmHX5JTkwSHRBye3ZzJW0iJnc4JDw7enFxaGl4dWxxYSoAAAAANXxRIQ==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "STARTER",
@@ -99996,12 +99996,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/19/190665A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/19/190665A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416152,
         car: "TOYOTA00",
         ssd: "$*KwEWIjM7TXFFeUYQe0cPHE5aen1jEh0QEQMsH1dRYnZqbmxvKj0Re1VRVWRya3o8ISsWH25iamECYy8mJndgcAMVFRJeEzMUBlEAGQZ_AAxfEE0eFF9dUUxGYAZRDE1BABkVCQBGFBdNHgcTGhQRAAxfGgEGHwASHRUUFkgyTVlbVEpAZVkCHhBNHgUAFB0UFhVNUUMEB0tXBh8CAi0yPWVoAA8EB09DX0lPBnB4aRUVEmxQNCF0YGliBgkCAgsQTR4FTFZISQ4AXxUGQAcYAxVYAAAAACK0cYs=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "STARTER",
@@ -100009,12 +100009,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/19/191219A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/19/191219A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416153,
         car: "TOYOTA00",
         ssd: "$*KwHyxtffqZWhnaL0n6Pr-Kq-npmH9vn09efI-7O1hpKOioiLztn1n7G1sYCWj57Yxc_y-4qGjoXmh8vCwpOElOfx8fa699fw4rXk_eKb5Oi79Kn68Lu5taiihOK16Kml5P3x7eSi8POp-uP3_vD15Oi7_uXi--T2-fD09aDWqb2_sK6kgb3m-vSp-uHk8Pnw8vGptafg46-z4vvm5snW2YGM5Ovg46unu62r4pScjfHx9oi00MWQhI2G4u3m5u_0qfrhqLKsrerku_HipOP85_G8AAAAACUq1xA=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FUEL INJECTION SYSTEM",
@@ -100022,12 +100022,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/22/220544N.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/22/220544N.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416155,
         car: "TOYOTA00",
         ssd: "$*KwF4TF1VIx8rFyh-FSlhciA0FBMNfHN-f21CcTk_DBgEAAIBRFN_FTs_OwocBRRST0V4cQAMBA9sDUFISBkOHm17e3wwfV16aD9ud2gRbmIxfiNwejEzPyIoDmg_YiMvbnd7Z24oenkjcGl-f3t6bmIxdG9ocW5_eHt5eidTIzc1OiQuCzdscH4jcGtuenN6eHsjPy1qaSU5aHFsbENcUwsGbmFqaSEtMSchaB4WB3t7fAI-Wk8aDgcMaGdsbGV-I3BrIjgmJ2BuMXtoLml2bXs2AAAAAFs3Kt4=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FUEL INJECTION SYSTEM",
@@ -100035,12 +100035,12 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/22/222429A.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/22/222429A.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416156,
         car: "TOYOTA00",
         ssd: "$*KwH-ytvTpZmtka74k6_n9KaykpWL-vX4-evE97-5ip6ChoSHwtX5k725vYyag5LUycP-94aKgonqi8fOzp-ImOv9_fq2-9v87rno8e6X6OS3-KX2_Le1uaSuiO655KWp6PH94eiu_P-l9u_4-f386OS38unu9-j5_v_--qzapbGzvKKojbHq9vil9u3o_PX8_v2luavs76O_7vfq6sXa1Y2A6Ofs76ert6Gn7piQgf39-oS43MmciIGK7uHq6uP4pfbtpL6goebot_3uqO_w6_2wAAAAAKM59Ck=$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
       {
         title: "FUEL INJECTION SYSTEM",
@@ -100048,14 +100048,14 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         image_urls: [
           "https://partsouq.com/assets/tesseract//assets/global/TOYOTA00/source/22/220548.gif",
           "https://partsouq.com/catalog/images/w340h235//assets/global/TOYOTA00/source/22/220548.gif",
-        ] as SouqPartsGroup[],
+        ] ,
         souq_uid: 416159,
         car: "TOYOTA00",
         ssd: "$*KwERJTQ8SnZCfkEXfEAIG0ldfXpkFRoXFgQrGFBWZXFtaWtoLToWfFJWUmN1bH07JiwRGGllbWYFZCghIXBndwQSEhVZFDQTAVYHHgF4BwtYF0oZE1haVktBZwFWC0pGBx4SDgdBExBKGQAXFhITBwtYHQYBGAcWERIQE0JWFV1UTEBjWQdEGVZSAwASHRIWEBdYWEgBS1EGGQIHdzsmKW4ACQQBT0YFQFRKdnhvFRMSaQo9OjhmaWQGDwIHURlWUgNMUEhPDgUFHB0MARgFFV4AAAAA7Ckfsg==$",
         cid: 1,
-        misc_links: [] as SouqPartsGroup[],
+        misc_links: [] ,
       },
-    ] as SouqPartsGroup[],
+    ],
     parts: [
       {
         number: "0912760010",
@@ -109755,6 +109755,6 @@ export const Lc100OverviewPartsModel: SouqPartsCategory[] = [
         gid: null,
         ssd: null,
       },
-    ] as SouqPartsGroup[],
+    ] 
   },
 ];

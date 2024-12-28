@@ -2,15 +2,15 @@ import { Lc100OverviewPartsModel } from "@/data";
 import { debounce } from "lodash";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-interface LCTooltipProps {
+interface VisualizerTooltipProps {
   hoveredPartNumber?: string;
   children: React.ReactNode;
 }
 
-export const LCTooltip: React.FC<LCTooltipProps> = ({
+export const VisualizerTooltip: React.FC<VisualizerTooltipProps> = ({
   children,
   hoveredPartNumber,
-}: LCTooltipProps) => {
+}: VisualizerTooltipProps) => {
   const part = useMemo(
     () =>
       Lc100OverviewPartsModel[0].parts.find(

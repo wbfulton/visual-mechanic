@@ -9,6 +9,7 @@ import jestPlugin from "eslint-plugin-jest";
 import jsxA11yPlugin from "eslint-plugin-jsx-a11y";
 import reactPlugin from "eslint-plugin-react";
 import reactHooksPlugin from "eslint-plugin-react-hooks";
+import readableTailwindPlugin from "eslint-plugin-readable-tailwind";
 
 import globals from "globals";
 import url from "node:url";
@@ -22,6 +23,7 @@ export default tseslint.config(
   {
     plugins: {
       ["import"]: importPlugin,
+      ["readable-tailwind"]: readableTailwindPlugin,
       ["react"]: reactPlugin,
       ["react-hooks"]: fixupPluginRules(reactHooksPlugin),
       // @ts-expect-error -- https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/pull/1038
@@ -69,6 +71,12 @@ export default tseslint.config(
     },
     linterOptions: { reportUnusedDisableDirectives: "error" },
     rules: {
+      // readable-tailwind
+      // "readable-tailwind/multiline": "warn",
+      // "readable-tailwind/no-unnecessary-whitespace": "warn",
+      // "readable-tailwind/sort-classes": "warn",
+      // "readable-tailwind/multiline": ["warn", { classesPerLine: 1 }],
+
       // react
       "react/prop-types": "off",
       "react/react-in-jsx-scope": "off",
