@@ -1,4 +1,9 @@
-import { SidebarProvider } from "@/core-ui";
+import {
+  ResizableHandle,
+  ResizablePanel,
+  ResizablePanelGroup,
+  SidebarProvider,
+} from "@/core-ui";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { AppSidebar } from "./components/Sidebar";
@@ -41,10 +46,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <SidebarProvider defaultOpen={true}>
           <AppSidebar />
-          {children}
+          <ResizablePanelGroup direction="horizontal">
+            <ResizablePanel defaultSize={20}>Diagram / Part</ResizablePanel>
+            <ResizableHandle withHandle />
+            <ResizablePanel defaultSize={80}>{children}</ResizablePanel>
+          </ResizablePanelGroup>
         </SidebarProvider>
       </body>
     </html>

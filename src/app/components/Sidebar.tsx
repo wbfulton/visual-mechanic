@@ -19,6 +19,7 @@ import {
   SidebarSeparator,
 } from "@/core-ui";
 import { SouqPartGroups } from "@/data";
+import { capitalizeMenuItemName } from "@/lib";
 import {
   AirVent,
   Armchair,
@@ -28,12 +29,12 @@ import {
   Cloud,
   Cog,
   Cuboid,
-  Ellipsis,
   Fan,
   Fuel,
   LucideProps,
   OctagonPause,
   PackagePlus,
+  PanelLeftOpen,
   Search,
   ShipWheel,
   Wrench,
@@ -89,14 +90,6 @@ const groupNameToIcon: {
 
 const ROOT_GROUP_ID = "0";
 
-const capitalizeMenuItemName = (name: string) => {
-  return name
-    .toLowerCase()
-    .split(" ")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
-};
-
 const PartGroupsSubMenu = ({ parentGroupId }: { parentGroupId: string }) => {
   const groups = SouqPartGroups[parentGroupId].sort((a, b) => {
     if (a.name < b.name) {
@@ -151,7 +144,7 @@ const PartGroupsSubMenu = ({ parentGroupId }: { parentGroupId: string }) => {
                 key={group.group_number + "-sub-menu-" + i}>
                 <MenuButton className="h-fit p-1">
                   <span>{capitalizeMenuItemName(group.name)}</span>
-                  <Ellipsis className={"ml-auto"} />
+                  <PanelLeftOpen className={"ml-auto"} />
                 </MenuButton>
               </MenuItem>
             )}

@@ -1,5 +1,9 @@
 export { Button, buttonVariants } from "./button";
-export { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./collapsible";
+export {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "./collapsible";
 export {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -51,6 +55,11 @@ export {
 export { Separator } from "./seperator";
 
 export {
+  ResizableHandle,
+  ResizablePanel,
+  ResizablePanelGroup,
+} from "./resizeable";
+export {
   Sheet,
   SheetClose,
   SheetContent,
@@ -89,4 +98,9 @@ export {
   useSidebar,
 } from "./sidebar";
 export { Skeleton } from "./skeleton";
-export { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./tooltip";
+export {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "./tooltip";
