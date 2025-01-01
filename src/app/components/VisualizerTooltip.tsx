@@ -14,16 +14,24 @@ export const VisualizerTooltip: React.FC<VisualizerTooltipProps> = ({
   const part = useMemo(
     () =>
       Lc100OverviewPartsModel[0].parts.find(
-        (part) => part.number.toLowerCase() === hoveredPartNumber?.split("_")[0]?.toLowerCase(),
+        (part) =>
+          part.number.toLowerCase() ===
+          hoveredPartNumber?.split("_")[0]?.toLowerCase(),
       ) ??
       Lc100OverviewPartsModel[1].parts.find(
-        (part) => part.number.toLowerCase() === hoveredPartNumber?.split("_")[0]?.toLowerCase(),
+        (part) =>
+          part.number.toLowerCase() ===
+          hoveredPartNumber?.split("_")[0]?.toLowerCase(),
       ) ??
       Lc100OverviewPartsModel[2].parts.find(
-        (part) => part.number.toLowerCase() === hoveredPartNumber?.split("_")[0]?.toLowerCase(),
+        (part) =>
+          part.number.toLowerCase() ===
+          hoveredPartNumber?.split("_")[0]?.toLowerCase(),
       ) ??
       Lc100OverviewPartsModel[3].parts.find(
-        (part) => part.number.toLowerCase() === hoveredPartNumber?.split("_")[0]?.toLowerCase(),
+        (part) =>
+          part.number.toLowerCase() ===
+          hoveredPartNumber?.split("_")[0]?.toLowerCase(),
       ),
     [hoveredPartNumber],
   );
@@ -130,7 +138,7 @@ export const VisualizerTooltip: React.FC<VisualizerTooltipProps> = ({
 
   return (
     <div
-      className="absolute left-0 top-0 h-full w-full"
+      className="h-full w-full"
       onMouseMove={debouncedHandleMouseMove}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}>

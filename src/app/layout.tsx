@@ -1,12 +1,5 @@
-import {
-  ResizableHandle,
-  ResizablePanel,
-  ResizablePanelGroup,
-  SidebarProvider,
-} from "@/core-ui";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { AppSidebar } from "./components/Sidebar";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -39,6 +32,9 @@ export const metadata: Metadata = {
   icons: "/icon.ico",
 };
 
+// diagram/
+// part/
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -48,14 +44,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <SidebarProvider defaultOpen={true}>
-          <AppSidebar />
-          <ResizablePanelGroup direction="horizontal">
-            <ResizablePanel defaultSize={20}>Diagram / Part</ResizablePanel>
-            <ResizableHandle withHandle />
-            <ResizablePanel defaultSize={80}>{children}</ResizablePanel>
-          </ResizablePanelGroup>
-        </SidebarProvider>
+        {children}
       </body>
     </html>
   );
