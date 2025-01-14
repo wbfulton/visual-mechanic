@@ -1,3 +1,4 @@
+"use client";
 import {
   Collapsible,
   CollapsibleContent,
@@ -18,7 +19,7 @@ import {
   SidebarMenuSubItem,
   SidebarSeparator,
 } from "@/core-ui";
-import { SouqPartGroups } from "@/data";
+import { Group } from "@/data/types";
 import { capitalizeMenuItemName } from "@/lib";
 import {
   AirVent,
@@ -40,6 +41,10 @@ import {
   Wrench,
   Zap,
 } from "lucide-react";
+import { useContext } from "react";
+import useSWR from "swr";
+import { DiagramsSidePanel } from "./DiagramsSidePanel";
+import { SelectionContext } from "./SelectionContext";
 
 export function SearchForm({ ...props }: React.ComponentProps<"form">) {
   return (
@@ -88,10 +93,10 @@ const groupNameToIcon: {
 // if has group, then render as collapsible
 // if no group, then normal
 
-const ROOT_GROUP_ID = "0";
+const PartGroupsSubMenu = ({ group }: { group: Group }) => {
+  const { setSelectedGroupId } = useContext(SelectionContext);
 
-const PartGroupsSubMenu = ({ parentGroupId }: { parentGroupId: string }) => {
-  const groups = SouqPartGroups[parentGroupId].sort((a, b) => {
+  group?.sub_groups?.sort((a, b) => {
     if (a.name < b.name) {
       return -1;
     }
@@ -101,82 +106,109 @@ const PartGroupsSubMenu = ({ parentGroupId }: { parentGroupId: string }) => {
     return 0;
   });
 
-  const Menu = parentGroupId === ROOT_GROUP_ID ? SidebarMenu : SidebarMenuSub;
+  const Menu = group.parent_group_id == null ? SidebarMenu : SidebarMenuSub;
   const MenuItem =
-    parentGroupId === ROOT_GROUP_ID ? SidebarMenuItem : SidebarMenuSubItem;
+    group.parent_group_id == null ? SidebarMenuItem : SidebarMenuSubItem;
   const MenuButton =
-    parentGroupId === ROOT_GROUP_ID ? SidebarMenuButton : SidebarMenuSubButton;
+    group.parent_group_id == null ? SidebarMenuButton : SidebarMenuSubButton;
+
+  const hasSubGroups = group?.sub_groups?.length > 0;
+  const GroupIcon = groupNameToIcon[group.name.toLowerCase()];
 
   return (
     <Menu className="mr-0 pr-0 text-sm">
-      {groups.map((group, i) => {
-        const hasSubGroups = !!SouqPartGroups[group.group_number];
-        const GroupIcon = groupNameToIcon[group.name.toLowerCase()];
-        return (
-          <>
-            {hasSubGroups ? (
-              <Collapsible
-                className={"group/collapsible hover:cursor-pointer"}
-                key={group.group_number + "-collapsible-" + i}>
-                <MenuItem>
-                  <CollapsibleTrigger asChild>
-                    <MenuButton className="flex h-fit items-center p-1">
-                      <>
-                        {!!GroupIcon && <GroupIcon />}
-                        <span>{capitalizeMenuItemName(group.name)}</span>
-                        <ChevronRight
-                          className={`ml-auto transition-transform duration-200
-                            group-data-[state=open]/collapsible:rotate-90`}
-                        />
-                      </>
-                    </MenuButton>
-                  </CollapsibleTrigger>
-                  <CollapsibleContent>
-                    <PartGroupsSubMenu
-                      parentGroupId={group.group_number + ""}
-                    />
-                  </CollapsibleContent>
-                </MenuItem>
-              </Collapsible>
-            ) : (
-              <MenuItem
-                className="hover:cursor-pointer"
-                key={group.group_number + "-sub-menu-" + i}>
-                <MenuButton className="h-fit p-1">
+      {hasSubGroups ? (
+        <Collapsible
+          className={"group/collapsible hover:cursor-pointer"}
+          key={group.id}>
+          <MenuItem>
+            <CollapsibleTrigger asChild>
+              <MenuButton className="flex h-fit items-center p-1">
+                <>
+                  {!!GroupIcon && <GroupIcon />}
                   <span>{capitalizeMenuItemName(group.name)}</span>
-                  <PanelLeftOpen className={"ml-auto"} />
-                </MenuButton>
-              </MenuItem>
-            )}
-          </>
-        );
-      })}
+                  <ChevronRight
+                    className={`ml-auto transition-transform duration-200
+                      group-data-[state=open]/collapsible:rotate-90`}
+                  />
+                </>
+              </MenuButton>
+            </CollapsibleTrigger>
+            <CollapsibleContent>
+              {group.sub_groups.map((subGroup) => (
+                <PartGroupsSubMenu group={subGroup} key={subGroup.id} />
+              ))}
+            </CollapsibleContent>
+          </MenuItem>
+        </Collapsible>
+      ) : (
+        <MenuItem className="hover:cursor-pointer" key={group.id}>
+          <MenuButton
+            className="h-fit p-1"
+            onClick={() => {
+              setSelectedGroupId(group.id);
+            }}>
+            <span>{capitalizeMenuItemName(group.name)}</span>
+            <PanelLeftOpen className={"ml-auto"} />
+          </MenuButton>
+        </MenuItem>
+      )}
     </Menu>
   );
 };
 
+const useGroups = (): {
+  groups: Group[];
+  isError: boolean;
+  isLoading: boolean;
+} => {
+  const { data, error, isLoading } = useSWR(
+    "http://127.0.0.1:8000/groups/",
+    fetcher,
+  );
+  return { groups: data, isError: error, isLoading };
+};
+
 const PartsGroupsMenu = () => {
+  const { groups, isError, isLoading } = useGroups();
+
+  if (isLoading) return null;
+  if (isError) return null;
+
   return (
     <SidebarGroup>
       <SidebarGroupLabel className="p-1">{"Part Groups"}</SidebarGroupLabel>
       <SidebarGroupContent>
-        <PartGroupsSubMenu parentGroupId={ROOT_GROUP_ID} />
+        {groups.map((group: Group) => (
+          <PartGroupsSubMenu key={group.id} group={group} />
+        ))}
       </SidebarGroupContent>
     </SidebarGroup>
   );
 };
 
+const fetcher = (input: RequestInfo | URL) =>
+  fetch(input).then((res) => res.json());
+
 export function AppSidebar() {
+  const { selectedGroupId } = useContext(SelectionContext);
+
   return (
-    <Sidebar collapsible="icon">
+    <Sidebar collapsible="icon" className="w-full">
       <SidebarHeader className="overflow-hidden">
         <span className="font-semi-bold text-lg">Land Cruiser 100 Series</span>
         <span className="text-xs">UZJ100L-GNPEKA, 1998-2002</span>
       </SidebarHeader>
       <SidebarContent>
         <SidebarSeparator />
-        <SearchForm className="py-2" />
-        <PartsGroupsMenu />
+        {selectedGroupId === undefined ? (
+          <>
+            <SearchForm className="py-2" />
+            <PartsGroupsMenu />
+          </>
+        ) : (
+          <DiagramsSidePanel selectedGroupId={selectedGroupId} />
+        )}
       </SidebarContent>
     </Sidebar>
   );

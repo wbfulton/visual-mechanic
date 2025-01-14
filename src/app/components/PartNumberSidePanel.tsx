@@ -8,7 +8,6 @@ import {
   SheetHeader,
   SheetTitle,
 } from "@/core-ui";
-import { Lc100OverviewPartsModel } from "@/data";
 import { Dispatch, SetStateAction } from "react";
 
 // const Carousel = ({ urls }: { urls: string[] }) => {
@@ -60,29 +59,37 @@ export function PartNumberSidePanel({
   selectedPartNumber: string | undefined;
   setSelectedPartNumber: Dispatch<SetStateAction<string | undefined>>;
 }) {
-  const part =
-    Lc100OverviewPartsModel[0].parts.find(
-      (part) => part.number.toLowerCase() === selectedPartNumber?.split("_")[0]?.toLowerCase(),
-    ) ??
-    Lc100OverviewPartsModel[1].parts.find(
-      (part) => part.number.toLowerCase() === selectedPartNumber?.split("_")[0]?.toLowerCase(),
-    ) ??
-    Lc100OverviewPartsModel[2].parts.find(
-      (part) => part.number.toLowerCase() === selectedPartNumber?.split("_")[0]?.toLowerCase(),
-    ) ??
-    Lc100OverviewPartsModel[3].parts.find(
-      (part) => part.number.toLowerCase() === selectedPartNumber?.split("_")[0]?.toLowerCase(),
-    );
+  // const part =
+  //   Lc100OverviewPartsModel[0].parts.find(
+  //     (part) =>
+  //       part.number.toLowerCase() ===
+  //       selectedPartNumber?.split("_")[0]?.toLowerCase(),
+  //   ) ??
+  //   Lc100OverviewPartsModel[1].parts.find(
+  //     (part) =>
+  //       part.number.toLowerCase() ===
+  //       selectedPartNumber?.split("_")[0]?.toLowerCase(),
+  //   ) ??
+  //   Lc100OverviewPartsModel[2].parts.find(
+  //     (part) =>
+  //       part.number.toLowerCase() ===
+  //       selectedPartNumber?.split("_")[0]?.toLowerCase(),
+  //   ) ??
+  //   Lc100OverviewPartsModel[3].parts.find(
+  //     (part) =>
+  //       part.number.toLowerCase() ===
+  //       selectedPartNumber?.split("_")[0]?.toLowerCase(),
+  //   );
 
   return (
-    <Sheet open={!!selectedPartNumber} onOpenChange={() => setSelectedPartNumber(undefined)}>
+    <Sheet
+      open={!!selectedPartNumber}
+      onOpenChange={() => setSelectedPartNumber(undefined)}>
       <SheetContent side={"left"}>
         <SheetHeader>
-          <SheetTitle>
-            <span>{part?.name}</span>
-          </SheetTitle>
+          <SheetTitle>{/* <span>{part?.name}</span> */}</SheetTitle>
           <SheetDescription>
-            Part Number: <b>{part?.number}</b>
+            {/* Part Number: <b>{part?.number}</b> */}
           </SheetDescription>
 
           {/* {part?.oldPartNumbers && (

@@ -1,6 +1,5 @@
-import { Lc100OverviewPartsModel } from "@/data";
 import { debounce } from "lodash";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 interface VisualizerTooltipProps {
   hoveredPartNumber?: string;
@@ -11,30 +10,30 @@ export const VisualizerTooltip: React.FC<VisualizerTooltipProps> = ({
   children,
   hoveredPartNumber,
 }: VisualizerTooltipProps) => {
-  const part = useMemo(
-    () =>
-      Lc100OverviewPartsModel[0].parts.find(
-        (part) =>
-          part.number.toLowerCase() ===
-          hoveredPartNumber?.split("_")[0]?.toLowerCase(),
-      ) ??
-      Lc100OverviewPartsModel[1].parts.find(
-        (part) =>
-          part.number.toLowerCase() ===
-          hoveredPartNumber?.split("_")[0]?.toLowerCase(),
-      ) ??
-      Lc100OverviewPartsModel[2].parts.find(
-        (part) =>
-          part.number.toLowerCase() ===
-          hoveredPartNumber?.split("_")[0]?.toLowerCase(),
-      ) ??
-      Lc100OverviewPartsModel[3].parts.find(
-        (part) =>
-          part.number.toLowerCase() ===
-          hoveredPartNumber?.split("_")[0]?.toLowerCase(),
-      ),
-    [hoveredPartNumber],
-  );
+  // const part = useMemo(
+  //   () =>
+  //     Lc100OverviewPartsModel[0].parts.find(
+  //       (part) =>
+  //         part.number.toLowerCase() ===
+  //         hoveredPartNumber?.split("_")[0]?.toLowerCase(),
+  //     ) ??
+  //     Lc100OverviewPartsModel[1].parts.find(
+  //       (part) =>
+  //         part.number.toLowerCase() ===
+  //         hoveredPartNumber?.split("_")[0]?.toLowerCase(),
+  //     ) ??
+  //     Lc100OverviewPartsModel[2].parts.find(
+  //       (part) =>
+  //         part.number.toLowerCase() ===
+  //         hoveredPartNumber?.split("_")[0]?.toLowerCase(),
+  //     ) ??
+  //     Lc100OverviewPartsModel[3].parts.find(
+  //       (part) =>
+  //         part.number.toLowerCase() ===
+  //         hoveredPartNumber?.split("_")[0]?.toLowerCase(),
+  //     ),
+  //   [hoveredPartNumber],
+  // );
 
   const [isTooltipVisible, setTooltipVisible] = useState(false);
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
@@ -125,8 +124,8 @@ export const VisualizerTooltip: React.FC<VisualizerTooltipProps> = ({
             zIndex: "2147483647",
           }}>
           <div ref={tooltipContentRef}>
-            <p>{part?.name === "" ? hoveredPartNumber : part?.name}</p>
-            <p>{part?.number ?? ""}</p>
+            {/* <p>{part?.name === "" ? hoveredPartNumber : part?.name}</p>
+            <p>{part?.number ?? ""}</p> */}
           </div>
         </div>
       )}

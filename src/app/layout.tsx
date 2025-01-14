@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { SelectionProvider } from "./components/SelectionContext";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -44,7 +45,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        {children}
+        <SelectionProvider>{children}</SelectionProvider>
       </body>
     </html>
   );

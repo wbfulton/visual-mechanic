@@ -29,12 +29,29 @@ export interface SouqPartsCategory {
   parts: SouqPart[];
 }
 
-export interface SouqPartsGroup {
+export interface Group {
+  id: number;
   name: string;
-  group_number: number;
-  parent_group_number?: number;
-  car?: string;
-  ssd?: string;
-  souq_gid?: number;
+  diagrams_url: string | null;
+  parent_group_id: number | null;
+  sub_groups?: Group[];
+  diagrams?: Diagram[];
 }
 
+export interface Part {
+  id: number;
+  number: string;
+  amount: number | null;
+  note: string | null;
+  name: string;
+  date_range: string | null;
+  parent_diagram_id: number;
+}
+
+export interface Diagram {
+  id: number;
+  parent_group_id: number;
+  name: string;
+  img_url: string | null;
+  parts: Part[] | null;
+}

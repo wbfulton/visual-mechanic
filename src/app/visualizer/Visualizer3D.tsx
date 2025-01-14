@@ -1,16 +1,37 @@
 "use client";
 
-import { Bvh, Loader, OrbitControls, PerformanceMonitor, Stage } from "@react-three/drei";
+import {
+  Bvh,
+  Loader,
+  OrbitControls,
+  PerformanceMonitor,
+  Stage,
+} from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import { EffectComposer, Outline, Selection, Vignette } from "@react-three/postprocessing";
+import { Outline, Selection, Vignette } from "@react-three/postprocessing";
+import dynamic from "next/dynamic";
 import { Suspense, useState } from "react";
 import { PartNumberSidePanel } from "../components/PartNumberSidePanel";
 import { VisualizerTooltip } from "../components/VisualizerTooltip";
 import { LandCruiser } from "./100-lc";
 
+const EffectComposer = dynamic(
+  () =>
+    import("@react-three/postprocessing").then(
+      (module) => module.EffectComposer,
+    ),
+  {
+    ssr: false,
+  },
+);
+
 export const Visualizer3D = () => {
-  const [selectedPartNumber, setSelectedPartNumber] = useState<string | undefined>();
-  const [hoveredPartNumber, setHoveredPartNumber] = useState<string | undefined>();
+  const [selectedPartNumber, setSelectedPartNumber] = useState<
+    string | undefined
+  >();
+  const [hoveredPartNumber, setHoveredPartNumber] = useState<
+    string | undefined
+  >();
   const [dpr, setDpr] = useState<number>(2);
 
   return (
@@ -32,7 +53,10 @@ export const Visualizer3D = () => {
             far: 400,
           }}>
           {/** PerfMon will detect performance issues */}
-          <PerformanceMonitor onIncline={() => setDpr(2.5)} onDecline={() => setDpr(1)} />
+          <PerformanceMonitor
+            onIncline={() => setDpr(2.5)}
+            onDecline={() => setDpr(1)}
+          />
           {/* <Stats className="!left-0 !top-0" showPanel={0} />
           <Stats className="!left-20 !top-0" showPanel={2} /> */}
           {/* <axesHelper args={[30]} /> */}
