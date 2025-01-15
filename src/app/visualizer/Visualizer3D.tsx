@@ -11,9 +11,9 @@ import { Canvas } from "@react-three/fiber";
 import { Outline, Selection, Vignette } from "@react-three/postprocessing";
 import dynamic from "next/dynamic";
 import { Suspense, useState } from "react";
-import { PartNumberSidePanel } from "../components/PartNumberSidePanel";
-import { VisualizerTooltip } from "../components/VisualizerTooltip";
+import { PartNumberSidePanel } from "../side-panel/PartPanel";
 import { LandCruiser } from "./100-lc";
+import { VisualizerTooltip } from "./VisualizerTooltip";
 
 const EffectComposer = dynamic(
   () =>

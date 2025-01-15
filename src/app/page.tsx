@@ -4,19 +4,22 @@ import {
   ResizablePanelGroup,
   SidebarProvider,
 } from "@/core-ui";
-import { AppSidebar } from "./components/Sidebar";
+import { AppSidebar } from "./side-panel/Sidebar";
 import { Visualizer3D } from "./visualizer/Visualizer3D";
+
+const SIDEBAR_WIDTH = 35;
+const PANEL_WIDTH = 65;
 
 export default function Home() {
   return (
     <main className="h-screen w-full max-w-full">
       <SidebarProvider defaultOpen={true}>
         <ResizablePanelGroup direction="horizontal">
-          <ResizablePanel defaultSize={35}>
+          <ResizablePanel defaultSize={SIDEBAR_WIDTH}>
             <AppSidebar />
           </ResizablePanel>
           <ResizableHandle withHandle />
-          <ResizablePanel defaultSize={65}>
+          <ResizablePanel defaultSize={PANEL_WIDTH}>
             <Visualizer3D />
           </ResizablePanel>
         </ResizablePanelGroup>

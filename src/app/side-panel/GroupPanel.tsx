@@ -8,33 +8,14 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/core-ui/select";
-import { Group } from "@/data/types";
+import { useGroup } from "@/hooks";
+import { capitalizeMenuItemName } from "@/lib";
 import { ArrowBigLeft } from "lucide-react";
 import Image from "next/image";
 import React, { useContext, useEffect, useState } from "react";
-import useSWR from "swr";
-import { SelectionContext } from "./SelectionContext";
+import { SelectionContext } from "../shared-state/SelectionContext";
 
-const fetcher = (input: RequestInfo | URL) =>
-  fetch(input).then((res) => res.json());
-
-const useGroup = ({
-  selectedGroupId,
-}: {
-  selectedGroupId: number;
-}): {
-  group: Group;
-  isError: boolean;
-  isLoading: boolean;
-} => {
-  const { data, error, isLoading } = useSWR(
-    `http://127.0.0.1:8000/groups/${selectedGroupId}`,
-    fetcher,
-  );
-  return { group: data, isError: error, isLoading };
-};
-
-export const DiagramsSidePanel = ({
+export const GroupPanel = ({
   selectedGroupId,
 }: {
   selectedGroupId: number;
@@ -105,8 +86,7 @@ export const DiagramsSidePanel = ({
                 .map((part, i) => (
                   <React.Fragment key={diagram.name + "_part_" + i}>
                     <div className="col-span-2">
-                      {part.name.substring(0, 1) +
-                        part.name.substring(1).toLocaleLowerCase() || "N/A"}
+                      {capitalizeMenuItemName(part.name) || "N/A"}
                     </div>
                     <div className="col-span-2 break-all">{`${part.number.slice(0, 5)}-${part.number.slice(4, 8)}`}</div>
                     {/* <div>{part.amount}</div> */}
