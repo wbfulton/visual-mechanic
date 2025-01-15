@@ -93,10 +93,16 @@ const groupNameToIcon: {
 // if has group, then render as collapsible
 // if no group, then normal
 
-const PartGroupsSubMenu = ({ group }: { group: Group }) => {
+const PartGroupsSubMenu = ({
+  group,
+  isRoot = false,
+}: {
+  group: Group;
+  isRoot?: boolean;
+}) => {
   const { setSelectedGroupId } = useContext(SelectionContext);
 
-  group?.sub_groups?.sort((a, b) => {
+  group?.children?.sort((a, b) => {
     if (a.name < b.name) {
       return -1;
     }
@@ -106,13 +112,11 @@ const PartGroupsSubMenu = ({ group }: { group: Group }) => {
     return 0;
   });
 
-  const Menu = group.parent_group_id == null ? SidebarMenu : SidebarMenuSub;
-  const MenuItem =
-    group.parent_group_id == null ? SidebarMenuItem : SidebarMenuSubItem;
-  const MenuButton =
-    group.parent_group_id == null ? SidebarMenuButton : SidebarMenuSubButton;
+  const Menu = isRoot ? SidebarMenu : SidebarMenuSub;
+  const MenuItem = isRoot ? SidebarMenuItem : SidebarMenuSubItem;
+  const MenuButton = isRoot ? SidebarMenuButton : SidebarMenuSubButton;
 
-  const hasSubGroups = group?.sub_groups?.length > 0;
+  const hasSubGroups = group?.children?.length > 0;
   const GroupIcon = groupNameToIcon[group.name.toLowerCase()];
 
   return (
@@ -135,7 +139,7 @@ const PartGroupsSubMenu = ({ group }: { group: Group }) => {
               </MenuButton>
             </CollapsibleTrigger>
             <CollapsibleContent>
-              {group.sub_groups.map((subGroup) => (
+              {group.children.map((subGroup) => (
                 <PartGroupsSubMenu group={subGroup} key={subGroup.id} />
               ))}
             </CollapsibleContent>
@@ -180,7 +184,7 @@ const PartsGroupsMenu = () => {
       <SidebarGroupLabel className="p-1">{"Part Groups"}</SidebarGroupLabel>
       <SidebarGroupContent>
         {groups.map((group: Group) => (
-          <PartGroupsSubMenu key={group.id} group={group} />
+          <PartGroupsSubMenu key={group.id} group={group} isRoot={true} />
         ))}
       </SidebarGroupContent>
     </SidebarGroup>

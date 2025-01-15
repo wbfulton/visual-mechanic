@@ -33,25 +33,25 @@ export interface Group {
   id: number;
   name: string;
   diagrams_url: string | null;
-  parent_group_id: number | null;
-  sub_groups?: Group[];
+  parents?: Group[];
+  children: Group[];
   diagrams?: Diagram[];
 }
 
 export interface Part {
   id: number;
   number: string;
-  amount: number | null;
+  // amount: number | null;
   note: string | null;
   name: string;
   date_range: string | null;
-  parent_diagram_id: number;
+  diagrams: Diagram[];
 }
 
 export interface Diagram {
   id: number;
-  parent_group_id: number;
   name: string;
   img_url: string | null;
-  parts: Part[] | null;
+  groups: Group[];
+  parts: Part[];
 }
